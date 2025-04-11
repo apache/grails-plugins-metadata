@@ -2194,8 +2194,8 @@
                 "Apache-2.0"
             ],
             "issueTrackerUrl": "https://github.com/yakworks/gorm-tools/issues",
-            "latestVersion": "7.3.81",
-            "updated": "2025-03-03T22:24:24.000Z",
+            "latestVersion": "7.3.82",
+            "updated": "2025-03-05T17:56:47.000Z",
             "systemIds": [
                 "org.yakworks:gorm-tools",
                 "org.grails.plugins:gorm-tools"
@@ -6176,8 +6176,8 @@
                 "Apache-2.0"
             ],
             "issueTrackerUrl": "https://github.com/grails-spring-security-saml/grails-spring-security-saml/issues",
-            "latestVersion": "6.0.9",
-            "updated": "2025-02-28T09:48:46.000Z",
+            "latestVersion": "6.0.10",
+            "updated": "2025-04-07T07:07:49.000Z",
             "systemIds": [
                 "io.github.grails-spring-security-saml:spring-security-saml"
             ],
