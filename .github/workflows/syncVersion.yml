@@ -20,6 +20,7 @@ jobs:
       - name: "✨ Create Pull Request"
         uses: peter-evans/create-pull-request@v7
         with:
+          author: ${{ env.GIT_USER_NAME }} <${{ env.GIT_USER_EMAIL }}>
           commit-message: Update Plugins Metadata File
           title: 'Update Plugins Metadata'
           body: Update versions/coordinates of plugins.
