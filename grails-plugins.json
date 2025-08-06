@@ -92,7 +92,7 @@
             "systemIds": [
                 "org.grails.plugins:ajaxdependancyselection"
             ],
-            "vcsUrl": "https://github.com/vahidhedayati/ajaxdependancyselection/"
+            "vcsUrl": "https://github.com/vahidhedayati/ajaxdependancyselection"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -410,7 +410,7 @@
             "systemIds": [
                 "io.github.gpc:asynchronous-mail"
             ],
-            "vcsUrl": "https://github.com/gpc/grails-asynchronous-mail.git"
+            "vcsUrl": "https://github.com/gpc/grails-asynchronous-mail"
         },
         "documentationUrl": "https://github.com/gpc/grails-asynchronous-mail",
         "mavenMetadataUrl": "https://repo1.maven.org/maven2/io/github/gpc/asynchronous-mail/maven-metadata.xml",
@@ -1115,7 +1115,7 @@
             "systemIds": [
                 "com.bertramlabs.plugins:compass-asset-pipeline"
             ],
-            "vcsUrl": "https://github.com/bertramdev/asset-pipeline.git"
+            "vcsUrl": "https://github.com/bertramdev/asset-pipeline"
         },
         "documentationUrl": "https://bertramdev.github.io/asset-pipeline/",
         "mavenMetadataUrl": "https://repo1.maven.org/maven2/com/bertramlabs/plugins/compass-asset-pipeline/maven-metadata.xml",
@@ -1241,7 +1241,7 @@
             "systemIds": [
                 "org.grails.plugins:cookie-session"
             ],
-            "vcsUrl": "https://github.com/benlucchesi/grails-cookie-session-v2.git"
+            "vcsUrl": "https://github.com/benlucchesi/grails-cookie-session-v2"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -1266,7 +1266,7 @@
             "systemIds": [
                 "org.grails.plugins:cookie-session"
             ],
-            "vcsUrl": "https://github.com/double16/grails-cookie-session.git"
+            "vcsUrl": "https://github.com/double16/grails-cookie-session"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -2225,7 +2225,7 @@
             "systemIds": [
                 "net.realizeideas:grails-advanced-config"
             ],
-            "vcsUrl": "https://github.com/RealizeIdeas/grails-advanced-config.git"
+            "vcsUrl": "https://github.com/RealizeIdeas/grails-advanced-config"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -2475,7 +2475,7 @@
             "systemIds": [
                 "org.grails.plugins:json-apis"
             ],
-            "vcsUrl": "https://github.com/gregopet/grails-json-apis.git"
+            "vcsUrl": "https://github.com/gregopet/grails-json-apis"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -3751,7 +3751,7 @@
             "systemIds": [
                 "org.grails.plugins:jssh"
             ],
-            "vcsUrl": "https://github.com/vahidhedayati/jssh/"
+            "vcsUrl": "https://github.com/vahidhedayati/jssh"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -4352,7 +4352,7 @@
             "systemIds": [
                 "org.grails.plugins:grails-flyway"
             ],
-            "vcsUrl": "https://github.com/saw303/grails-flyway.git"
+            "vcsUrl": "https://github.com/saw303/grails-flyway"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -4401,7 +4401,7 @@
             "systemIds": [
                 "org.grails.plugins:grails3-cas-client"
             ],
-            "vcsUrl": "https://github.com/cwang/grails3-cas-client.git"
+            "vcsUrl": "https://github.com/cwang/grails3-cas-client"
         },
         "documentationUrl": null,
         "mavenMetadataUrl": null,
@@ -4452,7 +4452,7 @@
             "systemIds": [
                 "org.grails.plugins:iCalendar"
             ],
-            "vcsUrl": "https://github.com/saw303/grails-ic-alender.git"
+            "vcsUrl": "https://github.com/saw303/grails-ic-alender"
         },
         "documentationUrl": "https://saw303.github.io/grails-ic-alender/",
         "mavenMetadataUrl": null,
@@ -4852,7 +4852,7 @@
             "systemIds": [
                 "org.grails.plugins:recaptcha"
             ],
-            "vcsUrl": "https://github.com/iamthechad/grails3-recaptcha.git"
+            "vcsUrl": "https://github.com/iamthechad/grails3-recaptcha"
         },
         "documentationUrl": "https://iamthechad.github.io/grails3-recaptcha/",
         "mavenMetadataUrl": null,
@@ -6406,7 +6406,7 @@
             "systemIds": [
                 "com.bertramlabs.plugins:typescript-asset-pipeline"
             ],
-            "vcsUrl": "https://github.com/bertramdev/asset-pipeline.git"
+            "vcsUrl": "https://github.com/bertramdev/asset-pipeline"
         },
         "documentationUrl": "https://bertramdev.github.io/asset-pipeline/",
         "mavenMetadataUrl": "https://repo1.maven.org/maven2/com/bertramlabs/plugins/typescript-asset-pipeline/maven-metadata.xml",
@@ -6704,7 +6704,7 @@
             "systemIds": [
                 "io.jellycat.plugins:jasper"
             ],
-            "vcsUrl": "https://github.com/daraii/grails-jasper/"
+            "vcsUrl": "https://github.com/daraii/grails-jasper"
         },
         "documentationUrl": "https://daraii.github.io/grails-jasper/",
         "mavenMetadataUrl": "https://repo1.maven.org/maven2/io/jellycat/plugins/jasper/maven-metadata.xml"
