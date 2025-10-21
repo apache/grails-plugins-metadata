@@ -430,16 +430,16 @@
                 "Apache-2.0"
             ],
             "issueTrackerUrl": "https://github.com/grails-plugins/grails-audit-logging-plugin/issues",
-            "latestVersion": "4.0.3",
-            "updated": "2021-02-03T16:27:11.971Z",
+            "latestVersion": "6.0.0",
+            "updated": "2025-10-20T12:53:14.971Z",
             "systemIds": [
                 "org.grails.plugins:audit-logging"
             ],
             "vcsUrl": "https://github.com/grails-plugins/grails-audit-logging-plugin"
         },
-        "documentationUrl": "https://grails-plugins.github.io/grails-audit-logging-plugin",
+        "documentationUrl": "https://grails-plugins.github.io/grails-audit-logging-plugin/latest/",
         "mavenMetadataUrl": null,
-        "readme": "<h1>Grails Audit Logging Plugin</h1>\n<p><a href=\"https://grails-plugins.github.io/grails-audit-logging-plugin\">Documentation</a></p>"
+        "readme": "<h1>Grails Audit Logging Plugin</h1>\n<p><a href=\"https://grails-plugins.github.io/grails-audit-logging-plugin/latest/\">Documentation</a></p>"
     },
     {
         "bintrayPackage": {
