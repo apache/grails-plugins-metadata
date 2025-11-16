@@ -1,5 +1,5 @@
 # Grails Plugin Page Data Source
-This repository hosts the data used by the [Grails Plugin Page](https://www.grails.org/plugins.html) to list and display plugin information.
+This repository hosts the data used by the [Grails Plugin Page](https://grails.apache.org/plugins.html) to list and display plugin information.
 
 ## Adding Your Plugin to the Grails Plugin Page
 To have your plugin listed on the Grails Plugin Page, follow these steps:
