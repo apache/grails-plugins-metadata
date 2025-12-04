@@ -3883,28 +3883,29 @@
         "readme": "<h1>Readme for LightningJ Grails Plugin</h1>\n<p>LightningJ Grails plugin is a project to simplify the usage of the LightningJ\nlibrary in Grails 3.3.x applications and above.</p>\n<p>For documentation see docs/index.adoc of the project web-site at\nhttp://grails.lightningj.org</p>\n<p>Build status Master branch: <a href=\"https://travis-ci.org/lightningj-org/lightningj-grails\"><img src=\"https://travis-ci.org/lightningj-org/lightningj-grails.svg?branch=master\" alt=\"Build Status\" /></a></p>\n"
     },
     {
+        "display-name": "mail",
         "bintrayPackage": {
-            "name": "mail",
+            "name": "grails-mail",
             "repo": "plugins",
-            "owner": "grails",
-            "desc": "Grails mail plugin",
+            "owner": "grails-plugins",
+            "desc": "The Mail Plugin provides a convenient DSL for sending email. It supports plain text, html, attachments, inline resources and i18n among other features.",
             "labels": [
                 "mail"
             ],
             "licenses": [
                 "Apache-2.0"
             ],
-            "issueTrackerUrl": "https://github.com/grails3-plugins/mail/issues",
+            "issueTrackerUrl": "https://github.com/grails-plugins/grails-mail/issues",
             "latestVersion": "3.0.0",
             "updated": "2019-10-22T14:59:33.694Z",
             "systemIds": [
-                "org.grails.plugins:mail"
+                "org.grails.plugins:grails-mail"
             ],
-            "vcsUrl": "https://github.com/grails3-plugins/mail"
+            "vcsUrl": "https://github.com/grails-plugins/grails-mail"
         },
-        "documentationUrl": "https://grails3-plugins.github.io/mail/",
+        "documentationUrl": "https://grails-plugins.github.io/grails-mail/latest",
         "mavenMetadataUrl": null,
-        "readme": "<p>The Grails mail plugin provides a convenient DSL for <em>sending</em> email. It supports plain text, html, attachments, inline resources and i18n among other features.\n<a href=\"https://travis-ci.org/grails3-plugins/mail\"><img src=\"https://travis-ci.org/grails3-plugins/mail.svg?branch=master\" alt=\"Build Status\" /></a></p>\n<p>Mail can be sent using the @mailService@ via the @sendMail@ method. Here is an example\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd</p>\n<pre><code>mailService.sendMail {\n   to &quot;fred@gmail.com&quot;,&quot;ginger@gmail.com&quot;\n   from &quot;john@gmail.com&quot;\n   cc &quot;marge@gmail.com&quot;, &quot;ed@gmail.com&quot;\n   bcc &quot;joe@gmail.com&quot;\n   subject &quot;Hello John&quot;\n   text 'this is some text'\n}\n</code></pre>\n<p>Please see the <a href=\"http://gpc.github.com/grails-mail/\" title=\"Grails Mail Plugin @ GitHub\">User Guide</a> for more information.</p>\n<p>The plugin is released under the <a href=\"http://www.apache.org/licenses/LICENSE-2.0.html\" title=\"Apache License, Version 2.0 - The Apache Software Foundation\">Apache License 2.0</a> and is produced under the <a href=\"http://gpc.github.com/\">Grails Plugin Collective</a>.</p>\n<h2>Versions</h2>\n<ul>\n<li>3.x - Compatible with Grails 4</li>\n<li>2.x - Compatible with Grails 3</li>\n<li>1.x - Compatible with Grails 2</li>\n</ul>\n<h2>Issues</h2>\n<p>Issues can be raised via  <a href=\"https://github.com/gpc/grails-mail/issues\">GitHub Issues</a>.</p>\n<h2>Contributing</h2>\n<p>Pull requests are the preferred method for submitting contributions. Please open an issue via that issue tracker link above and create an issue describing what your contribution addresses.</p>\n<p>If you are contributing documentation, raising an issue is not necessary.</p>\n"
+        "readme": null
     },
     {
         "bintrayPackage": {
