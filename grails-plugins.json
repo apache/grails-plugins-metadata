@@ -2158,28 +2158,29 @@
     {
         "displayName": "logical-delete",
         "bintrayPackage": {
-            "name": "gorm-logical-delete",
+            "name": "grails-logical-delete",
             "repo": "plugins",
-            "owner": "grails",
-            "desc": "Adds logical delete capabilities to GORM",
+            "owner": "grails-plugins",
+            "desc": "Adds support for logical (soft) deletion in Grails applications.",
             "labels": [
                 "database",
-                "logical-delete"
+                "logical-delete",
+                "soft-delete"
             ],
             "licenses": [
                 "Apache-2.0"
             ],
-            "issueTrackerUrl": "https://github.com/grails-plugins/gorm-logical-delete/issues",
+            "issueTrackerUrl": "https://github.com/grails-plugins/grails-logical-delete/issues",
             "latestVersion": "2.0.0.M2",
             "updated": "2017-12-23T16:32:31.613Z",
             "systemIds": [
-                "org.grails.plugins:gorm-logical-delete"
+                "org.grails.plugins:grails-logical-delete"
             ],
-            "vcsUrl": "https://github.com/grails-plugins/gorm-logical-delete"
+            "vcsUrl": "https://github.com/grails-plugins/grails-logical-delete"
         },
-        "documentationUrl": "https://grails-plugins.github.io/gorm-logical-delete/",
+        "documentationUrl": "https://grails-plugins.github.io/grails-logical-delete/latest",
         "mavenMetadataUrl": null,
-        "readme": "<h2>Docs</h2>\n<p>See <a href=\"https://grails-plugins.github.io/gorm-logical-delete/\">grails-plugins.github.io/gorm-logical-delete/</a>.</p>\n"
+        "readme": null
     },
     {
         "bintrayPackage": {
