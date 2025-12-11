@@ -1,0 +1,62 @@
+name: aws-sdk-cognito
+desc: Grails AWS SDK Cognito plugin. Uses 'jitpack.io' maven repository.
+coords: com.github.agorapulse.grails-aws-sdk:aws-sdk-cognito
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-aws-sdk
+maven-repo: https://jitpack.io
+labels:
+  - aws
+  - cognito
+licenses:
+  - Apache-2.0
+deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
+versions:
+  - version: 2.4.16
+    date: 2025-12-12T06:10:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.15
+    date: 2025-12-12T06:10:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.14
+    date: 2025-12-12T06:10:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.11
+    date: 2025-12-12T06:10:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.9
+    date: 2025-12-12T06:10:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.8
+    date: 2025-12-12T06:10:32Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.7
+    date: 2025-12-12T06:10:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.6
+    date: 2025-12-12T06:10:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.5
+    date: 2025-12-12T06:10:30Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.14
+    date: 2025-12-12T06:10:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.12
+    date: 2025-12-12T06:10:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.4
+    date: 2025-12-12T06:10:28Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.2
+    date: 2025-12-12T06:10:27Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.0
+    date: 2025-12-12T06:10:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.19
+    date: 2025-12-12T06:10:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2025-12-12T06:10:24Z
+  - version: 1.10.74
+    date: 2025-12-12T06:10:22Z

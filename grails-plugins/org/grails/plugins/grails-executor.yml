@@ -1,0 +1,22 @@
+name: executor
+desc: Full plugin description
+coords: org.grails.plugins:grails-executor
+owner: uberall
+vcs: https://github.com/uberall/grails-executor
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - async
+licenses:
+  - Apache-2.0
+deprecated: 'Source repository is archived. As per the readme: This plugin is not maintained - use grails-async.
+  This entry in the registry should probably be removed.'
+versions:
+  - version: '0.4'
+    date: 2021-02-25T04:05:37Z
+    grailsVersion: 3.1 > *
+  - version: '0.2'
+    date: 2021-02-25T04:05:37Z
+    grailsVersion: 3.1 > *
+  - version: '0.1'
+    date: 2021-02-25T04:05:38Z
+    grailsVersion: 3.1 > *

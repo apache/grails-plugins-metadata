@@ -1,0 +1,31 @@
+name: force-ssl
+desc: Creates a simple annotation to mark controller/actions as SSL restricted and performs the appropriate
+  redirect.
+coords: com.bertramlabs.plugins:grails-force-ssl
+owner: bertramlabs
+vcs: https://github.com/bertramdev/grails-force-ssl
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - ssl
+  - https
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-01-01T15:01:57Z
+    grailsVersion: 3.1.0 > *
+  - version: 5.0.2
+    date: 2024-10-10T12:00:56Z
+    grailsVersion: 3.1.0 > *
+  - version: 5.0.1
+    date: 2022-02-10T13:16:40Z
+    grailsVersion: 3.1.0 > *
+  - version: 5.0.0
+    date: 2022-02-11T12:07:48Z
+    grailsVersion: 3.1.0 > *
+  - version: 4.0.1
+    date: 2021-04-28T22:22:42Z
+    grailsVersion: 3.1.0 > *
+  - version: 4.0.0
+    date: 2021-04-01T22:02:53Z
+    grailsVersion: 3.1.0 > *

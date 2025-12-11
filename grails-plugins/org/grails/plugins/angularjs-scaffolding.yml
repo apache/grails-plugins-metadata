@@ -1,0 +1,18 @@
+name: angularjs-scaffolding
+desc: Provides scaffolding for AngularJS 1.x applications
+coords: org.grails.plugins:angularjs-scaffolding
+owner: grails
+vcs: https://github.com/grails-plugins/grails-angularjs-scaffolding
+docs: https://grails-plugins.github.io/grails-angularjs-scaffolding/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - angular-1
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.3
+    date: 2021-04-19T11:22:26Z
+    grailsVersion: 3.1.0 > *
+  - version: 1.0.2
+    date: 2021-04-19T11:22:27Z
+    grailsVersion: 3.1.0 > *

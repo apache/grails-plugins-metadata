@@ -1,0 +1,19 @@
+name: fixtures
+desc: Load complex domain data via a simple DSL
+coords: org.grails.plugins:fixtures3
+owner: purpleraven
+vcs: https://github.com/purple-raven/fixtures
+docs: https://purple-raven.github.io/fixtures/
+maven-repo: https://repo.grails.org/plugins
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.5
+    date: 2021-02-25T04:05:05Z
+    grailsVersion: 3.1.0 > *
+  - version: 3.0.4
+    date: 2021-02-25T04:05:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 3.0.3
+    date: 2021-02-25T04:05:05Z
+    grailsVersion: 3.1.0 > *

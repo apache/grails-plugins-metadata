@@ -1,0 +1,17 @@
+name: json-apis
+desc: ''
+coords: org.grails.plugins:json-apis
+owner: gregopet
+vcs: https://github.com/gregopet/grails-json-apis
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - json
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.98'
+    date: 2021-02-25T04:05:48Z
+    grailsVersion: 3.0 > *
+  - version: '0.9'
+    date: 2013-07-13T04:17:02Z
+    grailsVersion: 2.0 > *

@@ -1,0 +1,15 @@
+name: asset-pipeline-handlebars-renderer
+desc: Grails asset pipeline handlebars templates renderer plugin
+coords: org.grails.plugins:asset-pipeline-handlebars-renderer
+owner: dpcasady
+vcs: https://github.com/dpcasady/asset-pipeline-handlebars-renderer
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - asset-pipeline
+  - handlebars
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.1'
+    date: 2021-02-24T04:23:23Z
+    grailsVersion: 3.0.0 > *

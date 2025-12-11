@@ -1,0 +1,15 @@
+name: middleware
+desc: Grails middleware plugin
+coords: org.grails.plugins:middleware
+owner: driverpt
+vcs: https://github.com/driverpt/grails-middleware
+docs: https://driverpt.github.io/grails-middleware/latest
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - middleware
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.0.3
+    date: 2021-02-25T04:10:27Z
+    grailsVersion: 3.0.0 > *

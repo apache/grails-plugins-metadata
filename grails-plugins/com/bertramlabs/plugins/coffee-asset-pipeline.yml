@@ -1,0 +1,232 @@
+name: coffee-asset-pipeline
+desc: Easily process CoffeeScript files with the asset-pipeline plugin. Package includes both jvm coffee
+  runtime as well as the ability to use the coffeescript npm module if detected.
+coords: com.bertramlabs.plugins:coffee-asset-pipeline
+owner: bertramlabs
+vcs: https://github.com/bertramdev/asset-pipeline
+docs: https://bertramdev.github.io/asset-pipeline/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - asset-pipeline
+  - coffeescript
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.9
+    date: 2025-04-13T21:15:37Z
+  - version: 5.0.8
+    date: 2025-02-28T16:00:47Z
+  - version: 5.0.7
+    date: 2025-02-19T13:16:35Z
+  - version: 5.0.6
+    date: 2025-02-07T23:20:12Z
+  - version: 5.0.5
+    date: 2024-12-22T02:01:28Z
+  - version: 5.0.4
+    date: 2024-12-12T22:16:48Z
+  - version: 5.0.3
+    date: 2024-12-13T13:09:14Z
+  - version: 5.0.2
+    date: 2024-12-12T12:01:55Z
+  - version: 5.0.1
+    date: 2024-09-13T16:22:40Z
+  - version: 5.0.0
+    date: 2024-09-12T22:05:45Z
+  - version: 4.5.2
+    date: 2024-11-08T17:14:15Z
+  - version: 4.5.1
+    date: 2024-07-24T14:22:30Z
+  - version: 4.5.0
+    date: 2024-07-25T13:09:49Z
+  - version: 4.4.0
+    date: 2023-09-26T18:23:13Z
+  - version: 4.3.0
+    date: 2023-05-01T14:19:13Z
+  - version: 4.2.0
+    date: 2023-04-12T13:11:16Z
+  - version: 4.1.0
+    date: 2023-03-05T15:09:12Z
+  - version: 4.0.0
+    date: 2022-11-04T14:05:15Z
+  - version: 3.4.7
+    date: 2022-09-29T19:20:02Z
+  - version: 3.4.6
+    date: 2022-04-12T19:04:51Z
+  - version: 3.4.5
+    date: 2022-04-08T13:16:40Z
+  - version: 3.4.4
+    date: 2022-03-23T19:10:45Z
+  - version: 3.4.3
+    date: 2022-02-12T01:07:13Z
+  - version: 3.4.2
+    date: 2022-02-11T01:16:19Z
+  - version: 3.4.1
+    date: 2022-02-09T13:10:53Z
+  - version: 3.4.0
+    date: 2022-02-08T19:17:34Z
+  - version: 3.3.6
+    date: 2021-10-05T16:16:17Z
+  - version: 3.3.5
+    date: 2021-10-05T11:17:00Z
+  - version: 3.3.4
+    date: 2021-09-07T13:00:09Z
+  - version: 3.3.3
+    date: 2021-08-09T13:06:19Z
+  - version: 3.3.2
+    date: 2021-04-20T13:22:12Z
+  - version: 3.3.1
+    date: 2020-09-24T15:04:01Z
+  - version: 3.2.5
+    date: 2020-07-03T22:00:36Z
+  - version: 3.2.4
+    date: 2020-07-02T14:07:55Z
+  - version: 3.2.3
+    date: 2020-06-29T12:17:14Z
+  - version: 3.2.2
+    date: 2020-06-25T13:03:17Z
+  - version: 3.2.0
+    date: 2020-06-16T17:23:57Z
+  - version: 3.1.0
+    date: 2020-04-22T12:08:26Z
+  - version: 3.0.11
+    date: 2019-07-05T16:04:03Z
+  - version: 3.0.10
+    date: 2019-03-19T14:21:09Z
+  - version: 3.0.9
+    date: 2019-03-01T23:10:40Z
+  - version: 3.0.8
+    date: 2019-02-28T15:05:25Z
+  - version: 3.0.7
+    date: 2018-11-19T13:14:36Z
+  - version: 3.0.6
+    date: 2018-08-25T20:07:45Z
+  - version: 3.0.5
+    date: 2018-08-24T11:21:09Z
+  - version: 3.0.4
+    date: 2018-08-23T15:15:52Z
+  - version: 3.0.3
+    date: 2018-07-28T16:05:06Z
+  - version: 3.0.2
+    date: 2018-07-26T15:08:19Z
+  - version: 3.0.1
+    date: 2018-07-10T13:21:32Z
+  - version: 3.0.0
+    date: 2018-05-30T12:06:38Z
+  - version: 2.15.1
+    date: 2018-09-06T12:19:06Z
+  - version: 2.15.0
+    date: 2018-05-25T20:00:58Z
+  - version: 2.14.10
+    date: 2018-03-08T21:21:22Z
+  - version: 2.14.9
+    date: 2018-03-08T20:16:24Z
+  - version: 2.14.8
+    date: 2018-02-07T15:23:10Z
+  - version: 2.14.7
+    date: 2017-12-08T02:01:15Z
+  - version: 2.14.6
+    date: 2017-11-16T13:17:44Z
+  - version: 2.14.5
+    date: 2017-11-08T14:01:35Z
+  - version: 2.14.4
+    date: 2017-11-07T16:04:38Z
+  - version: 2.14.3
+    date: 2017-06-28T13:08:44Z
+  - version: 2.14.2
+    date: 2017-05-02T10:20:10Z
+  - version: 2.14.1
+    date: 2017-03-21T16:14:09Z
+  - version: 2.14.0
+    date: 2017-03-22T13:19:46Z
+  - version: 2.13.2
+    date: 2017-02-27T14:07:15Z
+  - version: 2.13.1
+    date: 2017-01-30T19:08:07Z
+  - version: 2.13.0
+    date: 2017-01-28T15:10:00Z
+  - version: 2.12.10
+    date: 2017-01-25T17:20:28Z
+  - version: 2.12.9
+    date: 2017-01-17T13:19:51Z
+  - version: 2.12.8
+    date: 2017-01-17T15:07:09Z
+  - version: 2.12.7
+    date: 2017-01-17T14:03:43Z
+  - version: 2.12.6
+    date: 2017-01-16T13:08:48Z
+  - version: 2.12.5
+    date: 2017-01-15T16:05:23Z
+  - version: 2.12.4
+    date: 2017-01-06T13:01:35Z
+  - version: 2.12.3
+    date: 2017-01-04T02:19:43Z
+  - version: 2.12.2
+    date: 2017-01-04T13:09:43Z
+  - version: 2.12.1
+    date: 2016-11-29T22:13:24Z
+  - version: 2.12.0
+    date: 2016-11-28T20:08:08Z
+  - version: 2.11.6
+    date: 2016-10-29T21:22:50Z
+  - version: 2.11.5
+    date: 2016-10-27T19:04:41Z
+  - version: 2.11.4
+    date: 2016-10-21T11:14:37Z
+  - version: 2.11.3
+    date: 2016-10-08T10:05:05Z
+  - version: 2.11.2
+    date: 2016-09-03T13:22:04Z
+  - version: 2.11.1
+    date: 2016-08-18T13:21:52Z
+  - version: 2.11.0
+    date: 2016-08-15T18:06:56Z
+  - version: 2.10.2
+    date: 2016-08-07T13:05:59Z
+  - version: 2.10.1
+    date: 2016-08-04T10:00:27Z
+  - version: 2.10.0
+    date: 2016-07-29T19:23:16Z
+  - version: 2.9.5
+    date: 2016-07-22T12:02:45Z
+  - version: 2.9.4
+    date: 2016-06-17T18:08:22Z
+  - version: 2.9.3
+    date: 2016-06-15T18:23:24Z
+  - version: 2.9.2
+    date: 2016-06-17T15:13:34Z
+  - version: 2.9.1
+    date: 2016-05-24T10:21:26Z
+  - version: 2.9.0
+    date: 2016-05-25T18:03:31Z
+  - version: 2.8.2
+    date: 2016-04-28T14:21:41Z
+  - version: 2.8.1
+    date: 2016-04-22T18:13:51Z
+  - version: 2.8.0
+    date: 2016-04-22T14:13:50Z
+  - version: 2.7.4
+    date: 2016-04-07T10:08:28Z
+  - version: 2.7.2
+    date: 2016-03-10T13:09:32Z
+  - version: 2.7.0
+    date: 2016-03-05T15:03:10Z
+  - version: 2.6.9
+    date: 2015-12-02T20:02:34Z
+  - version: 2.6.7
+    date: 2015-11-24T14:08:49Z
+  - version: 2.6.4
+    date: 2015-11-16T13:19:07Z
+  - version: 2.6.3
+    date: 2015-11-17T12:23:01Z
+  - version: 2.6.2
+    date: 2015-10-21T11:00:24Z
+  - version: 2.6.1
+    date: 2015-10-21T12:09:46Z
+  - version: 2.6.0
+    date: 2015-10-10T12:07:07Z
+  - version: 2.0.7
+    date: 2015-03-31T11:08:39Z
+  - version: 2.0.6
+    date: 2014-12-01T14:00:14Z
+  - version: 2.0.5
+    date: 2014-11-30T14:15:01Z

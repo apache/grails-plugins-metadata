@@ -1,0 +1,12 @@
+name: consulta-nif
+desc: Consulta el nombre registrado en la AEAT para un NIF dado
+coords: com.puravida:consulta-nif
+owner: puravida-software
+vcs: https://gitlab.com/puravida-software/consulta-nif/tree/master
+maven-repo: https://repo.grails.org/plugins
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.1'
+    date: 2021-02-25T04:03:05Z
+    grailsVersion: 3.2.8 > *

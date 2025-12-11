@@ -1,0 +1,21 @@
+name: quartz-config-scheduler
+desc: Quartz Config Scheduler - Allow creating quartz job from configuration
+coords: org.grails.plugins:quartz-config-scheduler
+owner: 9ci
+vcs: https://github.com/yakworks/quartz-config-scheduler
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - quartz
+  - scheduling
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0
+    date: 2021-02-25T04:11:59Z
+    grailsVersion: 4.0.5 > *
+  - version: 2.0.0
+    date: 2021-02-25T04:11:59Z
+    grailsVersion: 3.3.9 > *
+  - version: '0.5'
+    date: 2021-02-25T04:11:59Z
+    grailsVersion: 3.2.11 > *

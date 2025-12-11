@@ -1,0 +1,26 @@
+name: isomorphic
+desc: Grails Isomorphic Rendering Plugin
+coords: org.grails.plugins:grails-isomorphic
+owner: zacharyklein
+vcs: https://github.com/ZacharyKlein/grails-isomorphic
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - isomorphic
+  - ssr
+  - javascript
+  - react
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.2'
+    date: 2021-02-25T04:05:45Z
+    grailsVersion: 3.1.0 > *
+  - version: '1.1'
+    date: 2021-02-25T04:05:45Z
+    grailsVersion: 3.1.0 > *
+  - version: '1.0'
+    date: 2021-02-25T04:05:45Z
+    grailsVersion: 3.1.0 > *
+  - version: 1.0-RC1
+    date: 2021-02-25T04:05:45Z
+    grailsVersion: 3.1.0 > *

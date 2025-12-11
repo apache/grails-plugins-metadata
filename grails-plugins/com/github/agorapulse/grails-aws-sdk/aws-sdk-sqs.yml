@@ -1,0 +1,63 @@
+name: aws-sdk-sqs
+desc: Grails AWS SDK SQS plugin
+coords: com.github.agorapulse.grails-aws-sdk:aws-sdk-sqs
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-aws-sdk
+maven-repo: https://jitpack.io
+labels:
+  - aws
+  - sqs
+licenses:
+  - Apache-2.0
+deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
+versions:
+  - version: 2.4.16
+    date: 2025-12-12T06:10:21Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.15
+    date: 2025-12-08T20:18:56Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.14
+    date: 2025-11-24T21:08:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.11
+    date: 2025-12-12T06:10:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.9
+    date: 2025-12-12T06:10:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.8
+    date: 2025-12-12T06:10:17Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.7
+    date: 2025-12-12T06:10:16Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.6
+    date: 2025-12-12T06:10:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.5
+    date: 2025-12-12T06:10:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.14
+    date: 2025-12-12T06:10:14Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.12
+    date: 2025-12-12T06:10:14Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.4
+    date: 2025-12-12T06:10:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.2
+    date: 2025-12-12T06:10:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.0
+    date: 2025-12-12T06:10:12Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.19
+    date: 2025-12-12T06:10:11Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2025-12-12T06:10:09Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.10.74
+    date: 2025-12-12T06:10:08Z

@@ -1,0 +1,47 @@
+name: queuekit
+desc: Queuekit is a plugin for grails which uses TaskExecutor with Spring Events for grails 2 and for
+  grails 3 using default `Reactor` events to manage concurrent submitted reports.
+coords: org.grails.plugins:queuekit
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-queuekit-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - reporting
+  - scheduling
+  - queue
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.10'
+    date: 2021-02-25T04:12:01Z
+    grailsVersion: 2.4 > *
+  - version: '1.9'
+    date: 2021-02-25T04:12:01Z
+    grailsVersion: 2.4 > *
+  - version: '1.8'
+    date: 2021-02-25T04:12:01Z
+    grailsVersion: 2.4 > *
+  - version: '1.7'
+    date: 2021-02-25T04:12:01Z
+    grailsVersion: 2.4 > *
+  - version: '1.6'
+    date: 2021-02-25T04:12:01Z
+    grailsVersion: 2.4 > *
+  - version: '1.5'
+    date: 2021-02-25T04:12:02Z
+    grailsVersion: 2.4 > *
+  - version: '1.4'
+    date: 2021-02-25T04:12:02Z
+    grailsVersion: 2.4 > *
+  - version: '1.3'
+    date: 2021-02-25T04:12:03Z
+    grailsVersion: 2.4 > *
+  - version: '1.2'
+    date: 2021-02-25T04:12:03Z
+    grailsVersion: 2.4 > *
+  - version: '1.1'
+    date: 2021-02-25T04:12:03Z
+    grailsVersion: 2.4 > *
+  - version: '1.0'
+    date: 2021-02-25T04:12:03Z
+    grailsVersion: 2.4 > *

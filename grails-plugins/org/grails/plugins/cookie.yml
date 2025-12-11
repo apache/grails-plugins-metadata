@@ -1,0 +1,53 @@
+name: cookie
+desc: Grails Cookie Plugin
+coords: org.grails.plugins:cookie
+owner: ctoestreich
+vcs: https://github.com/Grails-Plugin-Consortium/grails-cookie
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cookies
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.5
+    date: 2021-02-25T04:03:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.4
+    date: 2021-02-25T04:03:07Z
+    grailsVersion: 3.0.0 > *
+  - version: '1.4'
+    date: 2015-03-05T22:00:16Z
+    grailsVersion: 2.4.0 > *
+  - version: '1.2'
+    date: 2015-03-06T21:21:56Z
+    grailsVersion: 2.2.0 > *
+  - version: 1.1.0
+    date: 2015-01-23T01:16:33Z
+    grailsVersion: 2.4.0 > *
+  - version: 1.0.1
+    date: 2014-11-24T00:20:06Z
+    grailsVersion: 2.1 > *
+  - version: '1.0'
+    date: 2014-11-23T04:00:39Z
+    grailsVersion: 2.1 > *
+  - version: '0.60'
+    date: 2014-11-23T21:01:51Z
+    grailsVersion: 2.1 > *
+  - version: '0.51'
+    date: 2013-10-21T21:14:50Z
+    grailsVersion: 2.1 > *
+  - version: '0.5'
+    date: 2013-10-05T09:17:16Z
+    grailsVersion: 2.1 > *
+  - version: '0.4'
+    date: 2012-12-13T15:21:25Z
+    grailsVersion: 2.1 > *
+  - version: '0.3'
+    date: 2012-12-14T14:10:47Z
+    grailsVersion: 2.1 > *
+  - version: '0.2'
+    date: 2012-03-13T19:05:36Z
+    grailsVersion: 1.1.1 > *
+  - version: 0.1.1
+    date: 2012-03-13T19:05:36Z
+    grailsVersion: 1.1.1 > *

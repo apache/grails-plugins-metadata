@@ -1,0 +1,23 @@
+name: dropwizard-metrics-graphite
+desc: Adds Dropwizard metrics reporting to Graphite For Grails 3
+coords: org.grails.plugins:dropwizard-metrics-graphite
+owner: grails
+vcs: https://github.com/grails-plugins/grails-dropwizard-metrics-graphite
+docs: https://grails-plugins.github.io/grails-dropwizard-metrics-graphite/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - metrics
+  - dropwizard
+  - graphite
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.0.RC1
+    date: 2021-02-25T04:03:44Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:03:44Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M1
+    date: 2021-02-25T04:03:44Z
+    grailsVersion: 3.0.14 > *

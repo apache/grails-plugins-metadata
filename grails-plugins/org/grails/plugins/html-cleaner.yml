@@ -1,0 +1,33 @@
+name: html-cleaner
+desc: Grails HTML Cleaner plugin
+coords: org.grails.plugins:html-cleaner
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-html-cleaner
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - html
+licenses:
+  - Apache-2.0
+deprecated: Source repository was archived by the owner on Apr 9, 2018.
+versions:
+  - version: 3.0.0.1
+    date: 2021-02-25T04:08:42Z
+    grailsVersion: 3.0.0 > *
+  - version: '1.1'
+    date: 2021-02-25T04:08:42Z
+    grailsVersion: 3.0.0 > *
+  - version: '1.0'
+    date: 2021-02-25T04:08:42Z
+    grailsVersion: 3.0.0 > *
+  - version: '0.4'
+    date: 2016-10-12T17:03:37Z
+    grailsVersion: 1.3.7 > *
+  - version: '0.3'
+    date: 2014-11-16T13:07:35Z
+    grailsVersion: 1.3.7 > *
+  - version: '0.2'
+    date: 2013-07-31T01:18:39Z
+    grailsVersion: 1.3.7 > *
+  - version: '0.1'
+    date: 2012-05-23T10:21:35Z
+    grailsVersion: 1.3.7 > *

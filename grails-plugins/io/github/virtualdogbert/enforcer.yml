@@ -1,0 +1,20 @@
+name: enforcer
+desc: A plugin for enforcing business rules/permissions, that works with Spring Security Core, is easier
+  to implement, and extend. It can also be used as an alternative to Spring Security ACL
+coords: io.github.virtualdogbert:enforcer
+owner: virtualdogbert
+vcs: https://github.com/virtualdogbert/Enforcer
+docs: https://virtualdogbert.github.io/Enforcer/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - acl
+  - business-rules
+  - permissions
+  - security
+  - spring-security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.1.7 > *

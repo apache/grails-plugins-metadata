@@ -1,0 +1,25 @@
+name: kml
+desc: Grails Global postal code to address resolving Plugin KML Map Boundary utilities loader editor.
+  Postcodes restricted to customised boundaries
+coords: org.grails.plugins:kml
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-kml-map-plugin
+docs: https://vahidhedayati.github.io/grails-kml-map-plugin/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - kml
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.6'
+    date: 2021-02-25T04:09:51Z
+    grailsVersion: 3 > *
+  - version: '0.5'
+    date: 2021-02-25T04:09:53Z
+    grailsVersion: 3 > *
+  - version: '0.4'
+    date: 2021-02-25T04:09:53Z
+    grailsVersion: 3 > *
+  - version: '0.3'
+    date: 2021-02-25T04:09:54Z
+    grailsVersion: 3 > *

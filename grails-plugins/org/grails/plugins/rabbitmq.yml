@@ -1,0 +1,40 @@
+name: rabbitmq
+desc: The RabbitMQ plugin provides integration with the RabbitMQ Messaging System.
+coords: org.grails.plugins:rabbitmq
+owner: puneetbehl
+vcs: https://github.com/grails-plugins/grails-rabbitmq
+docs: https://grails-plugins.github.io/grails-rabbitmq/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - messaging
+  - rabbitmq
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.0
+    date: 2021-02-25T04:12:04Z
+    grailsVersion: 3.0.2 > *
+  - version: 1.0.0
+    date: 2012-12-01T13:06:05Z
+    grailsVersion: 1.2 > *
+  - version: 1.0.0.RC1
+    date: 2012-05-21T15:02:12Z
+    grailsVersion: 1.2 > *
+  - version: 1.0.0.RC2
+    date: 2012-08-31T19:14:39Z
+    grailsVersion: 1.2 > *
+  - version: 0.3.3
+    date: 2012-03-13T19:07:17Z
+    grailsVersion: 1.2 > *
+  - version: 0.3.2
+    date: 2012-03-13T19:07:16Z
+    grailsVersion: 1.2 > *
+  - version: 0.3.1
+    date: 2012-03-13T19:07:16Z
+    grailsVersion: 1.2 > *
+  - version: '0.3'
+    date: 2012-03-13T19:07:16Z
+    grailsVersion: 1.2 > *
+  - version: '0.2'
+    date: 2012-03-13T19:07:16Z
+    grailsVersion: 1.3 > *

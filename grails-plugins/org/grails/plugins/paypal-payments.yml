@@ -1,0 +1,16 @@
+name: paypal-payments
+desc: Accept and process payments with Paypal SDK
+coords: org.grails.plugins:paypal-payments
+owner: novadge
+vcs: https://github.com/Novadge/paypal-payments
+docs: https://Novadge.github.io/paypal-payments/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - payment
+  - paypal
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.1.0
+    date: 2021-02-25T04:11:45Z
+    grailsVersion: 3.1.1 > *

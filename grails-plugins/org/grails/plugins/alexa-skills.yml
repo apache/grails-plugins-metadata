@@ -1,0 +1,21 @@
+name: alexa-skills
+desc: This is a Grails 3.x plugin to help make Amazon Alexa Skills /  Speechlets
+coords: org.grails.plugins:alexa-skills
+owner: rvanderwerf
+vcs: https://github.com/rvanderwerf/grails-alexa-skills
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - amazon
+  - alexa
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.1.2
+    date: 2021-02-24T04:22:39Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.1
+    date: 2021-02-24T04:22:39Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.0
+    date: 2021-02-24T04:22:40Z
+    grailsVersion: 3.0 > *

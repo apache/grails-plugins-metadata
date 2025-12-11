@@ -1,0 +1,17 @@
+name: cache-guava
+desc: The guava cache provides a simple in memory cache with maximal capacity and TTL.
+coords: org.grails.plugins:cache-guava
+owner: mkobel
+vcs: https://github.com/itds-ch/grails-cache-guava
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cache
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0
+    date: 2021-02-25T04:01:52Z
+    grailsVersion: 3.3.5 > *
+  - version: '0.1'
+    date: 2021-02-25T04:01:52Z
+    grailsVersion: 3.3.5 > *

@@ -1,0 +1,45 @@
+name: cors-interceptor
+desc: Add Cross-Origin Resource Sharing (CORS) headers for Grails 3 applications.
+coords: org.grails.plugins:grails3-cors-interceptor
+owner: appcela
+vcs: https://github.com/appcela/grails3-cors-interceptor
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cors
+licenses:
+  - MIT
+deprecated: Since version 3.2.1, Grails has built-in CORS support.
+versions:
+  - version: 1.2.1
+    date: 2021-02-25T04:07:15Z
+    grailsVersion: 3.1.4 > *
+  - version: 1.2.0
+    date: 2021-02-25T04:07:15Z
+    grailsVersion: 3.1.4 > *
+  - version: 1.1.0
+    date: 2021-02-25T04:07:16Z
+    grailsVersion: 3.1.4 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:07:16Z
+    grailsVersion: 3.1.4 > *
+  - version: 0.1.6
+    date: 2021-02-25T04:07:16Z
+    grailsVersion: 3.1.4 > *
+  - version: 0.1.5
+    date: 2021-02-25T04:07:16Z
+    grailsVersion: 3.0.15 > *
+  - version: 0.1.4
+    date: 2021-02-25T04:07:17Z
+    grailsVersion: 3.0.15 > *
+  - version: 0.1.3
+    date: 2021-02-25T04:07:17Z
+    grailsVersion: 3.0.15 > *
+  - version: 0.1.2
+    date: 2021-02-25T04:07:17Z
+    grailsVersion: 3.0.4 > *
+  - version: 0.1.1
+    date: 2021-02-25T04:07:18Z
+    grailsVersion: 3.0.4 > *
+  - version: 0.1.0
+    date: 2021-02-25T04:07:18Z
+    grailsVersion: 3.0.4 > *

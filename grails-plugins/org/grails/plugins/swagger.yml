@@ -1,0 +1,20 @@
+name: swagger
+desc: Grails Swagger Plugin
+coords: org.grails.plugins:swagger
+owner: ajay-kumar
+vcs: https://github.com/ajay-kmr/swagger
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - swagger
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.1
+    date: 2021-02-25T04:14:24Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:14:25Z
+    grailsVersion: 3.1.9 > *
+  - version: '0.1'
+    date: 2021-02-25T04:14:25Z
+    grailsVersion: 3.1.9 > *

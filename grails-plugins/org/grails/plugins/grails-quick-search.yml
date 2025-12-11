@@ -1,0 +1,35 @@
+name: quick-search
+desc: |2
+
+  Search plugin for domain class properties. Lightweight plugin which puts the ability for searching, it adds utility
+  functions for building the search result into a string format representation sufficient for auto-complete as well as
+  functions for listing the results based on the search query.
+coords: org.grails.plugins:grails-quick-search
+owner: tadodotcom
+vcs: https://github.com/tadodotcom/grails-quick-search
+docs: https://tadodotcom.github.io/grails-quick-search/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - search
+licenses:
+  - BSD
+comment: Only Grails < 4 supported as of 0.7.2
+versions:
+  - version: 0.7.2
+    date: 2021-02-25T04:05:59Z
+    grailsVersion: 3.1.10 > *
+  - version: 0.2.3
+    date: 2013-11-28T07:10:11Z
+    grailsVersion: 2.0 > *
+  - version: 0.2.2
+    date: 2013-11-28T16:02:50Z
+    grailsVersion: 2.0 > *
+  - version: 0.2.1
+    date: 2013-11-27T16:12:47Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2013-11-26T14:00:16Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2013-11-21T11:21:33Z
+    grailsVersion: 2.0 > *

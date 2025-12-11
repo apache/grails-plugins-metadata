@@ -1,0 +1,51 @@
+name: rx-gorm-rest-client
+desc: Provides a RxGORM Object Mapping implementation for communication with REST web services
+coords: org.grails.plugins:rx-gorm-rest-client
+owner: grails
+vcs: https://github.com/grails/gorm-rest-client
+docs: http://gorm.grails.org/latest/rx/rest-client/manual/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - gorm
+  - json
+  - rest
+  - rxjava
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.1.0.RELEASE
+    date: 2021-02-25T04:12:25Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.1.0.RC1
+    date: 2021-02-25T04:12:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.1.0.RC2
+    date: 2021-02-25T04:12:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.5.RELEASE
+    date: 2021-02-25T04:12:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.4.RELEASE
+    date: 2021-02-25T04:12:27Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.3.RELEASE
+    date: 2021-02-25T04:12:27Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.2.RELEASE
+    date: 2021-02-25T04:12:27Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.1
+    date: 2021-02-25T04:12:28Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0.RELEASE
+    date: 2021-02-25T04:12:28Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0.M1
+    date: 2021-02-25T04:12:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0.RC1
+    date: 2021-02-25T04:12:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0.RC2
+    date: 2021-02-25T04:12:28Z
+    grailsVersion: 3.0.0 > *

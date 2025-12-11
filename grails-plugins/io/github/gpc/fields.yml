@@ -1,0 +1,84 @@
+name: fields
+desc: Grails fields plugin
+coords: io.github.gpc:fields
+owner: grails
+vcs: https://github.com/gpc/fields
+docs: https://gpc.github.io/fields/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - forms
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 5.0.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 5.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 5.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 5.0.0-RC2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 5.0.0-RC4
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 4.0.2
+    date: 2024-04-08T11:06:10Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.0 > *
+  - version: 4.0.0
+    date: 2024-01-02T07:06:34Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC1
+    date: 2023-12-30T16:08:56Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC2
+    date: 2023-12-31T16:12:48Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC3
+    date: 2023-12-30T18:17:02Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC4
+    date: 2023-12-29T19:23:02Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC5
+    date: 2023-12-30T19:08:40Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC6
+    date: 2023-12-30T19:15:32Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC7
+    date: 2024-01-01T19:00:10Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC8
+    date: 2023-12-30T20:22:11Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC9
+    date: 2023-12-31T20:06:42Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC10
+    date: 2023-12-31T20:18:21Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC11
+    date: 2024-01-01T20:06:12Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC12
+    date: 2024-01-01T20:09:56Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC13
+    date: 2024-01-01T11:20:11Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC14
+    date: 2024-01-02T11:04:10Z
+    grailsVersion: 3.0 > *
+  - version: 4.0.0-RC15
+    date: 2024-01-01T12:04:36Z
+    grailsVersion: 3.0 > *

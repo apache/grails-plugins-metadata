@@ -1,0 +1,39 @@
+name: geb
+desc: Geb Functional Testing for Grails framework
+coords: org.apache.grails:grails-geb
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-gore
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - testing
+  - geb
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.4
+    date: 2025-11-29T01:04:28Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T01:14:54Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-07T21:18:14Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T22:22:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-17T19:08:39Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-M4
+    date: 2025-06-06T05:06:46Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T13:10:02Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC1
+    date: 2025-08-05T13:23:55Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T12:23:11Z
+    grailsVersion: 7.0.0-SNAPSHOT > *

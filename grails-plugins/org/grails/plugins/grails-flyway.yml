@@ -1,0 +1,19 @@
+name: flyway
+desc: Grails flyway plugin
+coords: org.grails.plugins:grails-flyway
+owner: saw303
+vcs: https://github.com/saw303/grails-flyway
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - migration
+  - flyway
+licenses:
+  - Apache-2.0
+comment: There are releases for v0.2.1 and v0.2.2 but no artifacts are published.
+versions:
+  - version: '0.2'
+    date: 2021-02-25T04:11:35Z
+    grailsVersion: 3.0.0 > *
+  - version: '0.1'
+    date: 2021-02-25T04:11:35Z
+    grailsVersion: 3.0.0 > *

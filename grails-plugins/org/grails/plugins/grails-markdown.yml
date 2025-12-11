@@ -1,0 +1,15 @@
+name: org.grails.plugins:grails-markdown
+desc: Grails grails-markdown plugin
+coords: org.grails.plugins:grails-markdown
+owner: tednaleid
+vcs: https://bitbucket.org/tednaleid/grails-markdown
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - markdown
+licenses:
+  - Apache-2.0
+deprecated: Source repository is gone.
+versions:
+  - version: 3.0.0
+    date: 2021-02-25T04:11:35Z
+    grailsVersion: 3.0.0 > *

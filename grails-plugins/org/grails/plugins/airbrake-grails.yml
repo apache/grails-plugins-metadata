@@ -1,0 +1,14 @@
+name: airbrake
+desc: Airbrake Client for Grails
+coords: org.grails.plugins:airbrake-grails
+owner: bostanio
+vcs: https://github.com/cavneb/airbrake-grails
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - airbrake
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0.RC1
+    date: 2021-02-24T04:22:37Z
+    grailsVersion: 3.0.0 > *

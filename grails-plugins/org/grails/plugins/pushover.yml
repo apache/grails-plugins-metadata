@@ -1,0 +1,21 @@
+name: pushover
+desc: Provides easy access to Pushover API
+coords: org.grails.plugins:pushover
+owner: frnktrgr
+vcs: https://github.com/frnktrgr/grails-pushover
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - pushover
+  - push-notification
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-25T04:05:58Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.1
+    date: 2021-02-25T04:05:59Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:05:59Z
+    grailsVersion: 3.0.0 > *

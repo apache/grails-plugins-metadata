@@ -1,0 +1,137 @@
+name: audit-logging
+desc: Grails Audit-Logging Plugin.
+coords: org.grails.plugins:audit-logging
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-audit-logging-plugin
+docs: https://grails-plugins.github.io/grails-audit-logging-plugin/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - auditing
+licenses:
+  - Apache-2.0
+comment: Now lives in https://github.com/grails-plugins/
+versions:
+  - version: 4.0.3
+    date: 2021-02-24T04:23:32Z
+    grailsVersion: 4.0.0 > *
+  - version: 4.0.2
+    date: 2021-02-24T04:23:32Z
+    grailsVersion: 4.0.0 > *
+  - version: 4.0.1
+    date: 2021-02-24T04:23:33Z
+    grailsVersion: 4.0.0 > *
+  - version: 4.0.0
+    date: 2021-02-24T04:23:33Z
+    grailsVersion: 4.0.0 > *
+  - version: 3.0.6
+    date: 2021-02-24T04:23:33Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.5
+    date: 2021-02-24T04:23:33Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.4
+    date: 2021-02-24T04:23:33Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.3
+    date: 2021-02-24T04:23:34Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.2
+    date: 2021-02-24T04:23:34Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T04:23:34Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T04:23:34Z
+    grailsVersion: 3.3.0 > *
+  - version: 2.0.6
+    date: 2021-02-24T04:23:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.5
+    date: 2021-04-19T11:23:16Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.4
+    date: 2021-02-24T04:23:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.3
+    date: 2021-02-24T04:23:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.2
+    date: 2021-02-24T04:23:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.1
+    date: 2021-02-24T04:23:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0
+    date: 2021-02-24T04:23:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.1.3
+    date: 2017-04-20T09:07:42Z
+    grailsVersion: 2.1 > *
+  - version: 1.1.2
+    date: 2017-04-13T02:22:36Z
+    grailsVersion: 2.1 > *
+  - version: 1.1.1
+    date: 2016-11-12T18:20:57Z
+    grailsVersion: 2.1 > *
+  - version: 1.1.0
+    date: 2015-11-07T08:10:27Z
+    grailsVersion: 2.1 > *
+  - version: 1.0.7
+    date: 2015-10-07T14:05:02Z
+    grailsVersion: 2.1 > *
+  - version: 1.0.6
+    date: 2015-09-18T07:07:37Z
+    grailsVersion: 2.1 > *
+  - version: 1.0.5
+    date: 2015-06-28T16:16:54Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.4
+    date: 2015-04-05T07:03:49Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.3
+    date: 2014-11-01T10:07:15Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.2
+    date: 2014-10-28T11:12:10Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.1
+    date: 2014-05-17T18:00:58Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.0
+    date: 2014-04-26T04:19:00Z
+    grailsVersion: 2.0 > *
+  - version: 0.5.5.3
+    date: 2013-11-20T13:16:36Z
+    grailsVersion: 1.3 > *
+  - version: 0.5.5.2
+    date: 2013-11-14T22:23:38Z
+    grailsVersion: 1.3 > *
+  - version: 0.5.5.1
+    date: 2013-11-13T21:21:53Z
+    grailsVersion: 1.3 > *
+  - version: 0.5.5
+    date: 2013-11-13T21:10:25Z
+    grailsVersion: 1.3 > *
+  - version: 0.5.4
+    date: 2012-03-13T19:06:15Z
+    grailsVersion: 1.1 > *
+  - version: 0.5.3
+    date: 2012-03-13T19:06:15Z
+    grailsVersion: 1.0 > *
+  - version: 0.5.2
+    date: 2012-04-03T06:06:57Z
+    grailsVersion: 1.2.0 > *
+  - version: 0.5.1
+    date: 2012-04-04T06:18:01Z
+    grailsVersion: 1.2.0 > *
+  - version: '0.5'
+    date: 2012-04-04T09:08:16Z
+    grailsVersion: 1.2.0 > *
+  - version: 0.4.1
+    date: 2012-03-13T19:06:13Z
+    grailsVersion: 1.1.1 > *
+  - version: '0.4'
+    date: 2012-03-13T19:06:12Z
+  - version: '0.3'
+    date: 2012-03-13T19:06:12Z

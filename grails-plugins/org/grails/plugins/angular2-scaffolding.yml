@@ -1,0 +1,15 @@
+name: angular2-scaffolding
+desc: Provides scaffolding for Angular 2 applications
+coords: org.grails.plugins:angular2-scaffolding
+owner: grails
+vcs: https://github.com/grails-plugins/grails-angular2-scaffolding
+docs: https://grails-plugins.github.io/grails-angular-scaffolding/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - angular-2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0.RC1
+    date: 2021-02-24T04:22:53Z
+    grailsVersion: 3.2.0 > *

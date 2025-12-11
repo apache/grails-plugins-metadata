@@ -1,0 +1,17 @@
+name: gorm-graphql-plugin
+desc: GORM GraphQL - Generates a GraphQL schema based on entities in GORM
+coords: org.grails.plugins:gorm-graphql-plugin
+owner: grails
+vcs: https://github.com/grails/gorm-graphql
+docs: https://grails.github.io/gorm-graphql/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - graphql
+licenses:
+  - Apache-2.0
+deprecated: This entry in the registry is a duplicate of the entry with the name 'gorm-graphql'. This
+  entry should probably be removed from the registry to avoid confusion.
+versions:
+  - version: 2.0.0
+    date: 2021-02-25T04:05:12Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *

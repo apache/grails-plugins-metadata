@@ -1,0 +1,20 @@
+name: daysofweek
+desc: Grails Days Of week plugin using ICU4J libraries to work out international calendar week days
+coords: org.grails.plugins:daysofweek
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-daysofweek-plugin
+docs: https://vahidhedayati.github.io/grails-daysofweek-plugin/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - calendar
+licenses:
+  - Apache-2.0
+comment: There is no published version that is compatible with Grails >= 3 (0.3 is not published as of
+  this writing)
+versions:
+  - version: '0.2'
+    date: 2021-02-25T04:03:27Z
+    grailsVersion: 2.4 > *
+  - version: '0.1'
+    date: 2021-02-25T04:03:27Z
+    grailsVersion: 2.4 > *

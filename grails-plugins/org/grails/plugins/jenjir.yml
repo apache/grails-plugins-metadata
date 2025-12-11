@@ -1,0 +1,51 @@
+name: jenjir
+desc: Grails Jenjir plugin
+coords: org.grails.plugins:jenjir
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-jenkins-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - jira
+  - jenkins
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.2
+    date: 2021-02-25T04:09:01Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.1
+    date: 2021-02-25T04:09:01Z
+    grailsVersion: 3.0 > *
+  - version: '0.11'
+    date: 2015-05-29T22:14:39Z
+    grailsVersion: 2.0 > *
+  - version: '0.10'
+    date: 2014-12-04T09:21:29Z
+    grailsVersion: 2.0 > *
+  - version: '0.9'
+    date: 2014-12-02T10:18:25Z
+    grailsVersion: 2.0 > *
+  - version: '0.8'
+    date: 2014-11-29T15:04:00Z
+    grailsVersion: 2.0 > *
+  - version: '0.7'
+    date: 2014-11-27T14:23:18Z
+    grailsVersion: 2.0 > *
+  - version: '0.6'
+    date: 2014-11-27T12:02:33Z
+    grailsVersion: 2.0 > *
+  - version: '0.5'
+    date: 2014-11-24T15:15:08Z
+    grailsVersion: 2.0 > *
+  - version: '0.4'
+    date: 2014-11-21T12:19:04Z
+    grailsVersion: 2.0 > *
+  - version: '0.3'
+    date: 2014-11-18T09:12:43Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2014-11-17T10:01:58Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2014-11-15T18:05:05Z
+    grailsVersion: 2.0 > *

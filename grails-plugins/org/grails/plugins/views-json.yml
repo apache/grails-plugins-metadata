@@ -1,0 +1,82 @@
+name: json-views
+desc: Grails JSON Views
+coords: org.grails.plugins:views-json
+owner: grails
+vcs: https://github.com/grails/grails-views
+docs: https://views.grails.org/latest/#_json_views
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - json
+  - rest
+  - views
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0-M1
+    date: 2024-12-23T18:04:18Z
+    grailsVersion: 7.0.0 > *
+  - version: 4.0.0-M3
+    date: 2025-03-04T18:17:17Z
+    grailsVersion: 7.0.0 > *
+  - version: 3.2.3
+    date: 2024-04-06T08:01:32Z
+    grailsVersion: 6.0.0 > *
+  - version: 3.2.2
+    date: 2024-03-30T15:00:37Z
+    grailsVersion: 6.0.0 > *
+  - version: 3.2.1
+    date: 2024-03-23T05:07:30Z
+    grailsVersion: 6.0.0 > *
+  - version: 3.1.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 3.1.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 3.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 3.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 3.0.0-M1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 3.0.0-RC1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.3.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.3.1
+    date: 2025-10-10T22:18:51Z
+  - version: 2.3.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.2.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.2.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.0.RC1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.0.RC2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.0.RC3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 2.1.0-RC4
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *

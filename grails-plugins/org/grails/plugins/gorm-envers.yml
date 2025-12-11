@@ -1,0 +1,23 @@
+name: gorm-envers
+desc: The gorm-envers Grails plugin add auditting functionality to GROM in your Grails application using
+  Hibernate Envers. The only thing you need to do is add @Audited annotation to the Domain Class that
+  you want to audit. Hibernate Envers will create audit table in the Database for the annotated domain
+  and log all change history.
+coords: org.grails.plugins:gorm-envers
+owner: yingliang-du
+vcs: https://github.com/Yingliang-Du/gorm-envers-grails-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - envers
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.3'
+    date: 2021-02-25T04:11:33Z
+    grailsVersion: 3.0.3 > *
+  - version: '0.2'
+    date: 2021-02-25T04:11:33Z
+    grailsVersion: 3.0.3 > *
+  - version: '0.1'
+    date: 2021-02-25T04:11:34Z
+    grailsVersion: 3.0.3 > *

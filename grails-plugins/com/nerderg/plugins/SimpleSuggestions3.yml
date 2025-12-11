@@ -1,0 +1,19 @@
+name: SimpleSuggestions3
+desc: |-
+  This is a simple, by convention, suggestion service to provide suggestions to auto complete controls.
+  Just point the auto complete JS URL at suggest/[subject]?term=bla and you get a JSON list of suggestion strings back.
+  You can add suggestion handlers to the service as a closure, or just add a text file named [subject].txt with an itemper line to be searched for matches. The simple search returns a result if an item string contains the term anywhere.
+  See docs for details.
+coords: com.nerderg.plugins:SimpleSuggestions3
+owner: nerderg
+vcs: https://github.com/nerdErg/simpleSuggestions3
+maven-repo: https://repo.grails.org/plugins
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.1'
+    date: 2021-02-25T04:13:42Z
+    grailsVersion: 3.3.10 > *
+  - version: '1.0'
+    date: 2021-02-25T04:13:42Z
+    grailsVersion: 3.3.10 > *

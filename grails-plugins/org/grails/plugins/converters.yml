@@ -1,0 +1,24 @@
+name: converters
+desc: Provides JSON and XML converters
+coords: org.grails.plugins:converters
+owner: grails
+vcs: https://github.com/grails-plugins/grails-plugin-converters
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - json
+  - xml
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0-M2
+    date: 2025-03-04T12:12:11Z
+    grailsVersion: 7.0.0-M2 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T14:00:37Z
+    grailsVersion: 7.0.0-M3 > *
+  - version: 6.0.0-M1
+    date: 2024-12-20T04:23:32Z
+    grailsVersion: 7.0.0-M1 > *
+  - version: 5.0.0
+    date: 2024-02-28T09:09:07Z
+    grailsVersion: 5.3.6 > *

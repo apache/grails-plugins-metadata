@@ -1,0 +1,27 @@
+name: mailgun
+desc: Grails grails-mailgun plugin
+coords: org.grails.plugins:grails-mailgun
+owner: orkonano
+vcs: https://github.com/orkonano/grails-mailgun
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - mail
+  - mailgun
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.3-b
+    date: 2021-02-25T04:05:48Z
+    grailsVersion: 3.1 > *
+  - version: 2.0.3
+    date: 2021-02-25T04:05:49Z
+    grailsVersion: 3.1 > *
+  - version: 2.0.2
+    date: 2021-02-25T04:05:49Z
+    grailsVersion: 3.1 > *
+  - version: 2.0.1
+    date: 2021-02-25T04:05:49Z
+    grailsVersion: 3.1 > *
+  - version: 2.0.0
+    date: 2021-02-25T04:05:50Z
+    grailsVersion: 3.0 > *

@@ -1,0 +1,18 @@
+name: aws
+desc: Grails AWS Plugin
+coords: org.grails.plugins:grails-aws
+owner: grails-aws
+vcs: https://github.com/grails-aws/grails-aws
+docs: https://grails-aws.github.io/grails-aws/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - aws
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.4
+    date: 2021-02-25T04:11:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.3
+    date: 2021-02-25T04:11:35Z
+    grailsVersion: 3.0.0 > *

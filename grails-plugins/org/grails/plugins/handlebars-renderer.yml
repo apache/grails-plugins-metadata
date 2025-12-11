@@ -1,0 +1,14 @@
+name: handlebars-renderer
+desc: Grails handlebars templates renderer plugin
+coords: org.grails.plugins:handlebars-renderer
+owner: salex772
+vcs: https://github.com/salex772/handlebars-renderer
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - handlebars
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.1.2
+    date: 2021-02-25T04:07:50Z
+    grailsVersion: 3.0.0 > *

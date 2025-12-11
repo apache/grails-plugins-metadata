@@ -1,0 +1,29 @@
+name: boselecta
+desc: Websocket autocomplete/ multi dependency selection plugin for grails 3
+coords: org.grails.plugins:boselecta
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-boselecta-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - autocomplete
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.4
+    date: 2021-02-25T04:01:41Z
+    grailsVersion: 2.0 > *
+  - version: 3.0.3
+    date: 2021-02-25T04:01:42Z
+    grailsVersion: 2.0 > *
+  - version: 3.0.2
+    date: 2021-02-25T04:01:42Z
+    grailsVersion: 2.0 > *
+  - version: 3.0.1
+    date: 2021-02-25T04:01:42Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2016-10-20T19:08:43Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2016-10-22T18:09:22Z
+    grailsVersion: 2.0 > *

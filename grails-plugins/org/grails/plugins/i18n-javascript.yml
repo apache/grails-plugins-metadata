@@ -1,0 +1,18 @@
+name: i18n-javascript
+desc: Render all Grails i18n messages to Javascript
+coords: org.grails.plugins:i18n-javascript
+owner: salex772
+vcs: https://github.com/salex772/i18n-javascript
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - i18n
+  - javascript
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.4.2
+    date: 2021-02-25T04:08:49Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.4.1
+    date: 2021-02-25T04:08:49Z
+    grailsVersion: 3.1.1 > *

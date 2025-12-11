@@ -1,0 +1,23 @@
+name: embedded-mongodb
+desc: Executes an embedded mongo database for integration or functional testing
+coords: org.grails.plugins:embedded-mongodb
+owner: grails
+vcs: https://github.com/grails/grails-embedded-mongodb
+docs: https://grails.github.io/grails-embedded-mongodb/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - testing
+  - database
+  - mongodb
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.11 > *
+  - version: 2.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.11 > *
+  - version: 2.0.0-M2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.11 > *

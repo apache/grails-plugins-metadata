@@ -1,0 +1,19 @@
+name: Grails Sanitizer
+desc: A Grails Plugin for sanitizing markup using the OWASP AntiSamy library.
+coords: io.github.carlosmtobon:grails-sanitizer-plugin
+owner: carlosmtobon
+vcs: https://github.com/carlosmtobon/grails-sanitizer-plugin
+docs: https://github.com/carlosmtobon/grails-sanitizer-plugin#readme
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - sanitizer
+  - antisamy
+licenses:
+  - MIT
+versions:
+  - version: 1.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.1.9 > *
+  - version: 1.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 5.1.9 > *

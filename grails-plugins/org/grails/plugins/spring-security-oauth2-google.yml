@@ -1,0 +1,23 @@
+name: spring-security-oauth2-google
+desc: This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2.
+  v1.2.0 starts after fork to grails-plugins org. Includes unreleased 1.1.1 from other repo.
+coords: org.grails.plugins:spring-security-oauth2-google
+owner: grails
+vcs: https://github.com/grails-plugins/grails-spring-security-oauth2-google
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.2.0
+    date: 2021-02-25T04:14:04Z
+    grailsVersion: 3.1.8 > *
+  - version: 1.1.0
+    date: 2021-02-25T04:14:04Z
+    grailsVersion: 3.1.8 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:14:05Z
+    grailsVersion: 3.1.8 > *

@@ -1,0 +1,92 @@
+name: browser-detection
+desc: Grails Browser Detection Plugin
+coords: org.grails.plugins:browser-detection
+owner: mathifonseca
+vcs: https://github.com/mathifonseca/grails-browser-detection
+maven-repo: https://repo.grails.org/plugins
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.4.0
+    date: 2021-02-25T04:01:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.3.0
+    date: 2021-02-25T04:01:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.0
+    date: 2021-02-25T04:01:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0
+    date: 2021-02-25T04:01:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2021-02-25T04:01:44Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0
+    date: 2021-04-20T11:01:32Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.9.0
+    date: 2018-04-02T17:23:09Z
+    grailsVersion: 2.2 > *
+  - version: 2.8.1
+    date: 2017-03-31T18:20:33Z
+    grailsVersion: 2.2 > *
+  - version: 2.8.0
+    date: 2016-08-17T12:15:02Z
+    grailsVersion: 2.3 > *
+  - version: 2.7.0
+    date: 2016-03-10T13:04:49Z
+    grailsVersion: 2.3 > *
+  - version: 2.6.1
+    date: 2016-03-04T12:14:40Z
+    grailsVersion: 2.3 > *
+  - version: 2.6.0
+    date: 2016-03-03T12:05:37Z
+    grailsVersion: 2.3 > *
+  - version: 2.5.0
+    date: 2015-08-04T10:11:35Z
+    grailsVersion: 2.3 > *
+  - version: 2.4.0
+    date: 2015-08-01T16:05:08Z
+    grailsVersion: 2.3 > *
+  - version: 2.3.0
+    date: 2015-05-07T13:16:44Z
+    grailsVersion: 2.3 > *
+  - version: 2.2.0
+    date: 2015-01-08T18:08:47Z
+    grailsVersion: 2.3 > *
+  - version: 2.1.0
+    date: 2014-10-08T09:23:13Z
+    grailsVersion: 2.3 > *
+  - version: 2.0.0
+    date: 2014-09-16T13:21:04Z
+    grailsVersion: 2.3 > *
+  - version: 0.4.3
+    date: 2013-01-07T20:15:13Z
+    grailsVersion: 1.2.2 > *
+  - version: 0.4.2
+    date: 2013-01-06T19:10:32Z
+    grailsVersion: 1.2.2 > *
+  - version: 0.4.1
+    date: 2012-05-26T15:23:15Z
+    grailsVersion: 1.2.2 > *
+  - version: '0.4'
+    date: 2012-05-23T08:04:50Z
+    grailsVersion: 1.2.2 > *
+  - version: 0.3.3
+    date: 2012-03-13T19:05:41Z
+    grailsVersion: 1.2.2 > *
+  - version: 0.3.2
+    date: 2012-03-13T19:05:41Z
+    grailsVersion: 1.2.2 > *
+  - version: 0.3.1
+    date: 2012-03-13T19:05:40Z
+    grailsVersion: 1.2.2 > *
+  - version: '0.3'
+    date: 2012-03-13T19:05:40Z
+    grailsVersion: 1.2.2 > *
+  - version: '0.2'
+    date: 2012-03-13T19:05:40Z
+    grailsVersion: 1.2.2 > *
+  - version: '0.1'
+    date: 2012-03-13T19:05:39Z

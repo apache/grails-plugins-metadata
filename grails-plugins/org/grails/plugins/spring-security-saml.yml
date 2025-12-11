@@ -1,0 +1,112 @@
+name: spring-security-saml
+desc: Grails 3 Saml2 Support for Spring Security plugin.
+coords: org.grails.plugins:spring-security-saml
+owner: jeffwils
+vcs: https://github.com/jeffwils/grails-spring-security-saml
+docs: https://jeffwils.github.io/grails-spring-security-saml/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - saml
+licenses:
+  - Apache-2.0
+deprecated: The source repository for this entry states to use the entry with the same name from author
+  valentingoebel. This entry should probably be removed from the registry to avoid confusion.
+versions:
+  - version: 4.0.2
+    date: 2021-02-25T04:14:16Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.0.1
+    date: 2021-02-25T04:14:17Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.0.0
+    date: 2021-02-25T04:14:17Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.3.1
+    date: 2021-02-25T04:14:18Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.3.0
+    date: 2021-04-18T12:04:19Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.1.2
+    date: 2021-02-25T04:14:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.1
+    date: 2021-02-25T04:14:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0
+    date: 2021-02-25T04:14:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2021-02-25T04:14:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0
+    date: 2021-02-25T04:14:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.1
+    date: 2015-10-08T11:03:03Z
+    grailsVersion: 1.3 > *
+  - version: 2.0.0
+    date: 2015-10-10T08:06:55Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M1
+    date: 2012-03-13T19:06:34Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M2
+    date: 2012-03-13T19:06:37Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M3
+    date: 2012-03-13T19:06:37Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M4
+    date: 2012-03-13T19:06:38Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M5
+    date: 2012-03-13T19:06:38Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M6
+    date: 2012-03-13T19:06:39Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M7
+    date: 2012-03-13T19:06:39Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M8
+    date: 2012-03-13T19:06:39Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M9
+    date: 2012-03-13T19:06:40Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M10
+    date: 2012-03-13T19:06:34Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M11
+    date: 2012-03-13T19:06:35Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M12
+    date: 2012-03-13T19:06:35Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M13
+    date: 2012-03-13T19:06:36Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M14
+    date: 2012-03-13T19:06:36Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M15
+    date: 2012-06-28T10:04:34Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M16
+    date: 2012-07-03T08:03:54Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M17
+    date: 2012-11-03T20:22:45Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M18
+    date: 2013-03-15T15:22:40Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M19
+    date: 2013-03-15T06:06:33Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.0.M20
+    date: 2013-03-15T11:19:01Z
+    grailsVersion: 1.3 > *

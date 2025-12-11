@@ -1,0 +1,20 @@
+name: mailwatcher
+desc: This Plugin reads unread mails from provided mail account Id. To Grails 3 updated Version of https://github.com/IntelliGrape/Grails-Mail-Watcher-Plugin.
+coords: org.grails.plugins:mailwatcher
+owner: junehasissues
+vcs: https://github.com/JuNeHasIssues/grails-mailwatcher
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - mail
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.4.1
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2.11 > *
+  - version: '0.3'
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2.9 > *
+  - version: '0.1'
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2.9 > *

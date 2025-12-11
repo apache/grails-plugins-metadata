@@ -1,0 +1,32 @@
+name: grails-redis
+desc: Grails Redis plugin
+coords: org.grails.plugins:grails-redis
+owner: grails
+vcs: https://github.com/grails/grails-redis
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - redis
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.0-M1
+    date: 2024-12-24T22:18:54Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 5.0.0-M3
+    date: 2025-03-07T19:01:17Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.0.0 > *

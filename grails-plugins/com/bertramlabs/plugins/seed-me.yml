@@ -1,0 +1,53 @@
+name: seed-me
+desc: Implements a standard convention for adding seed data to your application..
+coords: com.bertramlabs.plugins:seed-me
+owner: bertramlabs
+vcs: https://github.com/bertramdev/seed-me
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - seed
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-01-01T15:10:41Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.8
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.7
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.5
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.4
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.2.1
+    date: 2021-09-01T09:22:37Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.2.0
+    date: 2021-08-18T20:05:41Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.1.6
+    date: 2021-04-22T11:16:41Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.1.5
+    date: 2021-04-20T19:20:41Z
+    grailsVersion: 3.3.0 > *
+  - version: 4.1.4
+    date: 2021-03-30T23:22:23Z
+    grailsVersion: 3.3.0 > *

@@ -1,0 +1,24 @@
+name: actuator-ui
+desc: Grails actuator-ui plugin
+coords: org.grails.plugins:actuator-ui
+owner: dmahapatro
+vcs: https://github.com/dmahapatro/grails-actuator-ui
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - spring-boot-actuator
+  - health-check
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.1'
+    date: 2021-02-24T04:22:36Z
+    grailsVersion: 3.1.0 > *
+  - version: '1.0'
+    date: 2021-02-24T04:22:36Z
+    grailsVersion: 3.1.0 > *
+  - version: '0.2'
+    date: 2021-02-24T04:22:37Z
+    grailsVersion: 3.0.0 > *
+  - version: '0.1'
+    date: 2021-02-24T04:22:38Z
+    grailsVersion: 3.0.0 > *

@@ -1,0 +1,23 @@
+name: hazelgrails
+desc: Hazelcast Grails Integration
+coords: org.grails.plugins:hazelgrails
+owner: enesakar
+vcs: https://github.com/enesakar/hazelgrails
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - hazelcast
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-25T04:07:53Z
+    grailsVersion: 3.0.2 > *
+  - version: 1.0.1
+    date: 2021-02-25T04:07:53Z
+    grailsVersion: 3.0.2 > *
+  - version: '1.0'
+    date: 2021-02-25T04:07:53Z
+    grailsVersion: 3.0.2 > *
+  - version: '0.1'
+    date: 2012-04-17T08:10:05Z
+    grailsVersion: 1.3 > *

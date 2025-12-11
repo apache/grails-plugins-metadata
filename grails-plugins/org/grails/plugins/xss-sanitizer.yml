@@ -1,0 +1,29 @@
+name: xss-sanitizer
+desc: This plugin uses OWASP ESAPI library to sanitize request parameters. This reduces the risk of dangerous
+  XSS request parameters possibly being rendered on the client.
+coords: org.grails.plugins:xss-sanitizer
+owner: rpalcolea
+vcs: https://github.com/rpalcolea/grails-xss-sanitizer
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - xss
+  - owasp
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0
+    date: 2021-02-25T04:15:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.4.1
+    date: 2018-09-12T02:05:17Z
+    grailsVersion: 2.0 > *
+  - version: 0.4.0
+    date: 2015-09-23T03:07:14Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2014-03-12T10:13:49Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2012-08-15T02:01:03Z
+    grailsVersion: 2.0 > *

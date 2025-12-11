@@ -1,0 +1,49 @@
+name: console
+desc: A web-based Groovy console for interactive runtime application management and debugging.
+coords: org.grails.plugins:grails-console
+owner: sheehan
+vcs: https://github.com/sheehan/grails-console
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - console
+  - management
+  - debugging
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.1.1
+    date: 2021-02-25T04:03:02Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2021-02-25T04:03:03Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.9
+    date: 2021-02-25T04:03:03Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.8
+    date: 2021-02-25T04:03:03Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.7
+    date: 2021-02-25T04:03:03Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.6
+    date: 2021-02-25T04:03:04Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.5
+    date: 2021-02-25T04:03:03Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.4
+    date: 2021-02-25T04:03:04Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.3
+    date: 2021-02-25T04:03:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.2
+    date: 2021-02-25T04:03:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.1
+    date: 2021-02-25T04:03:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0
+    date: 2021-02-25T04:03:05Z
+    grailsVersion: 3.0.0 > *

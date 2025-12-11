@@ -1,0 +1,33 @@
+name: hazelcast
+desc: Grails hazelcast plugin
+coords: org.grails.plugins:hazelcast
+owner: budjb
+vcs: https://github.com/budjb/grails-hazelcast
+docs: https://budjb.github.io/grails-hazelcast/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - hazelcast
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.1.1
+    date: 2021-02-25T04:07:50Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.1.0
+    date: 2021-02-25T04:07:51Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.4
+    date: 2021-02-25T04:07:51Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.3
+    date: 2021-02-25T04:07:52Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.2
+    date: 2021-02-25T04:07:52Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.1
+    date: 2021-02-25T04:07:52Z
+    grailsVersion: 3.1.9 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:07:53Z
+    grailsVersion: 3.1.9 > *

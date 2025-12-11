@@ -1,0 +1,31 @@
+name: spring-security-saml
+desc: Grails spring-security-saml plugin
+coords: io.github.grails-spring-security-saml:spring-security-saml
+owner: valentingoebel
+vcs: https://github.com/grails-spring-security-saml/grails-spring-security-saml
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - spring-security
+  - saml
+licenses:
+  - Apache-2.0
+versions:
+  - version: 6.0.10
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.9
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.8
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.0-RC2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.0-RC3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.3.0 > *

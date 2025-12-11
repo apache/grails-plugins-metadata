@@ -1,0 +1,17 @@
+name: x-frame-options
+desc: Servlet filter that adds a X-FRAME-OPTIONS response header
+coords: org.grails.plugins:x-frame-options
+owner: mrhaki
+vcs: https://github.com/mrhaki/grails-x-frame-options-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.1.2
+    date: 2021-02-25T04:15:07Z
+    grailsVersion: 3.2.6 > *
+  - version: 1.1.1
+    date: 2021-02-25T04:15:07Z
+    grailsVersion: 3.2.6 > *

@@ -1,0 +1,26 @@
+name: twitter-service
+desc: Use Twitter API to read and write twitter data
+coords: org.grails.plugins:twitter-service
+owner: novadge
+vcs: https://github.com/Novadge/twitter-service
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - twitter
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.2.4
+    date: 2021-02-25T04:14:28Z
+    grailsVersion: 3.1.1 > *
+  - version: 0.2.3
+    date: 2021-02-25T04:14:28Z
+    grailsVersion: 3.1.1 > *
+  - version: 0.2.2
+    date: 2021-02-25T04:14:28Z
+    grailsVersion: 3.1.1 > *
+  - version: 0.2.1
+    date: 2021-02-25T04:14:28Z
+    grailsVersion: 3.1.1 > *
+  - version: 0.1.9
+    date: 2021-02-25T04:14:29Z
+    grailsVersion: 3.1.1 > *

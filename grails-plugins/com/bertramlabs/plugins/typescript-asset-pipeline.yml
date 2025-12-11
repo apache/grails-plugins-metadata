@@ -1,0 +1,48 @@
+name: typescript-asset-pipeline
+coords: com.bertramlabs.plugins:typescript-asset-pipeline
+owner: bertramlabs
+vcs: https://github.com/bertramdev/asset-pipeline
+docs: https://bertramdev.github.io/asset-pipeline/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - asset-pipeline
+  - typescript
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.3.0
+    date: 2023-05-01T14:20:58Z
+  - version: 4.2.0
+    date: 2023-04-12T13:13:30Z
+  - version: 4.1.0
+    date: 2023-03-02T16:23:12Z
+  - version: 4.0.0
+    date: 2022-11-04T14:07:08Z
+  - version: 3.4.7
+    date: 2022-09-29T19:22:19Z
+  - version: 3.4.6
+    date: 2022-04-12T19:06:48Z
+  - version: 3.4.5
+    date: 2022-04-08T13:18:50Z
+  - version: 3.4.4
+    date: 2022-03-23T19:12:32Z
+  - version: 3.4.3
+    date: 2022-02-12T01:09:33Z
+  - version: 3.4.2
+    date: 2022-02-11T01:18:06Z
+  - version: 3.4.1
+    date: 2022-02-09T13:12:54Z
+  - version: 3.4.0
+    date: 2022-02-08T19:19:42Z
+  - version: 3.3.6
+    date: 2021-10-05T16:18:04Z
+  - version: 3.3.5
+    date: 2021-10-05T11:18:39Z
+  - version: 3.3.4
+    date: 2021-09-07T13:01:48Z
+  - version: 3.3.3
+    date: 2021-08-09T13:09:02Z
+  - version: 3.3.2
+    date: 2021-04-21T13:02:00Z
+  - version: 3.0.8
+    date: 2019-03-01T16:03:46Z

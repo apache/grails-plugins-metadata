@@ -1,0 +1,18 @@
+name: jaxrs-swagger-ui
+desc: Integrates the Swagger UI with applications using JAX-RS resources.
+coords: org.grails.plugins:jaxrs-swagger-ui
+owner: budjb
+vcs: https://github.com/budjb/grails-jaxrs
+docs: https://budjb.github.io/grails-jaxrs/3.x/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - jax-rs
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.1.0
+    date: 2021-02-25T04:09:01Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.4
+    date: 2021-02-25T04:09:01Z
+    grailsVersion: 3.0 > *

@@ -1,0 +1,26 @@
+name: distributed-lock
+desc: |
+  This plugin provides a framework and interface for a synchronization mechanism distributed to multiple server instances.  In today's world of horizontal computational
+  scale and massive concurrency, it becomes increasingly difficult to synchronize operations outside the context of a single computational space (server/process).  This plugin aims to make that
+  easier by providing a simple service to facilitate this, as well as defining an interface for adding low level providers.
+coords: com.bertramlabs.plugins:distributed-lock
+owner: bertramlabs
+vcs: https://github.com/bertramdev/distributed-lock
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - lock
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2024-12-31T15:23:01Z
+    grailsVersion: 3.1.5 > *
+  - version: 4.0.11
+    date: 2022-10-04T22:16:25Z
+    grailsVersion: 3.1.5 > *
+  - version: 4.0.10
+    date: 2021-03-31T00:02:59Z
+    grailsVersion: 3.1.5 > *
+  - version: 4.0.9
+    date: 2021-03-30T23:07:15Z
+    grailsVersion: 3.1.5 > *

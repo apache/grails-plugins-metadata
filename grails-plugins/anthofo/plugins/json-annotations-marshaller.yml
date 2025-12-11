@@ -1,0 +1,15 @@
+name: json-annotations-marshaller
+desc: Grails plugin for managing JSON marshalling through annotations
+coords: anthofo.plugins:json-annotations-marshaller
+owner: anthony-foulfoin
+vcs: https://github.com/anthony-foulfoin/grails3-json-annotations-marshaller
+maven-repo: https://repo.grails.org/core
+labels:
+  - json
+licenses:
+  - Apache-2.0
+deprecated: Source repository for this entry was archived by the owner on Aug 29, 2022.
+versions:
+  - version: '1.0'
+    date: 2015-07-07T14:00:19Z
+    grailsVersion: 3.0.1 > *

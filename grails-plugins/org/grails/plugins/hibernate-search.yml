@@ -1,0 +1,84 @@
+name: hibernate-search
+desc: This plugin aims to integrate Hibernate Search features to Grails in very few steps.
+coords: org.grails.plugins:hibernate-search
+owner: lgrignon
+vcs: https://github.com/mathpere/grails-hibernate-search-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - search
+  - hibernate
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.4.0
+    date: 2021-02-25T04:07:58Z
+    grailsVersion: 3.2 > *
+  - version: 2.3.0
+    date: 2021-02-25T04:07:58Z
+    grailsVersion: 3.2 > *
+  - version: 2.2.1
+    date: 2021-02-25T04:07:58Z
+    grailsVersion: 3.2 > *
+  - version: 2.2.0
+    date: 2021-04-20T11:08:56Z
+    grailsVersion: 3.2 > *
+  - version: 2.1.2
+    date: 2021-02-25T04:07:59Z
+    grailsVersion: 3.2 > *
+  - version: 2.1.1
+    date: 2021-02-25T04:07:59Z
+    grailsVersion: 3.2 > *
+  - version: 2.1.0
+    date: 2021-02-25T04:07:59Z
+    grailsVersion: 3.2 > *
+  - version: 2.0.3
+    date: 2021-04-20T11:08:58Z
+    grailsVersion: 3.1.12 > *
+  - version: 2.0.2
+    date: 2021-02-25T04:08:00Z
+    grailsVersion: 3.1.12 > *
+  - version: 2.0.1
+    date: 2021-02-25T04:08:00Z
+    grailsVersion: 3.1.12 > *
+  - version: '2.0'
+    date: 2021-02-25T04:08:01Z
+    grailsVersion: 3.1.12 > *
+  - version: '0.8'
+    date: 2013-09-21T06:23:37Z
+    grailsVersion: 2.0 > *
+  - version: '0.7'
+    date: 2012-08-21T07:13:07Z
+    grailsVersion: 2.0 > *
+  - version: 0.6.1
+    date: 2012-05-10T06:01:10Z
+    grailsVersion: 2.0 > *
+  - version: 0.6.0
+    date: 2012-05-07T08:03:06Z
+    grailsVersion: 2.0 > *
+  - version: 0.5.1
+    date: 2012-05-04T11:06:32Z
+    grailsVersion: 2.0 > *
+  - version: '0.5'
+    date: 2012-05-04T12:06:12Z
+    grailsVersion: 2.0 > *
+  - version: 0.4.3
+    date: 2012-04-13T13:22:16Z
+    grailsVersion: 2.0 > *
+  - version: 0.4.2
+    date: 2012-05-23T10:17:12Z
+    grailsVersion: 2.0 > *
+  - version: 0.4.1
+    date: 2012-05-23T10:15:38Z
+    grailsVersion: 2.0 > *
+  - version: '0.4'
+    date: 2012-03-13T19:07:34Z
+    grailsVersion: 2.0 > *
+  - version: '0.3'
+    date: 2012-03-13T19:07:34Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2012-03-13T19:07:34Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2012-03-13T19:07:33Z
+    grailsVersion: 2.0 > *

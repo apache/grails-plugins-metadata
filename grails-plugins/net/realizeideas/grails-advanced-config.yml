@@ -1,0 +1,13 @@
+name: advanced-config
+desc: Grails Advanced Config Plugin
+coords: net.realizeideas:grails-advanced-config
+owner: reid
+vcs: https://github.com/RealizeIdeas/grails-advanced-config
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - config
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.0'
+    date: 2021-02-25T04:05:23Z

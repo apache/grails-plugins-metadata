@@ -1,0 +1,21 @@
+name: modninfobip
+desc: Infobip SMS Grails plugin
+coords: com.modnsolutions:modninfobip
+owner: modnsolutions
+vcs: https://github.com/osaetinevbuoma/modninfobip
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - infobip
+  - sms
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-25T04:10:27Z
+    grailsVersion: 3.1.10 > *
+  - version: 1.0.1
+    date: 2021-02-25T04:10:27Z
+    grailsVersion: 3.1.10 > *
+  - version: '1.0'
+    date: 2021-02-25T04:10:28Z
+    grailsVersion: 3.1.10 > *

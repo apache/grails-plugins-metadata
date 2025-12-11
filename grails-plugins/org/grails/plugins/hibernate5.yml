@@ -1,0 +1,87 @@
+name: hibernate5
+desc: GORM - Grails Data Access Framework
+coords: org.grails.plugins:hibernate5
+owner: grails
+vcs: https://github.com/grails/grails-data-mapping
+docs: https://grails.github.io/grails-data-mapping/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - database
+  - gorm
+  - hibernate
+  - rdms
+licenses:
+  - Apache-2.0
+versions:
+  - version: 9.0.0-M2
+    date: 2024-12-21T21:05:43Z
+    grailsVersion: 3.1.0 > *
+  - version: 9.0.0-M3
+    date: 2025-03-04T14:15:30Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.1.1
+    date: 2024-11-20T00:01:18Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.0-M1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.0-M2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 8.0.0-RC1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.3.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.3.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.2.2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.2.1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.2.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.1.0
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.1.0.RC1
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.1.0.RC2
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.1.0.RC3
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.1.0-RC4
+    date: 2025-10-10T22:18:51Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.0.7
+    date: 2022-12-20T02:23:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.0.6
+    date: 2022-01-13T09:12:44Z
+    grailsVersion: 3.1.0 > *
+  - version: 7.0.5
+    date: 2021-05-30T11:11:26Z
+    grailsVersion: 3.1.0 > *

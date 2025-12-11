@@ -1,0 +1,59 @@
+name: spring-security-oauth2-provider
+desc: Grails OAuth 2 Provider Plugin
+coords: org.grails.plugins:spring-security-oauth2-provider
+owner: grails
+vcs: https://github.com/grails-plugins/grails-spring-security-oauth2-provider
+docs: https://grails-plugins.github.io/grails-spring-security-oauth2-provider/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0-RC1
+    date: 2021-02-25T04:14:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.1
+    date: 2021-02-25T04:14:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0-RC1
+    date: 2021-02-25T04:14:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0-RC1
+    date: 2021-02-25T04:14:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0-RC2
+    date: 2021-02-25T04:14:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0-RC1
+    date: 2014-09-08T15:00:43Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC2
+    date: 2014-11-28T12:07:06Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC3
+    date: 2015-03-19T15:01:40Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC4
+    date: 2015-05-07T03:08:18Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC5
+    date: 2015-09-22T00:02:06Z
+    grailsVersion: 2.3 > *
+  - version: 1.0.5.2
+    date: 2014-01-22T19:05:34Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.5.1
+    date: 2013-12-08T23:09:55Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.5
+    date: 2013-11-29T17:12:13Z
+    grailsVersion: 1.2.2 > *
+  - version: 1.0.0.M5.1
+    date: 2012-03-13T19:06:30Z
+    grailsVersion: 1.2.2 > *
+  - version: 1.0.0.M5
+    date: 2012-03-13T19:06:29Z
+    grailsVersion: 1.2.2 > *

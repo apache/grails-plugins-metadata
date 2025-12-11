@@ -1,0 +1,43 @@
+name: cache-ehcache
+desc: Provides an ehcache implementation of the cache plugin
+coords: org.grails.plugins:cache-ehcache
+owner: grails
+vcs: https://github.com/grails-plugins/grails-cache-ehcache
+docs: https://grails-plugins.github.io/grails-cache-ehcache/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cache
+  - ehcache
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2021-02-25T04:01:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0.M1
+    date: 2021-02-25T04:01:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.5
+    date: 2015-02-28T18:23:52Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.4
+    date: 2014-10-24T19:00:23Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.3
+    date: 2014-09-22T01:13:16Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.2
+    date: 2014-07-09T18:01:08Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.1
+    date: 2014-03-07T15:10:15Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.0
+    date: 2012-07-05T21:14:59Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.0.M1
+    date: 2012-05-03T05:21:20Z
+    grailsVersion: 2.0 > *
+  - version: 1.0.0.M2
+    date: 2012-05-12T04:16:55Z
+    grailsVersion: 2.0 > *

@@ -1,0 +1,48 @@
+name: excel-import
+desc: Grails Excel Import Plugin
+coords: org.grails.plugins:excel-import
+owner: gpc
+vcs: https://github.com/gpc/grails-excel-import
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - excel
+  - import
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.2
+    date: 2021-02-25T04:04:35Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.1
+    date: 2021-02-25T04:04:36Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0
+    date: 2021-02-25T04:04:36Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0.RC1
+    date: 2021-02-25T04:04:38Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0.RC2
+    date: 2021-02-25T04:04:37Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0.RC3
+    date: 2021-02-25T04:04:37Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0.RC4
+    date: 2021-02-25T04:04:36Z
+    grailsVersion: 3.1.10 > *
+  - version: 3.0.0.RC6
+    date: 2021-02-25T04:04:36Z
+    grailsVersion: 3.1.10 > *
+  - version: 1.0.0
+    date: 2012-03-13T19:06:16Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.6
+    date: 2012-03-13T19:06:15Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.9.5
+    date: 2012-03-13T19:06:15Z
+    grailsVersion: 1.3.0 > *
+  - version: '0.3'
+    date: 2012-03-13T19:06:14Z
+    grailsVersion: 1.2.0 > *

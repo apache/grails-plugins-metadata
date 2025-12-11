@@ -1,0 +1,16 @@
+name: spring-security-oauth2-facebook
+desc: This plugin provides the capability to authenticate via facebook-oauth provider. Depends on grails-spring-security-oauth2.
+coords: org.grails.plugins:spring-security-oauth2-facebook
+owner: matrixcrawler
+vcs: https://github.com/MatrixCrawler/grails-spring-security-oauth2-facebook
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0
+    date: 2021-02-25T04:14:03Z
+    grailsVersion: 3.1.8 > *

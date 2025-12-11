@@ -1,0 +1,41 @@
+name: angular-annotate-asset-pipeline
+desc: AngularJS Annotate for Asset Pipeline 2.0+
+coords: com.craigburke.angular:angular-annotate-asset-pipeline
+owner: craigburke
+vcs: https://github.com/craigburke/angular-annotate-asset-pipeline
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - angular-1
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.4.1
+    date: 2016-05-13T14:09:57Z
+  - version: 2.4.0
+    date: 2015-11-18T20:06:17Z
+  - version: 2.2.3
+    date: 2015-10-16T09:20:23Z
+  - version: 2.2.2
+    date: 2015-09-29T13:17:22Z
+  - version: 2.2.1
+    date: 2015-09-28T13:22:26Z
+  - version: 2.2.0
+    date: 2015-09-03T23:22:14Z
+  - version: 2.1.2
+    date: 2015-07-30T12:20:01Z
+  - version: 2.1.1
+    date: 2015-07-09T11:11:44Z
+  - version: 2.1.0
+    date: 2015-02-22T13:16:29Z
+  - version: 2.0.6
+    date: 2015-02-13T21:08:01Z
+  - version: 2.0.5
+    date: 2015-02-12T16:01:24Z
+  - version: 2.0.4
+    date: 2015-02-02T16:21:20Z
+  - version: 2.0.3
+    date: 2015-02-01T21:04:54Z
+  - version: 2.0.2
+    date: 2014-12-06T15:03:09Z
+  - version: 2.0.1
+    date: 2014-12-04T15:09:31Z

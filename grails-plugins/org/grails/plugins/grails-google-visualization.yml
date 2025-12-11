@@ -1,0 +1,26 @@
+name: google-visualization
+desc: Grails grails-google-visualization plugin
+coords: org.grails.plugins:grails-google-visualization
+owner: bmuschko
+vcs: https://github.com/bmuschko/grails-google-visualization
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - google
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.2.1
+    date: 2021-02-25T04:05:39Z
+    grailsVersion: 3.0.0 > *
+  - version: '2.2'
+    date: 2021-02-25T04:05:39Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.1
+    date: 2021-02-25T04:05:40Z
+    grailsVersion: 3.0.0 > *
+  - version: '2.1'
+    date: 2021-02-25T04:05:39Z
+    grailsVersion: 3.0.0 > *
+  - version: '2.0'
+    date: 2021-02-25T04:05:40Z
+    grailsVersion: 3.0.0 > *

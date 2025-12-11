@@ -1,0 +1,32 @@
+name: java8
+desc: Provides support for Java 8 specific features in Grails
+coords: org.grails.plugins:grails-java8
+owner: grails
+vcs: https://github.com/grails-plugins/grails-java8
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - java-date-time
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.2.3
+    date: 2021-02-25T04:05:46Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.2.2
+    date: 2021-02-25T04:05:47Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.2.1
+    date: 2021-02-25T04:05:47Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.2.0
+    date: 2021-02-25T04:05:47Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.1.1
+    date: 2021-04-20T11:06:06Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.1.0
+    date: 2021-04-20T11:06:06Z
+    grailsVersion: 3.2.1 > *
+  - version: 1.0.0
+    date: 2021-02-25T04:05:48Z
+    grailsVersion: 3.2.0 > *

@@ -1,0 +1,62 @@
+name: melody
+desc: Integrate JavaMelody monitoring into Grails application.
+coords: org.grails.plugins:grails-melody-plugin
+owner: sergiomichels
+vcs: https://github.com/javamelody/grails-melody-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - javamelody
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.80.0
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2 > *
+  - version: 1.76.1
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2 > *
+  - version: 1.76.0
+    date: 2021-02-25T04:05:51Z
+    grailsVersion: 3.2 > *
+  - version: 1.74.0
+    date: 2021-02-25T04:05:52Z
+    grailsVersion: 3.2 > *
+  - version: 1.73.2
+    date: 2021-02-25T04:05:52Z
+    grailsVersion: 3.2 > *
+  - version: 1.73.1
+    date: 2021-02-25T04:05:53Z
+    grailsVersion: 3.2 > *
+  - version: 1.73.0
+    date: 2021-02-25T04:05:53Z
+    grailsVersion: 3.2 > *
+  - version: 1.72.0
+    date: 2021-02-25T04:05:53Z
+    grailsVersion: 3.2 > *
+  - version: 1.70.0
+    date: 2021-02-25T04:05:53Z
+    grailsVersion: 3.2 > *
+  - version: 1.69.0
+    date: 2021-02-25T04:05:54Z
+    grailsVersion: 3.2 > *
+  - version: 1.67.0
+    date: 2021-02-25T04:05:54Z
+    grailsVersion: 3.0 > *
+  - version: 1.65.0
+    date: 2021-02-25T04:05:54Z
+    grailsVersion: 3.0 > *
+  - version: 1.63.0
+    date: 2021-02-25T04:05:55Z
+    grailsVersion: 3.0 > *
+  - version: 1.62.0
+    date: 2021-02-25T04:05:55Z
+    grailsVersion: 3.0 > *
+  - version: 1.60.1
+    date: 2021-02-25T04:05:55Z
+    grailsVersion: 3.0 > *
+  - version: 1.60.0
+    date: 2021-02-25T04:05:56Z
+    grailsVersion: 3.0 > *
+  - version: 1.59.0
+    date: 2021-02-25T04:05:56Z
+    grailsVersion: 3.0 > *

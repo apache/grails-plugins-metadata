@@ -1,0 +1,24 @@
+name: spring-security-appinfo
+desc: Grails spring-security-appinfo plugin
+coords: org.grails.plugins:spring-security-appinfo
+owner: grails
+vcs: https://github.com/grails-plugins/grails-spring-security-appinfo
+docs: https://grails-plugins.github.io/grails-spring-security-appinfo/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - spring-security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.1
+    date: 2021-02-25T04:13:50Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0
+    date: 2015-12-08T23:22:35Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC2
+    date: 2013-10-05T17:08:37Z
+    grailsVersion: 2.0 > *
+  - version: '1.0'
+    date: 2012-03-13T19:06:30Z
+    grailsVersion: 1.2.3 > *
