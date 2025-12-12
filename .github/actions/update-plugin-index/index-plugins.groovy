@@ -549,23 +549,19 @@ class Utils {
     }
 }
 
-def specificPluginFile = (args && args.length > 0) ? new File(args[0]) : null
-if (specificPluginFile) {
-    if (!specificPluginFile.exists() || !specificPluginFile.isFile()) {
-        System.err.println("ERROR: Specified file '$specificPluginFile.path' does not exist or is not a file")
-        System.exit(1)
-    }
-    Utils.processPluginFile(specificPluginFile)
-    println("Processed single file: $specificPluginFile.path")
+def fileArg = (args && args.length > 0) ? new File(args[0]) : 'grails-plugins' as File
+
+if (fileArg.file) {
+    Utils.processPluginFile(fileArg)
+    println("Processed single file: $fileArg.path")
 }
 else {
-    def rootDir = 'grails-plugins' as File
-    if (!rootDir.exists() || !rootDir.directory) {
-        System.err.println("ERROR: Directory 'grails-plugins' not found in ${('.' as File).absolutePath}")
+    if (!fileArg.exists() || !fileArg.directory) {
+        System.err.println("ERROR: Directory '$fileArg.path' not found in ${('.' as File).absolutePath}")
         System.exit(1)
     }
     List<Map> indexEntries = []
-    rootDir.eachFileRecurse(FileType.FILES) { f ->
+    fileArg.eachFileRecurse(FileType.FILES) { f ->
         def pluginInfo = Utils.processPluginFile(f)
         // Add to index (include everything from YAML)
         if (pluginInfo) {
