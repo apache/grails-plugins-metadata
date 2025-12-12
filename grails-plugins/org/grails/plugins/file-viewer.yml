@@ -13,11 +13,11 @@ comment: There does not seem to exist a published release version compatible wit
   writing.
 versions:
   - version: '0.3'
-    date: 2012-03-13T19:05:57Z
+    date: 2012-03-12T20:30:57Z
     grailsVersion: 1.1 > *
   - version: '0.2'
-    date: 2012-03-13T19:05:57Z
+    date: 2012-03-12T20:30:57Z
     grailsVersion: 1.1 > *
   - version: '0.1'
-    date: 2012-03-13T19:05:57Z
+    date: 2012-03-12T20:30:57Z
     grailsVersion: 1.1 > *

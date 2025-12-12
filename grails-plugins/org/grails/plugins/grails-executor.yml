@@ -12,11 +12,11 @@ deprecated: 'Source repository is archived. As per the readme: This plugin is no
   This entry in the registry should probably be removed.'
 versions:
   - version: '0.4'
-    date: 2021-02-25T04:05:37Z
+    date: 2021-02-24T05:30:37Z
     grailsVersion: 3.1 > *
   - version: '0.2'
-    date: 2021-02-25T04:05:37Z
+    date: 2021-02-24T05:30:37Z
     grailsVersion: 3.1 > *
   - version: '0.1'
-    date: 2021-02-25T04:05:38Z
+    date: 2021-02-24T05:30:38Z
     grailsVersion: 3.1 > *

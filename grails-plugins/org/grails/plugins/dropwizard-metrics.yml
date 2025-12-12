@@ -12,17 +12,17 @@ licenses:
   - Apache-2.0
 versions:
   - version: 2.0.0.RC1
-    date: 2021-02-25T04:03:42Z
+    date: 2021-02-24T05:28:42Z
     grailsVersion: 3.0.14 > *
   - version: 1.0.0
-    date: 2021-02-25T04:03:42Z
-    grailsVersion: 3.0.14 > *
-  - version: 1.0.0.M1
-    date: 2021-02-25T04:03:43Z
-    grailsVersion: 3.0.14 > *
-  - version: 1.0.0.M2
-    date: 2021-02-25T04:03:43Z
+    date: 2021-02-24T05:28:42Z
     grailsVersion: 3.0.14 > *
   - version: 1.0.0.M3
-    date: 2021-02-25T04:03:43Z
+    date: 2021-02-24T05:28:43Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M2
+    date: 2021-02-24T05:28:43Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M1
+    date: 2021-02-24T05:28:43Z
     grailsVersion: 3.0.14 > *

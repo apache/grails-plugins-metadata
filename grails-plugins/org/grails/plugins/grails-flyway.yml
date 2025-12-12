@@ -12,8 +12,8 @@ licenses:
 comment: There are releases for v0.2.1 and v0.2.2 but no artifacts are published.
 versions:
   - version: '0.2'
-    date: 2021-02-25T04:11:35Z
+    date: 2021-02-24T05:36:35Z
     grailsVersion: 3.0.0 > *
   - version: '0.1'
-    date: 2021-02-25T04:11:35Z
+    date: 2021-02-24T05:36:35Z
     grailsVersion: 3.0.0 > *

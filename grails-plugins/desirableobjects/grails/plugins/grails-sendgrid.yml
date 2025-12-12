@@ -13,8 +13,8 @@ licenses:
 comment: Integration with SendGrid is outdated and does not currently seem to work.
 versions:
   - version: 2.0.1
-    date: 2021-02-25T04:06:00Z
+    date: 2021-02-24T05:31:00Z
     grailsVersion: 3.0.0 > *
   - version: '2.0'
-    date: 2021-02-25T04:06:00Z
+    date: 2021-02-24T05:31:00Z
     grailsVersion: 3.0.0 > *

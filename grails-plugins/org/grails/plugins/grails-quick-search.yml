@@ -16,20 +16,20 @@ licenses:
 comment: Only Grails < 4 supported as of 0.7.2
 versions:
   - version: 0.7.2
-    date: 2021-02-25T04:05:59Z
+    date: 2021-02-24T05:30:59Z
     grailsVersion: 3.1.10 > *
   - version: 0.2.3
-    date: 2013-11-28T07:10:11Z
+    date: 2013-11-27T08:35:11Z
     grailsVersion: 2.0 > *
   - version: 0.2.2
-    date: 2013-11-28T16:02:50Z
+    date: 2013-11-26T17:51:50Z
     grailsVersion: 2.0 > *
   - version: 0.2.1
-    date: 2013-11-27T16:12:47Z
+    date: 2013-11-26T17:37:47Z
     grailsVersion: 2.0 > *
   - version: '0.2'
-    date: 2013-11-26T14:00:16Z
+    date: 2013-11-26T15:01:16Z
     grailsVersion: 2.0 > *
   - version: '0.1'
-    date: 2013-11-21T11:21:33Z
+    date: 2013-11-20T12:46:33Z
     grailsVersion: 2.0 > *

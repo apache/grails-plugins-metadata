@@ -14,59 +14,59 @@ licenses:
   - Apache-2.0
 versions:
   - version: 6.0.0.M1
-    date: 2021-02-25T04:08:03Z
+    date: 2021-02-24T05:33:03Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.13
-    date: 2021-02-25T04:08:01Z
+    date: 2021-02-24T05:33:01Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.12
-    date: 2021-02-25T04:08:01Z
+    date: 2021-02-24T05:33:01Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.11
-    date: 2021-02-25T04:08:01Z
+    date: 2021-02-24T05:33:01Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.10
-    date: 2021-02-25T04:08:02Z
+    date: 2021-02-24T05:33:02Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.9
-    date: 2021-02-25T04:08:02Z
+    date: 2021-02-24T05:33:02Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.8
-    date: 2021-02-25T04:08:03Z
+    date: 2021-02-24T05:33:03Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.7
-    date: 2021-02-25T04:08:03Z
+    date: 2021-02-24T05:33:03Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.6
-    date: 2021-02-25T04:08:04Z
+    date: 2021-02-24T05:33:04Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.5
-    date: 2021-02-25T04:08:04Z
+    date: 2021-02-24T05:33:04Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.4
-    date: 2021-02-25T04:08:04Z
+    date: 2021-02-24T05:33:04Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.3
-    date: 2021-02-25T04:08:05Z
+    date: 2021-02-24T05:33:05Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.2
-    date: 2021-02-25T04:08:06Z
+    date: 2021-02-24T05:33:06Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.1
-    date: 2021-02-25T04:08:05Z
+    date: 2021-02-24T05:33:05Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.0
-    date: 2021-02-25T04:08:06Z
-    grailsVersion: 3.0.0 > *
-  - version: 5.0.0.RC1
-    date: 2021-02-25T04:08:07Z
-    grailsVersion: 3.0.0 > *
-  - version: 5.0.0.RC2
-    date: 2021-02-25T04:08:06Z
-    grailsVersion: 3.0.0 > *
-  - version: 5.0.0.RC3
-    date: 2021-02-25T04:08:06Z
+    date: 2021-02-24T05:33:06Z
     grailsVersion: 3.0.0 > *
   - version: 5.0.0.RC4
-    date: 2021-02-25T04:08:05Z
+    date: 2021-02-24T05:33:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.0.RC3
+    date: 2021-02-24T05:33:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.0.RC2
+    date: 2021-02-24T05:33:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.0.RC1
+    date: 2021-02-24T05:33:07Z
     grailsVersion: 3.0.0 > *

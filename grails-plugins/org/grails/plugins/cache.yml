@@ -10,24 +10,24 @@ labels:
 licenses:
   - Apache-2.0
 versions:
-  - version: 8.0.0-M2
-    date: 2024-12-22T23:07:04Z
-    grailsVersion: 7.0.0 > *
   - version: 8.0.0-M3
-    date: 2025-03-05T12:12:55Z
+    date: 2025-03-05T13:13:55Z
+    grailsVersion: 7.0.0 > *
+  - version: 8.0.0-M2
+    date: 2024-12-22T00:32:04Z
     grailsVersion: 7.0.0 > *
   - version: 7.0.0
-    date: 2024-03-22T07:02:33Z
+    date: 2024-03-21T08:27:33Z
     grailsVersion: 4.0.0 > *
   - version: 6.0.0
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 4.0.0 > *
   - version: 5.0.1
-    date: 2022-03-17T11:15:46Z
+    date: 2022-03-16T12:40:46Z
     grailsVersion: 4.0.0 > *
   - version: 5.0.0
-    date: 2022-03-16T08:17:27Z
+    date: 2022-03-15T09:42:27Z
     grailsVersion: 4.0.0 > *
   - version: 5.0.0-RC2
-    date: 2022-03-14T02:04:52Z
+    date: 2022-03-14T03:05:52Z
     grailsVersion: 4.0.0 > *

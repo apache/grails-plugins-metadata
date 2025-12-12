@@ -13,11 +13,11 @@ licenses:
   - Apache-2.0
 versions:
   - version: 1.2.0
-    date: 2021-02-25T04:14:04Z
+    date: 2021-02-24T05:39:04Z
     grailsVersion: 3.1.8 > *
   - version: 1.1.0
-    date: 2021-02-25T04:14:04Z
+    date: 2021-02-24T05:39:04Z
     grailsVersion: 3.1.8 > *
   - version: 1.0.0
-    date: 2021-02-25T04:14:05Z
+    date: 2021-02-24T05:39:05Z
     grailsVersion: 3.1.8 > *

@@ -10,49 +10,49 @@ labels:
 licenses:
   - Apache-2.0
 versions:
-  - version: 4.0.0-M1
-    date: 2024-12-23T18:04:09Z
   - version: 4.0.0-M3
-    date: 2025-03-04T18:17:01Z
+    date: 2025-03-04T19:18:01Z
+  - version: 4.0.0-M1
+    date: 2024-12-21T19:53:09Z
   - version: 3.2.3
-    date: 2024-04-06T08:01:32Z
+    date: 2024-04-04T10:51:32Z
   - version: 3.2.2
-    date: 2024-03-30T15:00:37Z
+    date: 2024-03-28T16:49:37Z
   - version: 3.2.1
-    date: 2024-03-23T05:07:31Z
+    date: 2024-03-22T06:32:31Z
   - version: 3.1.2
-    date: 2024-01-17T10:06:38Z
+    date: 2024-01-17T11:07:38Z
   - version: 3.1.1
-    date: 2023-12-08T09:21:22Z
+    date: 2023-12-08T10:22:22Z
   - version: 3.1.0
-    date: 2023-10-17T15:17:01Z
+    date: 2023-10-17T17:19:01Z
   - version: 3.0.0
-    date: 2023-07-22T23:02:11Z
-  - version: 3.0.0-M1
-    date: 2023-05-12T04:17:21Z
+    date: 2023-07-22T01:28:11Z
   - version: 3.0.0-RC1
-    date: 2023-05-23T15:10:12Z
+    date: 2023-05-23T17:12:12Z
+  - version: 3.0.0-M1
+    date: 2023-05-11T06:43:21Z
   - version: 2.3.2
-    date: 2022-06-17T13:20:25Z
+    date: 2022-06-17T15:22:25Z
   - version: 2.3.1
-    date: 2022-06-08T05:17:57Z
+    date: 2022-06-07T07:43:57Z
   - version: 2.3.0
-    date: 2022-05-25T09:02:16Z
+    date: 2022-05-25T11:04:16Z
   - version: 2.2.1
-    date: 2022-03-09T18:08:12Z
+    date: 2022-03-07T19:57:12Z
   - version: 2.2.0
-    date: 2022-01-04T19:23:47Z
+    date: 2022-01-04T20:24:47Z
   - version: 2.1.2
-    date: 2021-12-16T08:07:42Z
+    date: 2021-12-16T09:08:42Z
   - version: 2.1.1
-    date: 2021-11-04T16:15:11Z
+    date: 2021-11-03T17:40:11Z
   - version: 2.1.0
-    date: 2021-10-11T06:18:26Z
-  - version: 2.1.0.RC1
-    date: 2021-07-21T19:00:23Z
-  - version: 2.1.0.RC2
-    date: 2021-08-11T21:02:28Z
-  - version: 2.1.0.RC3
-    date: 2021-09-05T08:09:37Z
+    date: 2021-10-11T08:20:26Z
   - version: 2.1.0-RC4
-    date: 2021-10-05T18:21:49Z
+    date: 2021-10-05T20:23:49Z
+  - version: 2.1.0.RC3
+    date: 2021-09-03T10:59:37Z
+  - version: 2.1.0.RC2
+    date: 2021-08-11T23:04:28Z
+  - version: 2.1.0.RC1
+    date: 2021-07-21T21:02:23Z

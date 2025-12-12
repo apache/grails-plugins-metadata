@@ -14,11 +14,11 @@ versions:
     date: 2016-07-21T07:05:00Z
     grailsVersion: 3.1.9 > *
   - version: 0.1.2
-    date: 2021-02-25T04:05:42Z
+    date: 2021-02-24T05:30:42Z
     grailsVersion: 3.0.3 > *
   - version: 0.1.1
-    date: 2015-09-19T03:04:42Z
+    date: 2021-02-24T05:30:42Z
     grailsVersion: 3.0.3 > *
   - version: 0.1.0
-    date: 2015-09-18T20:10:00Z
+    date: 2021-02-24T05:30:43Z
     grailsVersion: 3.0.3 > *

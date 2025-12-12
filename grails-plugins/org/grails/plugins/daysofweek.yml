@@ -13,8 +13,8 @@ comment: There is no published version that is compatible with Grails >= 3 (0.3 
   this writing)
 versions:
   - version: '0.2'
-    date: 2021-02-25T04:03:27Z
+    date: 2021-02-24T05:28:27Z
     grailsVersion: 2.4 > *
   - version: '0.1'
-    date: 2021-02-25T04:03:27Z
+    date: 2021-02-24T05:28:27Z
     grailsVersion: 2.4 > *

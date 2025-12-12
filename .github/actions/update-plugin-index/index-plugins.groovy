@@ -9,7 +9,6 @@ import groovy.io.FileType
 import groovy.json.JsonOutput
 import groovy.transform.CompileDynamic
 import groovy.transform.CompileStatic
-import groovy.yaml.YamlSlurper
 import groovy.xml.XmlSlurper
 
 import org.yaml.snakeyaml.DumperOptions
@@ -473,10 +472,19 @@ class Utils {
 
     static Map processPluginFile(File f) {
         if (!(f.name.endsWith('.yml') || f.name.endsWith('.yaml'))) {
+            System.err.println("INFO: Skipping non-YAML file: $f.path")
             return null
         }
         println("Processing plugin file: $f.path")
-        def pluginInfo = new YamlSlurper().parse(f) as Map<String, Object>
+        def yaml = new Yaml()
+        Map<String, Object> pluginInfo = null
+        f.withInputStream {
+            pluginInfo = yaml.load(it)
+        }
+        if (!pluginInfo) {
+            System.err.println("WARNING: File $f.path could not be parsed as YAML, skipping")
+            return null
+        }
 
         // Expect at least 'coords'
         def coords = pluginInfo.coords as String

@@ -13,92 +13,92 @@ licenses:
   - Apache-2.0
 versions:
   - version: 5.0.9
-    date: 2025-04-13T21:15:14Z
+    date: 2025-04-13T23:17:14Z
     grailsVersion: 7.0 > *
   - version: 5.0.8
-    date: 2025-02-28T16:00:22Z
+    date: 2025-02-28T17:01:22Z
     grailsVersion: 7.0 > *
   - version: 5.0.7
-    date: 2025-02-19T13:16:11Z
+    date: 2025-02-18T14:41:11Z
     grailsVersion: 7.0 > *
   - version: 5.0.6
-    date: 2025-02-07T23:19:26Z
+    date: 2025-02-07T00:44:26Z
     grailsVersion: 7.0 > *
   - version: 5.0.5
-    date: 2024-12-22T02:01:05Z
+    date: 2024-12-20T03:50:05Z
     grailsVersion: 3.0 > *
   - version: 5.0.4
-    date: 2024-12-12T22:16:26Z
+    date: 2024-12-12T23:17:26Z
     grailsVersion: 3.0 > *
   - version: 5.0.3
-    date: 2024-12-13T13:08:50Z
+    date: 2024-12-12T14:33:50Z
     grailsVersion: 3.0 > *
   - version: 5.0.2
-    date: 2024-12-12T12:01:32Z
+    date: 2024-12-10T13:50:32Z
     grailsVersion: 3.0 > *
   - version: 5.0.1
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 3.0 > *
   - version: 5.0.0
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 3.0 > *
   - version: 4.5.2
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 3.0 > *
   - version: 4.5.1
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 3.0 > *
   - version: 4.5.0
-    date: 2025-10-10T22:18:51Z
+    date: 2025-10-11T00:20:51Z
     grailsVersion: 3.0 > *
   - version: 4.3.0
-    date: 2023-05-01T14:18:36Z
+    date: 2023-05-01T16:20:36Z
     grailsVersion: 3.0 > *
   - version: 4.2.0
-    date: 2023-04-12T13:10:35Z
+    date: 2023-04-11T15:36:35Z
     grailsVersion: 3.0 > *
   - version: 4.1.0
-    date: 2023-03-05T15:08:32Z
+    date: 2023-03-03T16:57:32Z
     grailsVersion: 3.0 > *
   - version: 4.0.0
-    date: 2022-11-04T14:04:16Z
+    date: 2022-11-03T15:29:16Z
     grailsVersion: 3.0 > *
   - version: 3.4.7
-    date: 2022-09-29T19:19:09Z
+    date: 2022-09-28T21:45:09Z
     grailsVersion: 3.0 > *
   - version: 3.4.6
-    date: 2022-04-12T19:04:09Z
+    date: 2022-04-11T21:30:09Z
     grailsVersion: 3.0 > *
   - version: 3.4.5
-    date: 2022-04-08T13:15:58Z
+    date: 2022-04-08T15:17:58Z
     grailsVersion: 3.0 > *
   - version: 3.4.4
-    date: 2022-03-23T19:10:09Z
+    date: 2022-03-22T20:35:09Z
     grailsVersion: 3.0 > *
   - version: 3.4.3
-    date: 2022-02-12T01:06:33Z
+    date: 2022-02-11T02:31:33Z
     grailsVersion: 3.0 > *
   - version: 3.4.2
-    date: 2022-02-11T01:15:41Z
+    date: 2022-02-11T02:16:41Z
     grailsVersion: 3.0 > *
   - version: 3.4.1
-    date: 2022-02-09T13:10:15Z
+    date: 2022-02-09T14:11:15Z
     grailsVersion: 3.0 > *
   - version: 3.4.0
-    date: 2022-02-08T19:16:50Z
+    date: 2022-02-08T20:17:50Z
     grailsVersion: 3.0 > *
   - version: 3.3.6
-    date: 2021-10-05T16:15:35Z
+    date: 2021-10-05T18:17:35Z
     grailsVersion: 3.0 > *
   - version: 3.3.5
-    date: 2021-10-05T11:16:09Z
+    date: 2021-10-05T13:18:09Z
     grailsVersion: 3.0 > *
   - version: 3.3.4
-    date: 2021-09-06T13:23:32Z
+    date: 2021-09-07T15:01:32Z
     grailsVersion: 3.0 > *
   - version: 3.3.3
-    date: 2021-08-09T13:05:02Z
+    date: 2021-08-09T15:07:02Z
     grailsVersion: 3.0 > *
   - version: 3.3.2
-    date: 2021-04-20T13:20:31Z
+    date: 2021-04-20T15:22:31Z
     grailsVersion: 3.0 > *

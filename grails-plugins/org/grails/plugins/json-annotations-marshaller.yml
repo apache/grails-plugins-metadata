@@ -11,5 +11,5 @@ licenses:
 deprecated: Source repository for this entry was archived by the owner on Aug 29, 2022.
 versions:
   - version: '1.0'
-    date: 2021-02-25T04:11:43Z
+    date: 2021-02-24T05:36:43Z
     grailsVersion: 3.0.1 > *

@@ -10,5 +10,5 @@ licenses:
 deprecated: Since Grails 3.2 - Use GORMs built-in support for multitenancy.
 versions:
   - version: '0.1'
-    date: 2021-02-25T04:10:57Z
+    date: 2021-02-24T05:35:57Z
     grailsVersion: 3.0.11 > *

@@ -11,23 +11,23 @@ licenses:
 deprecated: Source repository was archived by the owner on Apr 9, 2018.
 versions:
   - version: 3.0.0.1
-    date: 2021-02-25T04:08:42Z
+    date: 2021-02-24T05:33:42Z
     grailsVersion: 3.0.0 > *
   - version: '1.1'
-    date: 2021-02-25T04:08:42Z
+    date: 2021-02-24T05:33:42Z
     grailsVersion: 3.0.0 > *
   - version: '1.0'
-    date: 2021-02-25T04:08:42Z
+    date: 2021-02-24T05:33:42Z
     grailsVersion: 3.0.0 > *
   - version: '0.4'
-    date: 2016-10-12T17:03:37Z
+    date: 2016-10-12T19:05:37Z
     grailsVersion: 1.3.7 > *
   - version: '0.3'
-    date: 2014-11-16T13:07:35Z
+    date: 2014-11-16T14:08:35Z
     grailsVersion: 1.3.7 > *
   - version: '0.2'
-    date: 2013-07-31T01:18:39Z
+    date: 2013-07-31T03:20:39Z
     grailsVersion: 1.3.7 > *
   - version: '0.1'
-    date: 2012-05-23T10:21:35Z
+    date: 2012-05-22T12:47:35Z
     grailsVersion: 1.3.7 > *

@@ -13,5 +13,5 @@ deprecated: This entry in the registry is a duplicate of the entry with the name
   entry should probably be removed from the registry to avoid confusion.
 versions:
   - version: 2.0.0
-    date: 2021-02-25T04:05:12Z
+    date: 2021-02-24T05:30:12Z
     grailsVersion: 4.0.0.BUILD-SNAPSHOT > *

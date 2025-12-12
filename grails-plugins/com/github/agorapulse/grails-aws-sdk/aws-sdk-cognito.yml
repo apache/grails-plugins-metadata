@@ -12,51 +12,51 @@ licenses:
 deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
 versions:
   - version: 2.4.16
-    date: 2025-12-12T06:10:36Z
+    date: 2025-12-10T07:59:36Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.15
-    date: 2025-12-12T06:10:35Z
+    date: 2025-12-10T07:59:35Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.14
-    date: 2025-12-12T06:10:35Z
+    date: 2025-12-10T07:59:35Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.11
-    date: 2025-12-12T06:10:34Z
+    date: 2025-12-10T07:59:34Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.9
-    date: 2025-12-12T06:10:33Z
+    date: 2025-12-10T07:59:33Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.8
-    date: 2025-12-12T06:10:32Z
+    date: 2025-12-10T07:59:32Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.7
-    date: 2025-12-12T06:10:31Z
+    date: 2025-12-10T07:59:31Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.6
-    date: 2025-12-12T06:10:31Z
+    date: 2025-12-10T07:59:31Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.5
-    date: 2025-12-12T06:10:30Z
+    date: 2025-12-10T07:59:30Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.14
-    date: 2025-12-12T06:10:29Z
+    date: 2025-12-10T07:59:29Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.12
-    date: 2025-12-12T06:10:29Z
+    date: 2025-12-10T07:59:29Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.4
-    date: 2025-12-12T06:10:28Z
+    date: 2025-12-10T07:59:28Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.2
-    date: 2025-12-12T06:10:27Z
+    date: 2025-12-10T07:59:27Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.0
-    date: 2025-12-12T06:10:26Z
+    date: 2025-12-10T07:59:26Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.19
-    date: 2025-12-12T06:10:26Z
+    date: 2025-12-10T07:59:26Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.0
-    date: 2025-12-12T06:10:24Z
+    date: 2025-12-10T07:59:24Z
   - version: 1.10.74
-    date: 2025-12-12T06:10:22Z
+    date: 2025-12-10T07:59:22Z

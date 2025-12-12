@@ -13,11 +13,11 @@ licenses:
 deprecated: Source repository is archived.
 versions:
   - version: 2.0.0.RC1
-    date: 2021-02-25T04:13:13Z
+    date: 2021-02-24T05:38:13Z
     grailsVersion: 4.0.0 > *
   - version: 1.0.1
-    date: 2021-04-18T12:02:39Z
+    date: 2021-04-18T14:04:39Z
     grailsVersion: 3.0.0 > *
   - version: 1.0.0
-    date: 2021-02-25T04:13:13Z
+    date: 2021-02-24T05:38:13Z
     grailsVersion: 3.0.0 > *

@@ -12,5 +12,5 @@ licenses:
   - Apache-2.0
 versions:
   - version: 0.1.0
-    date: 2021-02-25T04:11:45Z
+    date: 2021-02-24T05:36:45Z
     grailsVersion: 3.1.1 > *

@@ -12,8 +12,8 @@ licenses:
   - Apache-2.0
 versions:
   - version: 7.0.0-M3
-    date: 2025-03-05T20:12:16Z
+    date: 2025-03-05T21:13:16Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 4.0.0-RC1
-    date: 2022-09-08T12:01:41Z
+    date: 2022-09-07T14:27:41Z
     grailsVersion: 3.0.0 > *

@@ -12,52 +12,52 @@ licenses:
 deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
 versions:
   - version: 2.4.16
-    date: 2025-12-12T06:10:06Z
+    date: 2025-12-10T07:59:06Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.15
-    date: 2025-12-08T20:18:54Z
+    date: 2025-12-08T21:19:54Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.14
-    date: 2025-12-09T22:18:51Z
+    date: 2025-12-08T23:43:51Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.11
-    date: 2025-12-12T06:10:04Z
+    date: 2025-12-10T07:59:04Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.9
-    date: 2025-12-12T06:10:03Z
+    date: 2025-12-10T07:59:03Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.8
-    date: 2025-12-12T06:10:02Z
+    date: 2025-12-10T07:59:02Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.7
-    date: 2025-12-12T06:10:02Z
+    date: 2025-12-10T07:59:02Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.6
-    date: 2025-12-12T06:10:02Z
+    date: 2025-12-10T07:59:02Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.5
-    date: 2025-12-12T06:10:01Z
+    date: 2025-12-10T07:59:01Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.14
-    date: 2025-12-12T06:10:01Z
+    date: 2025-12-10T07:59:01Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.12
-    date: 2025-12-12T06:10:00Z
+    date: 2025-12-10T07:59:00Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.4
-    date: 2025-12-12T06:09:59Z
+    date: 2025-12-10T07:58:59Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.2
-    date: 2025-12-12T06:09:58Z
+    date: 2025-12-10T07:58:58Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.0
-    date: 2025-12-12T06:09:57Z
+    date: 2025-12-10T07:58:57Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.19
-    date: 2025-12-12T06:09:56Z
+    date: 2025-12-10T07:58:56Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.0
-    date: 2025-12-12T06:09:56Z
+    date: 2025-12-10T07:58:56Z
     grailsVersion: 3.0.0 > *
   - version: 1.10.74
-    date: 2025-12-12T06:09:55Z
+    date: 2025-12-10T07:58:55Z

@@ -12,52 +12,52 @@ licenses:
 deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
 versions:
   - version: 2.4.16
-    date: 2025-12-12T06:09:38Z
+    date: 2025-12-10T07:58:38Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.15
-    date: 2025-12-12T06:09:37Z
+    date: 2025-12-10T07:58:37Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.14
-    date: 2025-12-12T06:09:36Z
+    date: 2025-12-10T07:58:36Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.11
-    date: 2025-12-12T06:09:36Z
+    date: 2025-12-10T07:58:36Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.9
-    date: 2025-12-12T06:09:35Z
+    date: 2025-12-10T07:58:35Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.8
-    date: 2025-12-12T06:09:34Z
+    date: 2025-12-10T07:58:34Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.7
-    date: 2025-12-12T06:09:34Z
+    date: 2025-12-10T07:58:34Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.6
-    date: 2025-12-12T06:09:33Z
+    date: 2025-12-10T07:58:33Z
     grailsVersion: 3.0.0 > *
   - version: 2.4.5
-    date: 2025-12-12T06:09:32Z
+    date: 2025-12-10T07:58:32Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.14
-    date: 2025-12-12T06:09:31Z
+    date: 2025-12-10T07:58:31Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.12
-    date: 2025-12-12T06:09:31Z
+    date: 2025-12-10T07:58:31Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.4
-    date: 2025-12-12T06:09:30Z
+    date: 2025-12-10T07:58:30Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.2
-    date: 2025-12-12T06:09:30Z
+    date: 2025-12-10T07:58:30Z
     grailsVersion: 3.0.0 > *
   - version: 2.2.0
-    date: 2025-12-12T06:09:29Z
+    date: 2025-12-10T07:58:29Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.19
-    date: 2025-12-12T06:09:28Z
+    date: 2025-12-10T07:58:28Z
     grailsVersion: 3.0.0 > *
   - version: 2.1.0
-    date: 2025-12-12T06:09:28Z
+    date: 2025-12-10T07:58:28Z
     grailsVersion: 3.0.0 > *
   - version: 1.10.74
-    date: 2025-12-12T06:09:26Z
+    date: 2025-12-12T11:15:04Z
