@@ -109,22 +109,22 @@ class Version implements Comparable<Version> {
             this.modifierText = modifierText
         }
 
-        static boolean isModifier(String text) {
-            if (!text) return false
-            text == 'SNAPSHOT' ||
-                    text == 'BUILD-SNAPSHOT' ||
-                    (text ==~ /M\d+/) ||
-                    (text ==~ /RC\d+/) ||
-                    (text ==~ /ALPHA\d+/) ||
-                    (text ==~ /BETA\d+/)
-        }
-
-        int getMilestoneVersion() {
-            modifierText.replace('M', '').toInteger()
+        static boolean isModifier(String s) {
+            if (!s) return false
+            s == 'SNAPSHOT' ||
+                    s == 'BUILD-SNAPSHOT' ||
+                    (s ==~ /M\d+/) ||
+                    (s ==~ /RC\d+/) ||
+                    (s ==~ /ALPHA\d+/) ||
+                    (s ==~ /BETA\d+/)
         }
 
         int getReleaseCandidateVersion() {
             modifierText.replace('RC', '').toInteger()
+        }
+
+        int getMilestoneVersion() {
+            modifierText.replace('M', '').toInteger()
         }
 
         int getAlphaVersion() {
@@ -162,34 +162,34 @@ class Version implements Comparable<Version> {
          * 2 = release candidate (RC1, RC2, ...)
          * 3 = final (no qualifier) – handled in Version, not here
          */
-        int typeRank() {
-            if (snapshot) return 5
-            if (alpha) return 4
-            if (beta) return 3
-            if (milestone) return 2
-            if (releaseCandidate) return 1
+        int getTypeRank() {
+            if (snapshot)         return 0
+            if (alpha)            return 1
+            if (beta)             return 2
+            if (milestone)        return 3
+            if (releaseCandidate) return 4
             return 0
         }
 
         @Override
         int compareTo(VersionModifier o) {
-            int rankCmp = this.typeRank() <=> o.typeRank()
+            int rankCmp = typeRank <=> o.typeRank
             if (rankCmp != 0) {
                 return rankCmp
             }
 
             // Same type: compare numeric part if applicable
             if (releaseCandidate && o.releaseCandidate) {
-                return o.releaseCandidateVersion <=> this.releaseCandidateVersion
+                return releaseCandidateVersion <=> o.releaseCandidateVersion
             }
             if (milestone && o.milestone) {
-                return o.milestoneVersion <=> this.milestoneVersion
+                return milestoneVersion <=> o.milestoneVersion
             }
             if (beta && o.beta) {
-                return o.betaVersion <=> this.betaVersion
+                return betaVersion <=> o.betaVersion
             }
             if (alpha && o.alpha) {
-                return o.alphaVersion <=> this.alphaVersion
+                return alphaVersion <=> o.alphaVersion
             }
 
             return 0
