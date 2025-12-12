@@ -13,6 +13,7 @@ versions:
   - version: 0.2.0
     date: 2016-07-21T07:05:00Z
     grailsVersion: 3.1.9 > *
+    artifactAvailable: false
   - version: 0.1.2
     date: 2021-02-24T05:30:42Z
     grailsVersion: 3.0.3 > *
