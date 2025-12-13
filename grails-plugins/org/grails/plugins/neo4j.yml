@@ -1,0 +1,59 @@
+name: neo4j
+desc: GORM for Neo4j
+coords: org.grails.plugins:neo4j
+owner: grails
+vcs: https://github.com/grails/gorm-neo4j
+docs: https://gorm.grails.org/latest/neo4j/manual/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - gorm
+  - graph
+  - neo4j
+licenses:
+  - Apache-2.0
+versions:
+  - version: 8.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 8.0.0-M1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.3.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.2.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.1.0-RC4
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.1.0.RC3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.1.0.RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *
+  - version: 7.1.0.RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.0 > *

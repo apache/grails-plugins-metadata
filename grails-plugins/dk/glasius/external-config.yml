@@ -1,0 +1,28 @@
+name: external-config
+desc: Load configs with grails.config.locations like in Grails 2.x
+coords: dk.glasius:external-config
+owner: sbglasius
+vcs: https://github.com/sbglasius/external-config
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - config
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0
+    date: 2023-12-29T10:17:11Z
+  - version: 3.2.0
+    date: 2023-12-28T09:34:24Z
+  - version: 3.1.1
+    date: 2022-09-01T14:36:34Z
+  - version: 3.1.0
+    date: 2022-07-25T08:24:55Z
+  - version: 3.0.1
+    date: 2022-05-30T09:07:16Z
+  - version: 3.0.0
+    date: 2022-01-02T09:57:30Z
+  - version: 2.0.3
+    date: 2022-08-16T20:45:42Z
+  - version: 2.0.1
+    date: 2021-05-03T13:37:28Z
+    grailsVersion: 3.3.0 > *

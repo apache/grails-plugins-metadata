@@ -1,0 +1,14 @@
+name: phonenumbers
+desc: Adds support for using Google's libphonenumber library to validate phone numbers
+coords: ca.redtoad:grails-phonenumbers
+owner: ataylor284
+vcs: https://github.com/ataylor284/grails-phonenumbers
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - validation
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.11'
+    date: 2021-02-24T05:30:58Z
+    grailsVersion: 2.0 > *

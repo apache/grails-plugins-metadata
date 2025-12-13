@@ -1,0 +1,68 @@
+name: spring-security-acl
+desc: Grails spring-security-acl plugin
+coords: org.grails.plugins:spring-security-acl
+owner: grails
+vcs: https://github.com/grails-plugins/grails-spring-security-acl
+docs: https://grails-plugins.github.io/grails-spring-security-acl/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - acl
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0.TEST
+    date: 2021-02-24T05:38:48Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.0.0.M2
+    date: 2021-02-24T05:38:47Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.0.0.M1
+    date: 2021-02-24T05:38:48Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.1
+    date: 2021-02-24T05:38:48Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.0
+    date: 2021-04-18T14:05:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.1
+    date: 2021-02-24T05:38:49Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0
+    date: 2021-02-24T05:38:49Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.1
+    date: 2015-12-20T11:15:09Z
+    grailsVersion: 2.3 > *
+  - version: 2.0.0
+    date: 2015-12-08T01:27:44Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC2
+    date: 2014-11-17T07:17:31Z
+    grailsVersion: 2.3 > *
+  - version: 2.0-RC1
+    date: 2013-10-08T19:42:18Z
+    grailsVersion: 2.0 > *
+  - version: 1.1.1
+    date: 2012-08-21T02:58:20Z
+    grailsVersion: 1.3 > *
+  - version: '1.1'
+    date: 2012-03-12T20:31:29Z
+    grailsVersion: 1.3 > *
+  - version: 1.0.2
+    date: 2012-03-12T20:31:29Z
+    grailsVersion: 1.2.3 > *
+  - version: 1.0.1
+    date: 2012-03-12T20:31:29Z
+    grailsVersion: 1.2.3 > *
+  - version: '1.0'
+    date: 2012-03-12T20:31:29Z
+    grailsVersion: 1.2.3 > *
+  - version: '0.2'
+    date: 2012-03-12T20:31:28Z
+    grailsVersion: 1.2.2 > *
+  - version: '0.1'
+    date: 2012-03-12T20:31:28Z
+    grailsVersion: 1.2.2 > *

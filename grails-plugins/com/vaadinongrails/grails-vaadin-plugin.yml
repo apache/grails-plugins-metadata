@@ -1,0 +1,51 @@
+name: vaadin
+desc: Vaadin plugin for Grails.
+coords: com.vaadinongrails:grails-vaadin-plugin
+owner: ondrej-kvasnovsky
+vcs: https://github.com/ondrej-kvasnovsky/grails-vaadin-plugin
+docs: https://ondrej-kvasnovsky.github.io/grails-vaadin-plugin/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - vaadin
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.3
+    date: 2021-02-24T05:31:10Z
+    grailsVersion: 3.0 > *
+  - version: 2.0.2
+    date: 2021-02-24T05:32:03Z
+    grailsVersion: 3.0 > *
+  - version: 2.0.1
+    date: 2021-02-24T05:31:10Z
+    grailsVersion: 3.0 > *
+  - version: 2.0.0
+    date: 2021-02-24T05:31:10Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.11
+    date: 2021-02-24T05:31:11Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.10
+    date: 2021-02-24T05:31:12Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.8
+    date: 2021-04-18T13:57:21Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.7
+    date: 2021-04-18T13:57:25Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.6
+    date: 2021-02-24T05:31:39Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.5
+    date: 2021-02-24T05:32:14Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.4
+    date: 2021-02-24T05:32:13Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.1
+    date: 2021-02-24T05:32:13Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:31:15Z
+    grailsVersion: 3.0 > *

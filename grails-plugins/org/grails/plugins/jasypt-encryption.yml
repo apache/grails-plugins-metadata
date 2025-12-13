@@ -1,0 +1,48 @@
+name: org.grails.plugins:jasypt-encryption
+desc: Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration
+coords: org.grails.plugins:jasypt-encryption
+owner: dtanner
+vcs: https://github.com/dtanner/grails-jasypt
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - encryption
+  - jasypt
+licenses:
+  - Apache-2.0
+deprecated: The source repository url for this entry is redirecting to the source repository of another
+  plugin with the same name by ZenHarbinger. This entry in the registry should probably be removed to
+  avoid confusion.
+versions:
+  - version: 2.0.2
+    date: 2021-02-24T05:36:43Z
+    grailsVersion: 3.0.3 > *
+  - version: 2.0.1
+    date: 2021-02-24T05:36:53Z
+    grailsVersion: 3.0.3 > *
+  - version: 1.3.1
+    date: 2014-11-02T18:39:43Z
+    grailsVersion: 2.4 > *
+  - version: 1.2.1
+    date: 2014-10-20T04:00:35Z
+    grailsVersion: 2.3 > *
+  - version: 1.2.0
+    date: 2014-10-14T17:39:41Z
+    grailsVersion: 2.3 > *
+  - version: 1.1.0
+    date: 2012-03-12T20:32:18Z
+    grailsVersion: 2.0.0 > *
+  - version: 1.0.1
+    date: 2012-03-12T20:32:18Z
+    grailsVersion: 2.0.0 > *
+  - version: 1.0.0
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.1.2
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 1.3.6 > *
+  - version: 0.1.1
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 1.3.2 > *
+  - version: '0.1'
+    date: 2012-03-12T20:32:16Z
+    grailsVersion: 1.3.2 > *

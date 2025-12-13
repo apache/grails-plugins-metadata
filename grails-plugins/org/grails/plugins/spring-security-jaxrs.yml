@@ -1,0 +1,29 @@
+name: spring-security-jaxrs
+desc: A plugin that allows the use of Spring Security features with JAX-RS resources.
+coords: org.grails.plugins:spring-security-jaxrs
+owner: budjb
+vcs: https://github.com/budjb/grails-spring-security-jaxrs
+docs: http://budjb.github.io/grails-spring-security-jaxrs/3.x/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - jax-rs
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.1
+    date: 2021-02-24T05:39:00Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:39:00Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.2
+    date: 2015-04-22T00:41:15Z
+    grailsVersion: 2.3 > *
+  - version: 1.0.1
+    date: 2015-04-01T14:05:01Z
+    grailsVersion: 2.3 > *
+  - version: 1.0.0
+    date: 2015-04-01T13:34:28Z
+    grailsVersion: 2.3 > *

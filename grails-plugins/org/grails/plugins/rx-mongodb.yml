@@ -1,0 +1,100 @@
+name: rx-mongodb
+desc: GORM - Grails Data Access Framework
+coords: org.grails.plugins:rx-mongodb
+owner: grails
+vcs: https://github.com/grails/gorm-mongodb
+docs: https://gorm.grails.org/latest/rx/manual/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - gorm
+  - mongodb
+  - rxjava
+licenses:
+  - Apache-2.0
+comment: Hard to tell versions to use here. According to https://gorm.grails.org/latest/rx/manual/ it
+  is 7.3.2 but the latest release of this plugin is 6.1.7
+versions:
+  - version: 6.1.7
+    date: 2021-02-24T05:37:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.6
+    date: 2021-02-24T05:37:29Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.5
+    date: 2021-02-24T05:37:30Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.4
+    date: 2021-02-24T05:37:30Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.3
+    date: 2021-02-24T05:37:30Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.2
+    date: 2021-02-24T05:37:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.1
+    date: 2021-02-24T05:37:32Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.0
+    date: 2021-02-24T05:37:32Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.0.RC2
+    date: 2021-02-24T05:37:32Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.0.RC1
+    date: 2021-02-24T05:37:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.0.M2
+    date: 2021-02-24T05:37:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.1.0.M1
+    date: 2021-02-24T05:37:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.12
+    date: 2021-02-24T05:37:30Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.11
+    date: 2021-02-24T05:37:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.10
+    date: 2021-02-24T05:37:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.9
+    date: 2021-02-24T05:37:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.8
+    date: 2021-02-24T05:37:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.7
+    date: 2021-02-24T05:37:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.6
+    date: 2021-02-24T05:37:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.5
+    date: 2021-02-24T05:37:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.4
+    date: 2021-02-24T05:37:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.3
+    date: 2021-02-24T05:37:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.2
+    date: 2021-02-24T05:37:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0
+    date: 2021-02-24T05:37:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.RC2
+    date: 2021-02-24T05:37:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.RC1
+    date: 2021-02-24T05:37:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.M2
+    date: 2021-02-24T05:37:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.M1
+    date: 2021-02-24T05:37:37Z
+    grailsVersion: 3.0.0 > *

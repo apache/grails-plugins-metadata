@@ -1,0 +1,17 @@
+name: exa-datatables
+desc: Provides easy integration with DataTables.net (Table plug-in for jQuery)
+coords: fr.exanpe.grails:exa-datatables
+owner: exanpe
+vcs: https://github.com/exanpe/exa-grails-plugins
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - datatables.net
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.1
+    date: 2021-02-24T05:29:34Z
+    grailsVersion: 3.1.8 > *
+  - version: 2.0.0
+    date: 2021-02-24T05:29:34Z
+    grailsVersion: 3.1.8 > *

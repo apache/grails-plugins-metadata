@@ -1,0 +1,32 @@
+name: jaxrs-restlet
+desc: "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services\
+  \ based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-restlet plugin implements the\
+  \ Restlet JAX-RS implementation."
+coords: org.grails.plugins:jaxrs-restlet
+owner: budjb
+vcs: https://github.com/budjb/grails-jaxrs
+docs: https://budjb.github.io/grails-jaxrs/3.x/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - jax-rs
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.1.0
+    date: 2021-02-24T05:33:57Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.4
+    date: 2021-02-24T05:33:58Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.3
+    date: 2021-02-24T05:33:58Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.2
+    date: 2021-02-24T05:33:58Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:33:59Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:33:59Z
+    grailsVersion: 3.1.4 > *

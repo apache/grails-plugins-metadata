@@ -1,0 +1,11 @@
+name: cas-client
+coords: org.grails.plugins:grails3-cas-client
+owner: cwang
+vcs: https://github.com/cwang/grails3-cas-client
+maven-repo: https://repo.grails.org/plugins
+licenses:
+  - Apache-2.0
+versions:
+  - version: '3.0'
+    date: 2021-02-24T05:36:36Z
+    grailsVersion: 3.0.0 > *

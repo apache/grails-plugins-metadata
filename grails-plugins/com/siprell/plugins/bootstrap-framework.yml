@@ -1,0 +1,24 @@
+name: bootstrap-framework
+desc: Gradle plugin for integrating the Bootstrap Framework
+coords: com.siprell.plugins:bootstrap-framework
+owner: kensiprell
+vcs: https://github.com/kensiprell/bootstrap-framework
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - bootstrap
+  - fontawesome
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.3
+    date: 2021-02-24T05:26:39Z
+  - version: 1.0.2
+    date: 2021-02-24T05:26:39Z
+  - version: 1.0.1
+    date: 2021-02-24T05:26:39Z
+  - version: 1.0.0
+    date: 2021-02-24T05:26:40Z
+  - version: 0.9.4
+    date: 2021-02-24T05:26:40Z
+  - version: 0.9.3
+    date: 2021-02-24T05:26:41Z

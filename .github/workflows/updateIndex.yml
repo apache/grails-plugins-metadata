@@ -1,0 +1,30 @@
+name: Update Plugin Index
+on:
+  schedule:
+    - cron: "30 */8 * * *"
+  workflow_dispatch:
+jobs:
+  update-index:
+    name: "Update Plugin Index"
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GIT_USER_NAME: 'grails-build'
+      GIT_USER_EMAIL: 'grails-build@users.noreply.github.com'
+    steps:
+      - name: "📥 Checkout repository"
+        uses: actions/checkout@v6
+      - name: "🔄 Update Plugin Index"
+        uses: ./.github/actions/update-plugin-index
+      - name: "✨ Create Pull Request"
+        uses: peter-evans/create-pull-request@v8
+        with:
+          author: ${{ env.GIT_USER_NAME }} <${{ env.GIT_USER_EMAIL }}>
+          commit-message: Update Plugin Index
+          title: 'Update Plugin Index'
+          body: Re-indexed grails-plugin-index.json from plugin metadata in grails-plugins directory.
+            Also added any new versions to the metadata files and the index.
+          labels: "type: update-plugin-index"
+          branch: updatePluginIndex

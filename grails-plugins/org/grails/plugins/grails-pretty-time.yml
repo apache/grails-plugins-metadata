@@ -1,0 +1,14 @@
+name: pretty-time
+desc: A plugin that allows you to display human readable, relative timestamps.
+coords: org.grails.plugins:grails-pretty-time
+owner: cazacugmihai
+vcs: https://github.com/cazacugmihai/grails-pretty-time
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - date
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0
+    date: 2021-02-24T05:30:58Z
+    grailsVersion: 3.0.1 > *

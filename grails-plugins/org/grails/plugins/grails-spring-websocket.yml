@@ -1,0 +1,56 @@
+name: spring-websocket
+desc: This plugin aims at making the websocket support introduced in Spring 4.0 available to Grails applications.
+coords: org.grails.plugins:grails-spring-websocket
+owner: zyro
+vcs: https://github.com/zyro23/grails-spring-websocket
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - websocket
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.5.0.RC1
+    date: 2021-02-24T05:31:03Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.5.0.M1
+    date: 2021-02-24T05:31:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.4.1
+    date: 2021-02-24T05:31:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.4.0
+    date: 2021-02-24T05:31:05Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.4.0.M1
+    date: 2021-02-24T05:31:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.3.0
+    date: 2021-02-24T05:31:04Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.3.0.M2
+    date: 2021-02-24T05:31:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.3.0.M1
+    date: 2021-02-24T05:31:05Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.0
+    date: 2021-02-24T05:31:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2021-02-24T05:31:06Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0
+    date: 2021-02-24T05:31:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:31:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0.M3
+    date: 2021-02-24T05:31:07Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0.M2
+    date: 2021-02-24T05:31:08Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.0.M1
+    date: 2021-02-24T05:31:08Z
+    grailsVersion: 3.0.0 > *

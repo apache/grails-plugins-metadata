@@ -1,0 +1,22 @@
+name: schwartz-monitor
+desc: Grails Plugin to Monitor Schwartz- or Quartz Plugin Jobs
+coords: org.grails.plugins:schwartz-monitor
+owner: symentis
+vcs: https://github.com/symentis/grails-schwartz-monitor
+docs: https://symentis.github.io/grails-schwartz-monitor/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - quartz
+  - scheduling
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.2
+    date: 2021-02-24T05:38:14Z
+    grailsVersion: 1.3 > *
+  - version: 2.0.1
+    date: 2021-02-24T05:38:14Z
+    grailsVersion: 1.3 > *
+  - version: '2.0'
+    date: 2021-02-24T05:38:15Z
+    grailsVersion: 1.3 > *

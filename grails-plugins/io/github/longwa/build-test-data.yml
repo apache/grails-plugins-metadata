@@ -1,0 +1,30 @@
+name: build-test-data
+desc: Grails build-test-data plugin
+coords: io.github.longwa:build-test-data
+owner: longwa
+vcs: https://github.com/longwa/build-test-data
+docs: https://longwa.github.io/build-test-data/
+maven-repo: https://repo.grails.org/core
+labels:
+  - testing
+licenses:
+  - Apache-2.0
+versions:
+  - version: 6.0.0
+    date: 2025-10-29T16:41:53Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.0-RC2
+    date: 2025-09-12T02:47:16Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.0-RC1
+    date: 2025-08-13T18:04:37Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.0-M2
+    date: 2025-06-26T13:34:52Z
+    grailsVersion: 3.3.0 > *
+  - version: 6.0.0-M1
+    date: 2025-01-08T21:11:41Z
+    grailsVersion: 3.3.0 > *
+  - version: 5.0.0
+    date: 2021-11-11T21:33:55Z
+    grailsVersion: 3.3.0 > *

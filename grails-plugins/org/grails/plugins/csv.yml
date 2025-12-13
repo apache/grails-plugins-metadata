@@ -1,0 +1,29 @@
+name: csv
+desc: Grails csv plugin
+coords: org.grails.plugins:csv
+owner: vsachinv
+vcs: https://github.com/vsachinv/grails-csv
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - csv
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.1
+    date: 2021-02-24T05:28:11Z
+    grailsVersion: 3.0.1 > *
+  - version: '1.0'
+    date: 2021-02-24T05:37:40Z
+    grailsVersion: 3.0.1 > *
+  - version: 0.3.1
+    date: 2012-03-12T20:30:47Z
+    grailsVersion: 1.2 > *
+  - version: '0.3'
+    date: 2012-03-12T20:30:46Z
+    grailsVersion: 1.2 > *
+  - version: '0.2'
+    date: 2012-03-12T20:30:46Z
+    grailsVersion: 1.2 > *
+  - version: '0.1'
+    date: 2012-03-12T20:30:46Z
+    grailsVersion: 1.1 > *

@@ -1,0 +1,50 @@
+name: segment
+desc: Grails Segment plugin
+coords: org.grails.plugins:segment
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-segmentio
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - segment
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2021-02-24T05:38:22Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.1.1
+    date: 2021-02-24T05:38:22Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.9
+    date: 2021-02-24T05:38:22Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.8
+    date: 2021-02-24T05:38:22Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.7
+    date: 2021-04-18T14:05:03Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.6
+    date: 2021-02-24T05:38:23Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.5
+    date: 2021-02-24T05:38:24Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.4
+    date: 2021-02-24T05:38:24Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.3
+    date: 2021-02-24T05:38:24Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.1
+    date: 2021-02-24T05:38:25Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.0
+    date: 2021-02-24T05:38:25Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.0.RC3
+    date: 2021-02-24T05:38:25Z
+    grailsVersion: 3.0.0.RC2 > *
+  - version: 2.0.0.RC2
+    date: 2021-02-24T05:38:25Z
+    grailsVersion: 3.0.0.RC2 > *

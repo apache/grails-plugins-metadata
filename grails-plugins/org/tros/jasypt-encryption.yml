@@ -1,0 +1,15 @@
+name: jasypt-encryption
+desc: Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration
+coords: org.tros:jasypt-encryption
+owner: ZenHarbinger
+vcs: https://github.com/ZenHarbinger/grails-jasypt
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - encryption
+  - jasypt
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.4
+    date: 2021-06-03T14:03:20Z
+    grailsVersion: 4.0.0 > *

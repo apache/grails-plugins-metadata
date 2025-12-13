@@ -1,0 +1,16 @@
+name: spring-security-oauth2-outlook
+desc: This plugin provides the capability to authenticate via outlook-oauth provider. Depends on grails-spring-security-oauth2.
+coords: org.grails.plugins:spring-security-oauth2-outlook
+owner: andreperegrina
+vcs: https://github.com/andreperegrina/grails-spring-security-oauth2-outlook
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: '0.1'
+    date: 2021-02-24T05:39:06Z
+    grailsVersion: 3.3.3 > *

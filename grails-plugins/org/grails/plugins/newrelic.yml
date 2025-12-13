@@ -1,0 +1,86 @@
+name: newrelic
+desc: Grails NewRelic plugin
+coords: org.grails.plugins:newrelic
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-newrelic
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - newrelic
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.2.0
+    date: 2021-02-24T05:36:17Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.9.0
+    date: 2021-02-24T05:36:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.8.0
+    date: 2021-02-24T05:36:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.5.0.6
+    date: 2021-02-24T05:36:18Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.0.1
+    date: 2021-02-24T05:36:21Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.43.0
+    date: 2021-02-24T05:36:21Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.40.0
+    date: 2021-02-24T05:36:21Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.35.2
+    date: 2021-02-24T05:36:21Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.33.0
+    date: 2021-02-24T05:36:22Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.32.0
+    date: 2021-02-24T05:36:22Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.31.1
+    date: 2021-02-24T05:36:22Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.30.0
+    date: 2021-02-24T05:36:23Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.28.0
+    date: 2021-02-24T05:36:23Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.27.0
+    date: 2021-02-24T05:36:23Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.26.1.1
+    date: 2021-02-24T05:36:24Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.26.1
+    date: 2021-02-24T05:36:24Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.25.0
+    date: 2021-02-24T05:36:25Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.19.2
+    date: 2021-02-24T05:36:25Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0-2.18.0
+    date: 2013-05-13T14:36:54Z
+    grailsVersion: 2.0 > *
+  - version: '0.6'
+    date: 2013-01-17T11:22:04Z
+    grailsVersion: 2.0 > *
+  - version: '0.5'
+    date: 2013-01-03T06:40:55Z
+    grailsVersion: 2.0 > *
+  - version: '0.4'
+    date: 2012-11-02T00:23:46Z
+    grailsVersion: 2.0 > *
+  - version: '0.3'
+    date: 2021-02-24T05:36:25Z
+    grailsVersion: 3.0.0 > *
+  - version: '0.2'
+    date: 2021-02-24T05:36:26Z
+    grailsVersion: 3.0.4 > *
+  - version: '0.1'
+    date: 2021-02-24T05:36:26Z
+    grailsVersion: 3.0.4 > *

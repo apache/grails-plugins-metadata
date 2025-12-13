@@ -1,0 +1,71 @@
+name: redis-gorm
+desc: GORM - Grails Data Access Framework
+coords: org.grails.plugins:redis-gorm
+owner: grails
+vcs: https://github.com/grails/gorm-redis
+docs: https://gorm.grails.org/latest/redis/manual/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - gorm
+  - nosql
+  - redis
+licenses:
+  - Apache-2.0
+versions:
+  - version: 6.0.4
+    date: 2021-02-24T05:37:12Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.2
+    date: 2021-02-24T05:37:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0
+    date: 2021-02-24T05:37:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.RC2
+    date: 2021-02-24T05:37:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.RC1
+    date: 2021-02-24T05:37:14Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.M2
+    date: 2021-02-24T05:37:14Z
+    grailsVersion: 3.0.0 > *
+  - version: 6.0.0.M1
+    date: 2021-02-24T05:37:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.13
+    date: 2021-02-24T05:37:12Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.12
+    date: 2021-02-24T05:37:13Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.11
+    date: 2021-02-24T05:37:14Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.10
+    date: 2021-02-24T05:37:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.9
+    date: 2021-02-24T05:37:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.8
+    date: 2021-02-24T05:37:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.7
+    date: 2021-02-24T05:37:16Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.6
+    date: 2021-02-24T05:37:16Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.5
+    date: 2021-02-24T05:37:16Z
+    grailsVersion: 3.0.0 > *
+  - version: 5.0.4
+    date: 2021-02-24T05:37:17Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0.M8
+    date: 2012-03-12T20:32:32Z
+    grailsVersion: 1.3.4 > *
+  - version: 1.0.0.M7
+    date: 2012-03-12T20:32:32Z
+    grailsVersion: 1.3.4 > *

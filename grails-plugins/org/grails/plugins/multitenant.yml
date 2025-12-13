@@ -1,0 +1,14 @@
+name: multitenant
+coords: org.grails.plugins:multitenant
+owner: troutbird
+vcs: https://github.com/ejaz-ahmed/grails-multitenant-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - multitenant
+licenses:
+  - Apache-2.0
+deprecated: Since Grails 3.2 - Use GORMs built-in support for multitenancy.
+versions:
+  - version: '0.1'
+    date: 2021-02-24T05:35:57Z
+    grailsVersion: 3.0.11 > *

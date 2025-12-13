@@ -1,0 +1,57 @@
+name: http-requests-grails
+desc: The HTTP Requests Plugin provides the http-requests library and artefacts for filters and converters.
+coords: com.budjb:http-requests-grails
+owner: budjb
+vcs: https://github.com/budjb/http-requests
+docs: https://budjb.github.io/http-requests/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - http-client
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-24T05:33:44Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.1
+    date: 2021-02-24T05:33:44Z
+    grailsVersion: 3.0 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:33:44Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.14.BETA
+    date: 2021-02-24T05:33:44Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.13.BETA
+    date: 2021-02-24T05:33:45Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.12.BETA
+    date: 2021-02-24T05:33:45Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.11.BETA
+    date: 2021-02-24T05:33:45Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.10.BETA
+    date: 2021-02-24T05:33:46Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.9.BETA
+    date: 2021-02-24T05:33:46Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.8.BETA
+    date: 2021-02-24T05:33:46Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.7.BETA
+    date: 2021-02-24T05:33:47Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.6.BETA
+    date: 2021-02-24T05:33:47Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.5.BETA
+    date: 2021-02-24T05:33:47Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.4.BETA
+    date: 2021-02-24T05:33:48Z
+    grailsVersion: 3.0 > *
+  - version: 0.1.3.BETA
+    date: 2021-02-24T05:33:48Z
+    grailsVersion: 3.0 > *

@@ -1,0 +1,48 @@
+name: angular-template-asset-pipeline
+desc: AngularJS Templates for Asset Pipeline 2.0+
+coords: com.craigburke.angular:angular-template-asset-pipeline
+owner: craigburke
+vcs: https://github.com/craigburke/angular-template-asset-pipeline
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - angular-1
+  - asset-pipeline
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.4.0
+    date: 2017-07-03T19:47:30Z
+  - version: 2.3.0
+    date: 2016-04-04T15:45:34Z
+  - version: 2.2.7
+    date: 2016-02-26T20:21:47Z
+  - version: 2.2.6
+    date: 2015-10-13T18:59:29Z
+  - version: 2.2.5
+    date: 2015-10-12T18:24:35Z
+  - version: 2.2.4
+    date: 2015-10-02T18:34:56Z
+  - version: 2.2.3
+    date: 2015-10-02T18:21:25Z
+  - version: 2.2.2
+    date: 2015-09-29T15:31:32Z
+  - version: 2.2.1
+    date: 2015-07-29T14:51:26Z
+  - version: 2.2.0
+    date: 2015-06-23T22:55:42Z
+  - version: 2.1.0
+    date: 2015-04-28T15:32:34Z
+  - version: 2.0.7
+    date: 2015-03-12T18:35:47Z
+  - version: 2.0.6
+    date: 2015-02-09T20:39:19Z
+  - version: 2.0.5
+    date: 2015-02-09T18:17:34Z
+  - version: 2.0.4
+    date: 2015-01-30T21:30:57Z
+  - version: 2.0.3
+    date: 2015-01-05T20:10:47Z
+  - version: 2.0.2
+    date: 2014-12-04T16:56:45Z
+  - version: 2.0.1
+    date: 2014-12-02T16:57:47Z

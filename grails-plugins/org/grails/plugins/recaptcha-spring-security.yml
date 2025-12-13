@@ -1,0 +1,22 @@
+name: recaptcha-spring-security
+desc: Recaptcha support for Spring security
+coords: org.grails.plugins:recaptcha-spring-security
+owner: snimavat
+vcs: https://github.com/snimavat/recaptcha-spring-security
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - captcha
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.1
+    date: 2021-02-24T05:37:11Z
+    grailsVersion: 3.0.0 > *
+  - version: '1.0'
+    date: 2015-08-12T18:29:26Z
+    grailsVersion: 2.3.2 > *
+  - version: '0.1'
+    date: 2013-02-13T00:05:29Z
+    grailsVersion: 1.3.7 > *

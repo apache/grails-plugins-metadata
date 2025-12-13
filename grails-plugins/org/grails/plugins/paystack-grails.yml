@@ -1,0 +1,20 @@
+name: paystack-grails
+desc: Plugin to communicate with paystack API
+coords: org.grails.plugins:paystack-grails
+owner: dubems
+vcs: https://github.com/dubems/paystack-grails
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - payment
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.5
+    date: 2021-02-24T05:36:46Z
+    grailsVersion: 3.2.6 > *
+  - version: 0.3.2
+    date: 2021-02-24T05:36:46Z
+    grailsVersion: 3.2.6 > *
+  - version: 0.3.1
+    date: 2021-02-24T05:36:46Z
+    grailsVersion: 3.2.6 > *

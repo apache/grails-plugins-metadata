@@ -1,0 +1,23 @@
+name: schwartz
+desc: Quartz integration
+coords: com.agileorbit:schwartz
+owner: agileorbit
+vcs: https://github.com/agileorbit/grails-schwartz/
+docs: https://agileorbit.github.io/grails-schwartz/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - quartz
+  - scheduling
+licenses:
+  - Apache-2.0
+deprecated: Source repository is archived.
+versions:
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:38:13Z
+    grailsVersion: 4.0.0 > *
+  - version: 1.0.1
+    date: 2021-04-18T14:04:39Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:38:13Z
+    grailsVersion: 3.0.0 > *

@@ -1,0 +1,26 @@
+name: soft-delete
+desc: Provides Grails domain classes support for soft (or logical) deletes.
+coords: org.grails.plugins:soft-delete
+owner: danlobo
+vcs: https://github.com/danlobo/grails-soft-delete
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - delete
+licenses:
+  - MIT
+versions:
+  - version: '0.5'
+    date: 2021-02-24T05:38:45Z
+    grailsVersion: 3.2.9 > *
+  - version: '0.4'
+    date: 2021-02-24T05:38:46Z
+    grailsVersion: 3.2.9 > *
+  - version: '0.3'
+    date: 2021-02-24T05:38:46Z
+    grailsVersion: 3.2.9 > *
+  - version: '0.2'
+    date: 2021-02-24T05:38:46Z
+    grailsVersion: 3.2.9 > *
+  - version: '0.1'
+    date: 2021-02-24T05:38:46Z
+    grailsVersion: 3.2.9 > *

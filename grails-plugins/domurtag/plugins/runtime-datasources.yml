@@ -1,0 +1,14 @@
+name: runtime-datasources
+desc: Grails runtime-datasources plugin
+coords: domurtag.plugins:runtime-datasources
+owner: domurtag
+vcs: https://github.com/domurtag/runtime-datasources
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - database
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.2-grails3
+    date: 2021-02-24T05:28:42Z
+    grailsVersion: 3.0.1 > *

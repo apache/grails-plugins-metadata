@@ -1,0 +1,15 @@
+name: retina-tag
+desc: Adds retina resolution image tag support for asset-pipeline.
+coords: com.bertramlabs.plugins:retina-tag
+owner: bertramlabs
+vcs: https://github.com/bertramdev/retina-tag-grails
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - image
+  - retina
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2021-02-24T05:37:25Z
+    grailsVersion: 3.1.0 > *

@@ -1,0 +1,68 @@
+name: dynamic-logs-with-rabbit
+desc: Change Application Log Levels via Rabbit MQ messages at Runtime.
+coords: org.grails.plugins:dynamic-logs-with-rabbit
+owner: dbpatel219
+vcs: https://github.com/dbpatel219/dynamic-logs-with-rabbit
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - logging
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-24T05:28:45Z
+    grailsVersion: 3.2.9 > *
+  - version: 0.5.5
+    date: 2015-05-13T19:37:48Z
+    grailsVersion: 2.1 > *
+  - version: 0.5.4
+    date: 2015-04-22T18:22:04Z
+    grailsVersion: 2.1 > *
+  - version: 0.5.3
+    date: 2015-04-15T19:41:31Z
+    grailsVersion: 2.1 > *
+  - version: 0.5.2
+    date: 2015-04-15T19:31:14Z
+    grailsVersion: 2.1 > *
+  - version: 0.5.1
+    date: 2015-03-17T19:37:31Z
+    grailsVersion: 2.1 > *
+  - version: 0.5.0
+    date: 2015-02-26T17:31:45Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.7
+    date: 2015-02-17T14:30:13Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.6
+    date: 2015-02-17T13:54:43Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.4
+    date: 2015-02-06T17:30:55Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.3
+    date: 2015-02-05T18:17:13Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.2
+    date: 2015-02-04T10:44:38Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.1
+    date: 2015-02-04T10:35:08Z
+    grailsVersion: 2.1 > *
+  - version: 0.4.0
+    date: 2015-02-04T09:26:02Z
+    grailsVersion: 2.1 > *
+  - version: 0.3.3
+    date: 2014-12-11T15:08:28Z
+    grailsVersion: 2.1 > *
+  - version: 0.3.2
+    date: 2014-12-11T14:27:58Z
+    grailsVersion: 2.1 > *
+  - version: 0.3.1
+    date: 2014-12-11T01:53:23Z
+    grailsVersion: 2.1 > *
+  - version: '0.3'
+    date: 2014-12-10T21:01:13Z
+    grailsVersion: 2.1 > *
+  - version: '0.2'
+    date: 2014-12-09T16:37:43Z
+    grailsVersion: 2.1 > *

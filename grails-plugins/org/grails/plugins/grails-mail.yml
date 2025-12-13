@@ -1,0 +1,25 @@
+name: grails-mail
+desc: The Mail Plugin provides a convenient DSL for sending email. It supports plain text, html, attachments,
+  inline resources and i18n among other features.
+coords: org.grails.plugins:grails-mail
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-mail
+docs: https://grails-plugins.github.io/grails-mail/latest
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - mail
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.3
+    date: 2025-10-21T09:44:33Z
+    grailsVersion: 7.0.0 > *
+  - version: 5.0.2
+    date: 2025-09-12T03:03:16Z
+    grailsVersion: 7.0.0 > *
+  - version: 5.0.1
+    date: 2025-07-30T02:14:52Z
+    grailsVersion: 7.0.0 > *
+  - version: 5.0.0
+    date: 2025-06-10T18:09:54Z
+    grailsVersion: 7.0.0 > *

@@ -1,0 +1,22 @@
+name: timezone-detection
+desc: The Grails Timezone Detection Plugin makes use of the jsTimezoneDetect Library in order to make
+  the client/browser's timezone available on the server/JVM.
+coords: com.captivatelabs.grails.plugins:timezone-detection
+owner: captivatelabs
+vcs: https://github.com/dustindclark/grails-timezone-detection
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - date
+  - timezone
+licenses:
+  - MIT
+versions:
+  - version: 0.4.57
+    date: 2021-02-24T05:39:27Z
+    grailsVersion: 4.0 > *
+  - version: 0.4.55
+    date: 2021-02-24T05:39:27Z
+    grailsVersion: 4.0 > *
+  - version: 0.4.41
+    date: 2021-02-24T05:39:27Z
+    grailsVersion: 4.0 > *

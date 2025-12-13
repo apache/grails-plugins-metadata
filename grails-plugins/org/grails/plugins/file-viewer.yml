@@ -1,0 +1,23 @@
+name: file-viewer
+desc: Grails plugin which allows you to view files stored on the file system.
+coords: org.grails.plugins:file-viewer
+owner: tothenew
+vcs: https://github.com/tothenew/File-Viewer-Grails-Plugin
+docs: https://github.com/tothenew/File-Viewer-Grails-Plugin/wiki
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - file-viewer
+licenses:
+  - Apache-2.0
+comment: There does not seem to exist a published release version compatible with Grails >= 3 as of this
+  writing.
+versions:
+  - version: '0.3'
+    date: 2012-03-12T20:30:57Z
+    grailsVersion: 1.1 > *
+  - version: '0.2'
+    date: 2012-03-12T20:30:57Z
+    grailsVersion: 1.1 > *
+  - version: '0.1'
+    date: 2012-03-12T20:30:57Z
+    grailsVersion: 1.1 > *

@@ -1,0 +1,28 @@
+name: dropwizard-metrics
+desc: Monitoring And Metrics Plugin For Grails 3
+coords: org.grails.plugins:dropwizard-metrics
+owner: grails
+vcs: https://github.com/grails-plugins/grails-dropwizard-metrics
+docs: https://grails-plugins.github.io/grails-dropwizard-metrics/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - metrics
+  - dropwizard
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:28:42Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:28:42Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M3
+    date: 2021-02-24T05:28:43Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M2
+    date: 2021-02-24T05:28:43Z
+    grailsVersion: 3.0.14 > *
+  - version: 1.0.0.M1
+    date: 2021-02-24T05:28:43Z
+    grailsVersion: 3.0.14 > *

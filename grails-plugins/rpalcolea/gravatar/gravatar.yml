@@ -1,0 +1,18 @@
+name: gravatar
+desc: Grails plugin for displaying avatars from Gravatar
+coords: rpalcolea.gravatar:gravatar
+owner: rpalcolea
+vcs: https://github.com/rpalcolea/grails-gravatar
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - gravatar
+  - image
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-24T05:32:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:32:20Z
+    grailsVersion: 3.0.0 > *

@@ -1,0 +1,23 @@
+name: payment
+desc: Grails payment plugin
+coords: io.github.vahidhedayati:payment
+owner: vahidhedayati
+vcs: https://github.com/vahidhedayati/grails-payment
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - paypal
+  - stripe
+  - square
+  - payment
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-07-05T20:42:07Z
+    grailsVersion: 4 > *
+  - version: 1.0.1
+    date: 2021-06-22T20:55:38Z
+    grailsVersion: 4 > *
+  - version: 1.0.0
+    date: 2021-06-22T20:47:19Z
+    grailsVersion: 4 > *

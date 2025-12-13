@@ -1,0 +1,58 @@
+name: views-gradle
+desc: Enables Gradle to compile views for production environment
+coords: org.grails.plugins:views-gradle
+owner: grails
+vcs: https://github.com/grails/grails-views
+docs: https://views.grails.org/latest/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - views
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0-M3
+    date: 2025-03-04T19:18:01Z
+  - version: 4.0.0-M1
+    date: 2024-12-21T19:53:09Z
+  - version: 3.2.3
+    date: 2024-04-04T10:51:32Z
+  - version: 3.2.2
+    date: 2024-03-28T16:49:37Z
+  - version: 3.2.1
+    date: 2024-03-22T06:32:31Z
+  - version: 3.1.2
+    date: 2024-01-17T11:07:38Z
+  - version: 3.1.1
+    date: 2023-12-08T10:22:22Z
+  - version: 3.1.0
+    date: 2023-10-17T17:19:01Z
+  - version: 3.0.0
+    date: 2023-07-22T01:28:11Z
+  - version: 3.0.0-RC1
+    date: 2023-05-23T17:12:12Z
+  - version: 3.0.0-M1
+    date: 2023-05-11T06:43:21Z
+  - version: 2.3.2
+    date: 2022-06-17T15:22:25Z
+  - version: 2.3.1
+    date: 2022-06-07T07:43:57Z
+  - version: 2.3.0
+    date: 2022-05-25T11:04:16Z
+  - version: 2.2.1
+    date: 2022-03-07T19:57:12Z
+  - version: 2.2.0
+    date: 2022-01-04T20:24:47Z
+  - version: 2.1.2
+    date: 2021-12-16T09:08:42Z
+  - version: 2.1.1
+    date: 2021-11-03T17:40:11Z
+  - version: 2.1.0
+    date: 2021-10-11T08:20:26Z
+  - version: 2.1.0-RC4
+    date: 2021-10-05T20:23:49Z
+  - version: 2.1.0.RC3
+    date: 2021-09-03T10:59:37Z
+  - version: 2.1.0.RC2
+    date: 2021-08-11T23:04:28Z
+  - version: 2.1.0.RC1
+    date: 2021-07-21T21:02:23Z

@@ -1,0 +1,49 @@
+name: babel-asset-pipeline
+desc: Babel.js transformation for Asset-pipeline
+coords: net.errbuddy.plugins:babel-asset-pipeline
+owner: errbuddy
+vcs: https://github.com/errbuddy/babel-asset-pipeline
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - asset-pipeline
+  - babel
+licenses:
+  - BSD 2-Clause
+versions:
+  - version: 2.1.1
+    date: 2021-02-24T05:26:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2021-02-24T05:26:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.8
+    date: 2021-02-24T05:26:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.7
+    date: 2021-02-24T05:26:33Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.0.6
+    date: 2021-02-24T05:26:34Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.4.5
+    date: 2021-02-24T05:26:34Z
+  - version: 1.4.4
+    date: 2021-02-24T05:26:35Z
+  - version: 1.4.3
+    date: 2021-02-24T05:26:35Z
+  - version: 1.4.2
+    date: 2021-02-24T05:26:36Z
+  - version: 1.4.1
+    date: 2021-02-24T05:26:35Z
+  - version: 1.4.0
+    date: 2021-02-24T05:26:36Z
+  - version: 1.3.0
+    date: 2021-02-24T05:26:36Z
+  - version: 1.2.0
+    date: 2021-02-24T05:26:36Z
+  - version: 1.1.5
+    date: 2021-02-24T05:26:36Z
+  - version: 1.1.4
+    date: 2021-02-24T05:26:36Z
+  - version: 1.1.3
+    date: 2021-02-24T05:26:36Z

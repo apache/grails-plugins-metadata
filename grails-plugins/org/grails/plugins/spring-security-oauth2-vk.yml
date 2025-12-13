@@ -1,0 +1,16 @@
+name: spring-security-oauth2-vk
+desc: This plugin provides the capability to authenticate via vk-oauth provider. Depends on grails-spring-security-oauth2.
+coords: org.grails.plugins:spring-security-oauth2-vk
+owner: purpleraven
+vcs: https://github.com/purpleraven/grails-spring-security-oauth2-vk
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.0'
+    date: 2021-02-24T05:39:07Z
+    grailsVersion: 3.1.8 > *

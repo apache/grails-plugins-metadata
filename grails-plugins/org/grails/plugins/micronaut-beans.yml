@@ -1,0 +1,19 @@
+name: micronaut-beans
+desc: Grails Plugin For Adding Micronaut Beans To The Spring Application Context
+coords: org.grails.plugins:micronaut-beans
+owner: grails
+vcs: https://github.com/grails-plugins/micronaut-beans
+docs: https://grails-plugins.github.io/micronaut-beans/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - micronaut
+licenses:
+  - Apache-2.0
+comment: Micronaut is part of Grails since 4.0.0. Is this entry still relevant?
+versions:
+  - version: 1.0.0.M2
+    date: 2021-02-24T05:35:26Z
+    grailsVersion: 3.3.0 > *
+  - version: 1.0.0.M1
+    date: 2021-02-24T05:35:26Z
+    grailsVersion: 3.3.0 > *

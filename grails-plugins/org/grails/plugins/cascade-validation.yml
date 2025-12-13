@@ -1,0 +1,26 @@
+name: cascade-validation
+desc: Grails Cascade Validation Plugin
+coords: org.grails.plugins:cascade-validation
+owner: ctoestreich
+vcs: https://github.com/Grails-Plugin-Consortium/grails-cascade-validation
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - validation
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.2
+    date: 2021-02-24T05:26:52Z
+    grailsVersion: 3.0.9 > *
+  - version: 0.1.5
+    date: 2017-08-16T14:13:37Z
+    grailsVersion: 2.3 > *
+  - version: 0.1.4
+    date: 2014-10-29T21:46:46Z
+    grailsVersion: 2.3 > *
+  - version: 0.1.3
+    date: 2014-10-06T21:48:52Z
+    grailsVersion: 2.3 > *
+  - version: 0.1.2
+    date: 2014-10-06T21:40:30Z
+    grailsVersion: 2.3 > *

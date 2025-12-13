@@ -1,0 +1,27 @@
+name: hibernate-filter
+desc: Provides utilities to define hibernate filters on classes and collections. Meant to be used with
+  Grails 3.2 and higher, Hibernate 5, and GORM 6
+coords: org.grails.plugins:hibernate-filter-plugin
+owner: goodstartgenetics
+vcs: https://github.com/alexkramer/grails-hibernate-filter
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - database
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.5.5
+    date: 2021-02-24T05:30:43Z
+    grailsVersion: 3.2.3 > *
+  - version: 0.5.4
+    date: 2021-04-18T13:56:00Z
+    grailsVersion: 3.2.3 > *
+  - version: 0.5.3
+    date: 2021-02-24T05:30:44Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.5.2
+    date: 2021-02-24T05:30:44Z
+    grailsVersion: 3.2.3 > *
+  - version: 0.5.1
+    date: 2021-02-24T05:30:44Z
+    grailsVersion: 3.2.3 > *

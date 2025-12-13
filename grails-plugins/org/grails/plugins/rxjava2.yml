@@ -1,0 +1,16 @@
+name: rxjava2
+desc: A plugin that integrates Grails with RxJava
+coords: org.grails.plugins:rxjava2
+owner: grails
+vcs: https://github.com/grails-plugins/grails-rxjava
+docs: https://grails-plugins.github.io/grails-rxjava/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - async
+  - rxjava2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.0
+    date: 2021-02-24T05:37:40Z
+    grailsVersion: 3.0.0 > *

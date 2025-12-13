@@ -1,0 +1,23 @@
+name: http-builder-helper
+desc: Grails HTTP Builder Helper Plugin
+coords: org.grails.plugins:http-builder-helper
+owner: grails
+vcs: https://github.com/bobbywarner/grails-http-builder-helper
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - http-client
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.1.0
+    date: 2021-02-24T05:33:43Z
+    grailsVersion: 3.2.0 > *
+  - version: 1.0.2
+    date: 2021-02-24T05:33:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.1
+    date: 2021-02-24T05:33:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:33:44Z
+    grailsVersion: 3.0.0 > *

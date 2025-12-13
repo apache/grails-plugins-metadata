@@ -1,0 +1,20 @@
+name: i18n-enums
+desc: This plugin adds an annotation usable on Enums to easy add and implement the MessageSourceResolvable
+  interface in an standard way throughout a project.
+coords: org.grails.plugins:i18n-enums
+owner: sbglasius
+vcs: https://github.com/sbglasius/i18n-enums
+docs: https://sbglasius.github.io/i18n-enums/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - enums
+  - i18n
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.1
+    date: 2025-10-29T12:31:13Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0
+    date: 2025-08-24T15:27:26Z
+    grailsVersion: 7.0.0 > *

@@ -1,0 +1,36 @@
+name: lightningj-grails
+desc: Grails 3.x Plugin to integrate LightningJ into a Grails application.
+coords: org.lightningj:lightningj-grails
+owner: herrvendil
+vcs: https://github.com/lightningj-org/lightningj-grails
+docs: https://lightningj-org.github.io/lightningj-grails/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - lightning
+licenses:
+  - LGPL-3.0
+versions:
+  - version: 0.5.2-Beta
+    date: 2021-02-24T05:35:20Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.5.0-Beta-rc2
+    date: 2021-02-24T05:35:21Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.5.0-Beta-rc1
+    date: 2021-02-24T05:35:21Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.5.0-Beta
+    date: 2021-02-24T05:35:20Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.4.2-Beta-2
+    date: 2021-02-24T05:35:21Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.4.2-Beta
+    date: 2021-02-24T05:35:22Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.4.1-Beta
+    date: 2021-02-24T05:35:22Z
+    grailsVersion: 3.3.0 > *
+  - version: 0.3-Beta
+    date: 2021-02-24T05:35:23Z
+    grailsVersion: 3.3.0 > *

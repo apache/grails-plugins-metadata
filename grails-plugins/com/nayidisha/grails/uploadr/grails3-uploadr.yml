@@ -1,0 +1,20 @@
+name: uploadr
+desc: Plugin to upload multiple files from a web page. Uses HTML5 and CSS3
+coords: com.nayidisha.grails.uploadr:grails3-uploadr
+owner: pankajtandon
+vcs: https://github.com/pankajtandon/grails3-uploadr
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - upload
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.1.0
+    date: 2021-02-24T05:32:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:32:20Z
+    grailsVersion: 3.1.5 > *
+  - version: '3.0'
+    date: 2021-02-24T05:32:20Z
+    grailsVersion: 3.1.5 > *

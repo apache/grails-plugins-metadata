@@ -1,0 +1,17 @@
+name: phone-number-constraint
+desc: Grails Phone Number Constraint Plugin
+coords: io.github.gpc:phone-number-constraint
+owner: sbglasius
+vcs: https://github.com/gpc/grails-phone-number-constraint
+maven-repo: https://repo.maven.apache.org/maven2
+labels:
+  - validation
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.3.0 > *
+  - version: 1.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.3.0 > *

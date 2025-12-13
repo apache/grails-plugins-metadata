@@ -1,0 +1,67 @@
+name: export
+desc: Grails export plugin
+coords: org.grails.plugins:export
+owner: gpc
+vcs: https://github.com/gpc/export
+docs: https://gpc.github.io/export/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - export
+  - csv
+  - excel
+  - ods
+  - pdf
+  - xml
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.0.0
+    date: 2021-04-27T23:36:33Z
+    grailsVersion: 3.0.1 > *
+  - version: '1.6'
+    date: 2014-05-14T16:46:05Z
+    grailsVersion: 1.3 > *
+  - version: '1.5'
+    date: 2012-07-18T20:27:29Z
+    grailsVersion: 1.3 > *
+  - version: '1.4'
+    date: 2012-07-18T19:41:14Z
+    grailsVersion: 1.3 > *
+  - version: '1.3'
+    date: 2012-05-18T21:07:09Z
+    grailsVersion: 1.3 > *
+  - version: '1.2'
+    date: 2012-05-02T19:47:03Z
+    grailsVersion: 1.3 > *
+  - version: '1.1'
+    date: 2012-03-12T20:30:14Z
+    grailsVersion: 1.3 > *
+  - version: '1.0'
+    date: 2012-03-12T20:30:13Z
+    grailsVersion: 1.3 > *
+  - version: '0.9'
+    date: 2012-03-12T20:30:13Z
+    grailsVersion: 1.3 > *
+  - version: '0.8'
+    date: 2012-03-12T20:30:12Z
+    grailsVersion: 1.3 > *
+  - version: '0.7'
+    date: 2012-03-12T20:30:12Z
+    grailsVersion: 1.1.1 > *
+  - version: '0.6'
+    date: 2012-03-12T20:30:11Z
+    grailsVersion: 1.2-M4 > *
+  - version: '0.5'
+    date: 2012-03-12T20:30:11Z
+    grailsVersion: 1.2-M2 > *
+  - version: '0.4'
+    date: 2012-03-12T20:30:10Z
+    grailsVersion: 1.1 > *
+  - version: '0.3'
+    date: 2012-03-12T20:30:09Z
+    grailsVersion: 1.1 > *
+  - version: '0.2'
+    date: 2012-03-12T20:30:08Z
+    grailsVersion: 1.1 > *
+  - version: '0.1'
+    date: 2012-03-12T20:30:08Z

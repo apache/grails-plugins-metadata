@@ -1,0 +1,19 @@
+name: moceanapi-grails-sms
+desc: This plugin allows helps you to incorporate SMS notification into your workflow.
+coords: com.github.moceanapi:mocean-grails-sms
+owner: moceanapi
+vcs: https://github.com/MoceanAPI/mocean-grails-sms
+docs: https://github.com/MoceanAPI/mocean-grails-sms
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - sms
+  - moceanapi
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.1
+    date: 2022-08-10T10:39:49Z
+    grailsVersion: 4.0.2 > *
+  - version: 1.0.0
+    date: 2022-07-26T07:52:54Z
+    grailsVersion: 4.0.2 > *

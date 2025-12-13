@@ -1,0 +1,30 @@
+name: swagger4jaxrs
+desc: Grails swagger4jaxrs plugin
+coords: org.grails.plugins:swagger4jaxrs
+owner: donald-jackson
+vcs: https://github.com/donald-jackson/swagger4jaxrs
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - swagger
+  - jax-rs
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.2
+    date: 2021-02-24T05:39:25Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:39:26Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:39:26Z
+    grailsVersion: 3.0 > *
+  - version: '0.4'
+    date: 2021-02-24T05:39:26Z
+    grailsVersion: 3.0 > *
+  - version: '0.2'
+    date: 2014-03-24T01:18:54Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2013-10-08T23:11:25Z
+    grailsVersion: 2.0 > *

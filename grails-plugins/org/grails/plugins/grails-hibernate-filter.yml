@@ -1,0 +1,25 @@
+name: hibernate-filter
+desc: This plugin allows Hibernate filters to be used in Grails applications.
+coords: org.grails.plugins:grails-hibernate-filter
+owner: piotrchowaniec
+vcs: https://github.com/fingo/grails-hibernate-filter
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - database
+licenses:
+  - Apache-2.0
+deprecated: Source repository was archived was archived by the owner on Mar 15, 2021.
+versions:
+  - version: 0.2.0
+    date: 2016-07-21T07:05:00Z
+    grailsVersion: 3.1.9 > *
+    artifactAvailable: false
+  - version: 0.1.2
+    date: 2021-02-24T05:30:42Z
+    grailsVersion: 3.0.3 > *
+  - version: 0.1.1
+    date: 2021-02-24T05:30:42Z
+    grailsVersion: 3.0.3 > *
+  - version: 0.1.0
+    date: 2021-02-24T05:30:43Z
+    grailsVersion: 3.0.3 > *

@@ -1,0 +1,33 @@
+name: jaxrs-integration-test
+desc: "The jaxrs project is a set of Grails plugins that supports the development of RESTful web services\
+  \ based\r\non the Java API for RESTful Web Services.\r\n\r\nThe jaxrs-integration-test plugin provides\
+  \ classes to help with integration testing."
+coords: org.grails.plugins:jaxrs-integration-test
+owner: budjb
+vcs: https://github.com/budjb/grails-jaxrs
+docs: https://budjb.github.io/grails-jaxrs/3.x/latest/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - testing
+  - jax-rs
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.1.0
+    date: 2021-02-24T05:33:54Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.4
+    date: 2021-02-24T05:33:54Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.3
+    date: 2021-02-24T05:33:55Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.2
+    date: 2021-02-24T05:33:55Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:33:55Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:33:55Z
+    grailsVersion: 3.1.4 > *

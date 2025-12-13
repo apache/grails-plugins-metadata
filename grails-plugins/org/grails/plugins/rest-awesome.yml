@@ -1,0 +1,15 @@
+name: rest-awesome
+coords: org.grails.plugins:rest-awesome
+owner: troutbird
+vcs: https://github.com/ejaz-ahmed/grails-rest-awesome-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - pagination
+  - rest
+  - json
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.2.0
+    date: 2021-02-24T05:37:25Z
+    grailsVersion: 3.0.11 > *

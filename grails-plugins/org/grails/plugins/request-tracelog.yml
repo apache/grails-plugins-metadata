@@ -1,0 +1,29 @@
+name: request-tracelog
+desc: Grails request-tracelog plugin
+coords: org.grails.plugins:request-tracelog
+owner: nobeans
+vcs: https://github.com/nobeans/grails-request-tracelog
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - logging
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.3.0
+    date: 2021-02-24T05:37:23Z
+    grailsVersion: 3.1.4 > *
+  - version: 1.2.0
+    date: 2021-02-24T05:37:23Z
+    grailsVersion: 3.1.4 > *
+  - version: 1.1.2
+    date: 2021-02-24T05:37:24Z
+    grailsVersion: 3.0.1 > *
+  - version: 1.1.1
+    date: 2021-02-24T05:37:24Z
+    grailsVersion: 3.0.1 > *
+  - version: 1.1.0
+    date: 2021-02-24T05:37:24Z
+    grailsVersion: 3.0.1 > *
+  - version: 1.0.0
+    date: 2021-02-24T05:37:24Z
+    grailsVersion: 3.0.1 > *

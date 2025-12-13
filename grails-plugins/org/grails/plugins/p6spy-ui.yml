@@ -1,0 +1,21 @@
+name: p6spy-ui
+desc: Grails p6spy-ui plugin
+coords: org.grails.plugins:p6spy-ui
+owner: grails
+vcs: https://github.com/burtbeckwith/grails-p6spy-ui
+docs: https://burtbeckwith.github.io/grails-p6spy-ui/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - logging
+  - p6spy
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2021-02-24T05:36:44Z
+  - version: 1.0.0
+    date: 2016-01-05T02:28:12Z
+    grailsVersion: 2.3 > *
+  - version: '0.1'
+    date: 2012-11-12T03:50:17Z
+    grailsVersion: 2.0 > *

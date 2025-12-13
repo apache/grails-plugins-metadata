@@ -1,0 +1,22 @@
+name: spring-security-oauth2-github
+desc: This plugin provides the capability to authenticate via Github-oauth provider. Depends on grails-spring-security-oauth2.
+coords: org.grails.plugins:spring-security-oauth2-github
+owner: rpalcolea
+vcs: https://github.com/rpalcolea/grails-spring-security-oauth2-github
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - oauth2
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.2
+    date: 2021-02-24T05:39:03Z
+    grailsVersion: 3.1.* > *
+  - version: 1.0.1
+    date: 2021-02-24T05:39:03Z
+    grailsVersion: 3.1.* > *
+  - version: 1.0.0
+    date: 2021-02-24T05:39:04Z
+    grailsVersion: 3.1.* > *

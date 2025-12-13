@@ -1,0 +1,19 @@
+name: csrf
+desc: CSRF Protection for Grails
+coords: io.github.matrei:grails-csrf
+owner: matrei
+vcs: https://github.com/matrei/grails-csrf-plugin
+docs: https://github.com/matrei/grails-csrf-plugin#readme
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - csrf
+  - security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.1
+    date: 2024-12-28T23:00:38Z
+    grailsVersion: 6.0.0 > *
+  - version: 1.0.0
+    date: 2024-04-30T11:16:26Z
+    grailsVersion: 6.0.0 > *

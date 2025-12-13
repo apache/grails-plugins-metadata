@@ -1,0 +1,20 @@
+name: sendgrid
+desc: Grails SendGrid Plugin
+coords: desirableobjects.grails.plugins:grails-sendgrid
+owner: desirable-objects
+vcs: https://github.com/desirable-objects/grails-sendgrid
+docs: https://desirable-objects.github.io/grails-sendgrid/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - mail
+  - sendgrid
+licenses:
+  - Apache-2.0
+comment: Integration with SendGrid is outdated and does not currently seem to work.
+versions:
+  - version: 2.0.1
+    date: 2021-02-24T05:31:00Z
+    grailsVersion: 3.0.0 > *
+  - version: '2.0'
+    date: 2021-02-24T05:31:00Z
+    grailsVersion: 3.0.0 > *

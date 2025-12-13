@@ -1,0 +1,69 @@
+name: mongodb
+desc: GORM for MongoDB
+coords: org.grails.plugins:mongodb
+owner: grails
+vcs: https://github.com/grails/gorm-mongodb
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - gorm
+  - mongodb
+licenses:
+  - Apache-2.0
+versions:
+  - version: 9.0.0-M3
+    date: 2025-03-04T15:34:07Z
+    grailsVersion: 7.0.0 > *
+  - version: 9.0.0-M2
+    date: 2024-12-21T23:09:28Z
+    grailsVersion: 6.0.0 > *
+  - version: 8.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 6.0.0 > *
+  - version: 8.1.2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 6.0.0 > *
+  - version: 8.1.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 6.0.0 > *
+  - version: 8.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 6.0.0 > *
+  - version: 8.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 8.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 8.0.0-M2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 8.0.0-M1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.3.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.2.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.1.0-RC4
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.1.0.RC3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.1.0.RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.1.0.RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 7.0.2
+    date: 2021-09-08T19:10:02Z
+    grailsVersion: 3.0.0 > *

@@ -1,0 +1,16 @@
+name: Grails Liquid Plugin
+desc: A Grails plugin for the Liquid markup language and template engine.
+coords: io.github.charlieamat:grails-liquid-plugin
+owner: charlieamat
+vcs: https://github.com/charlieamat/grails-liquid-plugin
+docs: https://github.com/charlieamat/grails-liquid-plugin#readme
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - liquid
+  - markup
+licenses:
+  - MIT
+versions:
+  - version: 1.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.3.2 > *

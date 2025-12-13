@@ -1,0 +1,32 @@
+name: spring-security-oauth2
+desc: This plugin provides the capability to authenticate via OAuth 2. Depends on Grails spring-security-core.
+coords: org.grails.plugins:spring-security-oauth2
+owner: grails
+vcs: https://github.com/grails/grails-spring-security-oauth2
+docs: https://grails.github.io/grails-spring-security-oauth2/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - oauth2
+  - spring-security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:13:09Z
+    grailsVersion: 7.0.0 > *
+  - version: 3.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+  - version: 3.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+  - version: 2.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+  - version: 2.0.0-RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+  - version: 2.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *

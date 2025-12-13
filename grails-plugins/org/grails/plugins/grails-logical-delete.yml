@@ -1,0 +1,17 @@
+name: logical-delete
+desc: Adds support for logical (soft) deletion in Grails applications.
+coords: org.grails.plugins:grails-logical-delete
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-logical-delete
+docs: https://grails-plugins.github.io/grails-logical-delete/latest
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - database
+  - logical-delete
+  - soft-delete
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.0
+    date: 2025-12-03T21:14:40Z
+    grailsVersion: 7.0.0 > *

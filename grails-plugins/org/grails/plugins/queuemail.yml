@@ -1,0 +1,29 @@
+name: queuemail
+desc: 'Queuemail plugin is a centralised email queueing system configurable for many providers all  centrally
+  controlled and limited to either daily limit or failures exceeding failureTolerance  limit (in a row).
+  By default all email''s passing through are priority driven and configured by overall  customService
+  name.  Two methods of priority queueing are provided BASIC and ENHANCED (default).   Enhanced launches
+  an additional thread for each running task and will attempt to kill any running process  considered
+  as stuck (if time taken exceeds killLongRunningTasks configuration period). '
+coords: org.grails.plugins:queuemail
+owner: vahid
+vcs: https://github.com/vahidhedayati/grails-queuemail-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - mail
+  - queue
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.3'
+    date: 2021-02-24T05:37:04Z
+    grailsVersion: 2.4 > *
+  - version: '1.2'
+    date: 2021-02-24T05:37:04Z
+    grailsVersion: 2.4 > *
+  - version: '1.1'
+    date: 2021-02-24T05:37:04Z
+    grailsVersion: 2.4 > *
+  - version: '1.0'
+    date: 2021-02-24T05:37:05Z
+    grailsVersion: 2.4 > *

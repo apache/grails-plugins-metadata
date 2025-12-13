@@ -1,0 +1,17 @@
+name: log-hibernate-stats
+desc: A simple plugin to log Hibernate statistics across controller actions.
+coords: org.grails.plugins:log-hibernate-stats
+owner: ishults
+vcs: https://github.com/ishults/log-hibernate-stats
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - logging
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.20
+    date: 2021-02-24T05:36:43Z
+    grailsVersion: 3.0.0 > *
+  - version: '0.9'
+    date: 2014-05-29T14:12:41Z
+    grailsVersion: 2.0 > *

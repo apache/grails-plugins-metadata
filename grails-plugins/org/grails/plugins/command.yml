@@ -1,0 +1,49 @@
+name: command
+desc: Grails command plugin
+coords: org.grails.plugins:command
+owner: virtualdogbert
+vcs: https://github.com/virtualdogbert/command
+docs: https://virtualdogbert.github.io/command/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - command-objects
+  - validation
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0
+    date: 2021-02-24T05:27:38Z
+    grailsVersion: 3.3.0 > *
+  - version: 3.0.3
+    date: 2021-02-24T05:27:39Z
+    grailsVersion: 3.0.11 > *
+  - version: 3.0.2
+    date: 2021-02-24T05:27:39Z
+    grailsVersion: 3.0.11 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:27:39Z
+    grailsVersion: 3.0.11 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:27:40Z
+    grailsVersion: 3.0.11 > *
+  - version: 2.0.1
+    date: 2021-02-24T05:27:40Z
+    grailsVersion: 3.0.11 > *
+  - version: 2.0.0
+    date: 2021-02-24T05:27:40Z
+    grailsVersion: 3.0.11 > *
+  - version: 1.0.4
+    date: 2021-02-24T05:27:40Z
+    grailsVersion: 3.0.11 > *
+  - version: 1.0.3
+    date: 2021-02-24T05:27:41Z
+    grailsVersion: 3.0.11 > *
+  - version: 1.0.2
+    date: 2021-02-24T05:27:41Z
+    grailsVersion: 3.0.11 > *
+  - version: 1.0.1
+    date: 2021-02-24T05:27:41Z
+    grailsVersion: 3.0.11 > *
+  - version: '1.0'
+    date: 2021-02-24T05:27:41Z
+    grailsVersion: 3.0.11 > *

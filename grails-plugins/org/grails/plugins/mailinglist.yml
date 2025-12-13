@@ -1,0 +1,128 @@
+name: mailinglist
+desc: "mailinglist is a Grails plugin which makes use of quartz to dynamically schedule either group or\
+  \ specific email address contact. You create html email templates with images etc, then define time\
+  \ and date for this to be sent. The job is then added to quartz and set to email at given time. The\
+  \ queue can easily be controlled via bootstrap so that nothing is ever lost.\r\n\r\nDo you want to email\
+  \ a person at 11:41 pm or maybe a group of people at 2.15am? then look no further.\r\n\r\nYou can schedule\
+  \ an email to be scheduled and to run on a set date and time.\r\n\r\nSupports HTML emails with inline\
+  \ images as well as attachments has been tested on outlook and result appears to load fine."
+coords: org.grails.plugins:mailinglist
+owner: vahid
+vcs: https://github.com/vahidhedayati/mailinglist
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - mail
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.3
+    date: 2021-02-24T05:35:26Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.2
+    date: 2021-02-24T05:35:27Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:35:27Z
+    grailsVersion: 3.0 > *
+  - version: '0.34'
+    date: 2017-02-18T11:48:21Z
+    grailsVersion: 2.0 > *
+  - version: '0.33'
+    date: 2017-02-17T22:21:21Z
+    grailsVersion: 2.0 > *
+  - version: '0.32'
+    date: 2016-03-24T08:52:14Z
+    grailsVersion: 2.0 > *
+  - version: '0.31'
+    date: 2016-03-22T18:00:30Z
+    grailsVersion: 2.0 > *
+  - version: '0.30'
+    date: 2016-03-12T00:05:20Z
+    grailsVersion: 2.0 > *
+  - version: '0.29'
+    date: 2016-03-11T21:18:01Z
+    grailsVersion: 2.0 > *
+  - version: '0.28'
+    date: 2014-09-01T14:12:56Z
+    grailsVersion: 2.0 > *
+  - version: '0.27'
+    date: 2014-09-01T13:12:43Z
+    grailsVersion: 2.0 > *
+  - version: '0.26'
+    date: 2014-08-28T12:23:30Z
+    grailsVersion: 2.0 > *
+  - version: '0.25'
+    date: 2014-08-18T09:20:17Z
+    grailsVersion: 2.0 > *
+  - version: '0.24'
+    date: 2014-08-16T14:16:12Z
+    grailsVersion: 2.0 > *
+  - version: '0.23'
+    date: 2014-08-15T12:04:47Z
+    grailsVersion: 2.0 > *
+  - version: '0.22'
+    date: 2014-08-15T08:50:21Z
+    grailsVersion: 2.0 > *
+  - version: '0.21'
+    date: 2014-08-14T18:29:18Z
+    grailsVersion: 2.0 > *
+  - version: '0.20'
+    date: 2014-08-14T15:32:40Z
+    grailsVersion: 2.0 > *
+  - version: '0.19'
+    date: 2014-08-13T14:18:37Z
+    grailsVersion: 2.0 > *
+  - version: '0.18'
+    date: 2014-06-13T11:30:31Z
+    grailsVersion: 2.0 > *
+  - version: '0.17'
+    date: 2014-06-12T16:13:51Z
+    grailsVersion: 2.0 > *
+  - version: '0.16'
+    date: 2014-06-02T13:27:04Z
+    grailsVersion: 2.0 > *
+  - version: '0.15'
+    date: 2014-05-16T14:35:33Z
+    grailsVersion: 2.0 > *
+  - version: '0.14'
+    date: 2014-05-15T14:40:27Z
+    grailsVersion: 2.0 > *
+  - version: '0.13'
+    date: 2014-05-15T08:16:02Z
+    grailsVersion: 2.0 > *
+  - version: '0.12'
+    date: 2014-05-02T09:20:22Z
+    grailsVersion: 2.0 > *
+  - version: '0.11'
+    date: 2014-04-16T14:18:24Z
+    grailsVersion: 2.0 > *
+  - version: '0.10'
+    date: 2014-04-15T14:01:05Z
+    grailsVersion: 2.0 > *
+  - version: '0.9'
+    date: 2014-04-15T10:35:04Z
+    grailsVersion: 2.0 > *
+  - version: '0.8'
+    date: 2014-04-04T15:15:13Z
+    grailsVersion: 2.0 > *
+  - version: '0.7'
+    date: 2014-03-21T22:00:58Z
+    grailsVersion: 2.0 > *
+  - version: '0.6'
+    date: 2014-03-21T12:01:04Z
+    grailsVersion: 2.0 > *
+  - version: '0.5'
+    date: 2014-03-21T10:30:58Z
+    grailsVersion: 2.0 > *
+  - version: '0.4'
+    date: 2014-03-20T01:14:32Z
+    grailsVersion: 2.0 > *
+  - version: '0.3'
+    date: 2014-03-19T14:32:22Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2014-03-19T00:36:14Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2014-03-12T14:14:51Z
+    grailsVersion: 2.0 > *

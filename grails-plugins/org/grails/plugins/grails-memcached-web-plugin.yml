@@ -1,0 +1,21 @@
+name: memcached-web-plugin
+desc: Store pages of page fragments in memcached
+coords: org.grails.plugins:grails-memcached-web-plugin
+owner: purpleraven
+vcs: https://github.com/purpleraven/grails-memcached-web-plugin
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cache
+  - memcached
+licenses:
+  - Apache-2.0
+versions:
+  - version: '1.2'
+    date: 2021-02-24T05:30:56Z
+    grailsVersion: 3.1.6 > *
+  - version: '1.1'
+    date: 2021-02-24T05:30:57Z
+    grailsVersion: 3.1.6 > *
+  - version: '1.0'
+    date: 2021-02-24T05:30:57Z
+    grailsVersion: 3.1.6 > *

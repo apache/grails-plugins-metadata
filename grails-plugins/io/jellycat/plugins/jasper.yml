@@ -1,0 +1,21 @@
+name: grails-jasper
+desc: This plugin is a port of the original JasperReports plugin later updated for Grails 3 to the newest
+  JasperReports API, and based of Grails 5, that adds easy support for launching JasperReports reports
+  from GSP pages.
+coords: io.jellycat.plugins:jasper
+owner: daraii
+vcs: https://github.com/daraii/grails-jasper
+docs: https://daraii.github.io/grails-jasper/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - jasper
+  - reports
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.2.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.1.9 > *
+  - version: 2.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.1.9 > *

@@ -1,0 +1,19 @@
+name: spring-security-ui
+desc: Grails Spring Security UI
+coords: org.grails.plugins:spring-security-ui
+owner: grails
+vcs: https://github.com/grails-plugins/grails-spring-security-ui
+docs: https://grails.github.io/grails-spring-security-ui/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - spring-security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:13:16Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.0-RC1
+    date: 2022-09-07T14:27:41Z
+    grailsVersion: 3.0.0 > *

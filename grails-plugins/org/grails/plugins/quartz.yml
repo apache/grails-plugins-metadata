@@ -1,0 +1,22 @@
+name: quartz
+desc: Grails quartz plugin
+coords: org.grails.plugins:quartz
+owner: grails
+vcs: https://github.com/grails/grails-quartz
+docs: https://grails.github.io/grails-quartz/latest/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - quartz
+  - scheduling
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0-M2
+    date: 2025-01-10T06:29:18Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.0-M1
+    date: 2024-12-24T01:39:20Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 3.0.0
+    date: 2024-04-04T01:03:19Z
+    grailsVersion: 6.0.0 > *

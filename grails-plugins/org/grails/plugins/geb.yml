@@ -1,0 +1,131 @@
+name: org.grails.plugins:geb
+desc: Grails geb plugin
+coords: org.grails.plugins:geb
+owner: grails
+vcs: https://github.com/grails3-plugins/geb/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - testing
+  - geb
+licenses:
+  - Apache-2.0
+deprecated: Moved to Grails Core (org.apache.grails:grails-geb) This entry should probably be removed
+  from the registry.
+versions:
+  - version: 2.0.0
+    date: 2021-02-24T05:30:07Z
+    grailsVersion: 4.0.0 > *
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:30:07Z
+    grailsVersion: 4.0.0 > *
+  - version: 1.1.5
+    date: 2021-02-24T05:30:07Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.1.4
+    date: 2021-02-24T05:30:08Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.1.3
+    date: 2021-02-24T05:30:08Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.1.2
+    date: 2021-02-24T05:30:08Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.1.1
+    date: 2021-02-24T05:30:08Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.0.2
+    date: 2021-02-24T05:30:09Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+  - version: 1.0.1
+    date: 2021-04-21T23:27:59Z
+  - version: 1.0.0
+    date: 2021-04-21T23:28:07Z
+  - version: 1.0-rc-2
+    date: 2016-10-03T22:02:20Z
+    grailsVersion: 2.0.0 > *
+  - version: 1.0-rc-1
+    date: 2016-09-26T19:59:58Z
+    grailsVersion: 2.0.0 > *
+  - version: '1.0'
+    date: 2016-10-08T17:04:55Z
+    grailsVersion: 2.0.0 > *
+  - version: 1.0.0.M4
+    date: 2021-04-21T23:28:04Z
+  - version: 1.0.0.M3
+    date: 2021-04-21T23:28:07Z
+  - version: 1.0.0.M2
+    date: 2021-04-21T23:28:02Z
+  - version: 1.0.0.M1
+    date: 2021-04-21T23:28:01Z
+  - version: 0.13.1
+    date: 2016-02-22T20:56:58Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.13.0
+    date: 2016-02-11T12:49:11Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.12.2
+    date: 2015-08-18T09:31:43Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.12.1
+    date: 2015-08-03T18:54:08Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.12.0
+    date: 2015-07-12T22:24:00Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.11.0
+    date: 2015-07-12T18:21:47Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.10.0
+    date: 2014-10-21T12:46:39Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.3
+    date: 2014-06-12T17:52:18Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.2
+    date: 2013-10-19T14:51:57Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.1
+    date: 2013-09-03T01:22:19Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.0-RC-3
+    date: 2013-04-01T15:26:08Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.0-RC-1
+    date: 2012-11-13T23:25:26Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.9.0
+    date: 2013-04-03T05:34:03Z
+    grailsVersion: 2.0.0 > *
+  - version: 0.7.2
+    date: 2012-08-29T18:45:02Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.7.1
+    date: 2012-07-29T17:36:41Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.7.0
+    date: 2012-04-06T13:21:42Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.6.3
+    date: 2012-03-12T20:32:23Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.6.2
+    date: 2012-03-12T20:32:23Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.6.1
+    date: 2012-03-12T20:32:23Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.6.0
+    date: 2012-03-12T20:32:22Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.6.0.RC1
+    date: 2012-03-12T20:32:22Z
+    grailsVersion: 1.3.0 > *
+  - version: 0.5.1
+    date: 2012-03-12T20:32:21Z
+    grailsVersion: 1.2.0 > *
+  - version: '0.5'
+    date: 2012-03-12T20:32:21Z
+    grailsVersion: 1.2.0 > *
+  - version: '0.4'
+    date: 2012-03-12T20:32:21Z
+    grailsVersion: 1.2.0 > *

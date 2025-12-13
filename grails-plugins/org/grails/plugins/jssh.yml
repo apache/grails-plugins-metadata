@@ -1,0 +1,137 @@
+name: jssh
+desc: Grails j2ssh plugin
+coords: org.grails.plugins:jssh
+owner: vahid
+vcs: https://github.com/vahidhedayati/jssh
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - ssh
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.2
+    date: 2021-02-24T05:34:23Z
+    grailsVersion: 2.0 > *
+  - version: 3.0.1
+    date: 2021-02-24T05:34:24Z
+    grailsVersion: 2.0 > *
+  - version: '1.10'
+    date: 2015-05-24T18:41:19Z
+    grailsVersion: 2.0 > *
+  - version: '1.9'
+    date: 2015-04-02T13:37:08Z
+    grailsVersion: 2.0 > *
+  - version: '1.8'
+    date: 2015-03-16T14:34:04Z
+    grailsVersion: 2.0 > *
+  - version: '1.7'
+    date: 2015-03-13T11:52:19Z
+    grailsVersion: 2.0 > *
+  - version: '1.6'
+    date: 2015-02-27T11:37:18Z
+    grailsVersion: 2.0 > *
+  - version: '1.5'
+    date: 2015-02-25T14:46:00Z
+    grailsVersion: 2.0 > *
+  - version: '1.4'
+    date: 2015-02-20T11:36:06Z
+    grailsVersion: 2.0 > *
+  - version: '1.3'
+    date: 2015-02-04T13:42:38Z
+    grailsVersion: 2.0 > *
+  - version: '1.2'
+    date: 2015-01-31T20:33:51Z
+    grailsVersion: 2.0 > *
+  - version: '1.1'
+    date: 2015-01-30T10:03:37Z
+    grailsVersion: 2.0 > *
+  - version: '1.0'
+    date: 2015-01-28T00:44:54Z
+    grailsVersion: 2.0 > *
+  - version: '0.29'
+    date: 2015-01-22T15:24:08Z
+    grailsVersion: 2.0 > *
+  - version: '0.28'
+    date: 2015-01-15T11:22:52Z
+    grailsVersion: 2.0 > *
+  - version: '0.27'
+    date: 2014-12-16T16:41:28Z
+    grailsVersion: 2.0 > *
+  - version: '0.26'
+    date: 2014-12-15T13:16:01Z
+    grailsVersion: 2.0 > *
+  - version: '0.25'
+    date: 2014-11-29T19:04:12Z
+    grailsVersion: 2.0 > *
+  - version: '0.24'
+    date: 2014-11-03T22:23:56Z
+    grailsVersion: 2.0 > *
+  - version: '0.23'
+    date: 2014-11-03T11:42:36Z
+    grailsVersion: 2.0 > *
+  - version: '0.22'
+    date: 2014-11-02T15:52:55Z
+    grailsVersion: 2.0 > *
+  - version: '0.21'
+    date: 2014-09-24T13:57:10Z
+    grailsVersion: 2.0 > *
+  - version: '0.20'
+    date: 2014-09-24T10:22:51Z
+    grailsVersion: 2.0 > *
+  - version: '0.19'
+    date: 2014-09-03T10:04:10Z
+    grailsVersion: 2.0 > *
+  - version: '0.18'
+    date: 2014-08-28T12:40:37Z
+    grailsVersion: 2.0 > *
+  - version: '0.17'
+    date: 2014-08-07T15:36:13Z
+    grailsVersion: 2.0 > *
+  - version: '0.16'
+    date: 2014-08-07T14:56:13Z
+    grailsVersion: 2.0 > *
+  - version: '0.15'
+    date: 2014-08-07T14:08:09Z
+    grailsVersion: 2.0 > *
+  - version: '0.14'
+    date: 2014-08-05T14:25:52Z
+    grailsVersion: 2.0 > *
+  - version: '0.13'
+    date: 2014-08-05T11:47:19Z
+    grailsVersion: 2.0 > *
+  - version: '0.12'
+    date: 2014-08-05T11:40:44Z
+    grailsVersion: 2.0 > *
+  - version: '0.11'
+    date: 2014-08-04T11:07:22Z
+    grailsVersion: 2.0 > *
+  - version: '0.10'
+    date: 2014-08-04T09:36:26Z
+    grailsVersion: 2.0 > *
+  - version: '0.9'
+    date: 2014-08-01T15:20:06Z
+    grailsVersion: 2.0 > *
+  - version: '0.8'
+    date: 2014-08-01T13:33:24Z
+    grailsVersion: 2.0 > *
+  - version: '0.7'
+    date: 2014-07-31T12:40:37Z
+    grailsVersion: 2.0 > *
+  - version: '0.6'
+    date: 2014-07-31T10:55:32Z
+    grailsVersion: 2.0 > *
+  - version: '0.5'
+    date: 2014-07-30T17:27:24Z
+    grailsVersion: 2.0 > *
+  - version: '0.4'
+    date: 2014-07-10T11:10:39Z
+    grailsVersion: 2.0 > *
+  - version: '0.3'
+    date: 2014-07-03T11:21:02Z
+    grailsVersion: 2.0 > *
+  - version: '0.2'
+    date: 2014-07-02T22:34:38Z
+    grailsVersion: 2.0 > *
+  - version: '0.1'
+    date: 2014-07-02T09:36:40Z
+    grailsVersion: 2.0 > *

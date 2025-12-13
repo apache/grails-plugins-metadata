@@ -1,0 +1,27 @@
+name: remotessh
+desc: Grails RemoteSSH Plugin
+coords: org.grails.plugins:remotessh
+owner: vahid
+vcs: https://github.com/vahidhedayati/RemoteSSH
+docs: https://vahidhedayati.github.io/RemoteSSH/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - ssh
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.9
+    date: 2021-02-24T05:37:21Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.8
+    date: 2021-02-24T05:37:21Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.7
+    date: 2021-04-18T14:03:37Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.6
+    date: 2021-02-24T05:37:22Z
+    grailsVersion: 3.0 > *
+  - version: 3.0.5
+    date: 2021-02-24T05:37:22Z
+    grailsVersion: 3.0 > *

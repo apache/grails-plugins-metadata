@@ -1,0 +1,63 @@
+name: aws-sdk-s3
+desc: Grails AWS SDK S3 plugin. Uses 'jitpack.io' maven repository.
+coords: com.github.agorapulse.grails-aws-sdk:aws-sdk-s3
+owner: agorapulse
+vcs: https://github.com/agorapulse/grails-aws-sdk
+maven-repo: https://jitpack.io
+labels:
+  - aws
+  - s3
+licenses:
+  - Apache-2.0
+deprecated: This repository was archived by the owner on Jul 28, 2023. It is now read-only.
+versions:
+  - version: 2.4.16
+    date: 2025-12-10T07:57:48Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.15
+    date: 2025-12-08T21:19:54Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.14
+    date: 2025-03-04T19:49:59Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.11
+    date: 2025-12-10T07:57:45Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.9
+    date: 2025-12-10T07:57:44Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.8
+    date: 2025-12-10T07:57:44Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.7
+    date: 2025-12-10T07:57:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.6
+    date: 2025-12-10T07:57:43Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.4.5
+    date: 2025-12-10T07:57:42Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.14
+    date: 2025-12-10T07:57:41Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.12
+    date: 2025-12-10T07:57:41Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.4
+    date: 2025-12-10T07:57:40Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.2
+    date: 2025-12-10T07:57:40Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.2.0
+    date: 2025-12-10T07:57:39Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.19
+    date: 2025-12-10T07:57:37Z
+    grailsVersion: 3.0.0 > *
+  - version: 2.1.0
+    date: 2025-12-10T07:57:36Z
+    grailsVersion: 3.0.0 > *
+  - version: 1.10.74
+    date: 2025-12-10T07:46:06Z

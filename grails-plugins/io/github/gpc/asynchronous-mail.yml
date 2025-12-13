@@ -1,0 +1,26 @@
+name: asynchronous-mail
+desc: The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously
+  by a quartz job.
+coords: io.github.gpc:asynchronous-mail
+owner: gpc
+vcs: https://github.com/gpc/grails-asynchronous-mail
+docs: https://github.com/gpc/grails-asynchronous-mail
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - async
+  - mail
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.1.2
+    date: 2023-07-27T13:25:19Z
+    grailsVersion: 5.0.0 > *
+  - version: 3.1.1
+    date: 2022-12-15T14:31:36Z
+    grailsVersion: 5.0.0 > *
+  - version: 3.1.0
+    date: 2022-01-17T12:40:02Z
+    grailsVersion: 5.0.0 > *
+  - version: 3.0.0
+    date: 2022-01-18T11:33:35Z
+    grailsVersion: 4.0.0 > *

@@ -1,0 +1,27 @@
+name: spring-security-rest-redis
+desc: Spring Security REST plugin for Grails - Redis module
+coords: org.grails.plugins:spring-security-rest-redis
+owner: grails
+vcs: https://github.com/alvarosanchez/grails-spring-security-rest
+docs: https://grails-plugins.github.io/grails-spring-security-rest/latest/docs/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - security
+  - spring-security
+  - spring-security-rest
+  - redis
+licenses:
+  - Apache-2.0
+versions:
+  - version: 3.0.1
+    date: 2021-02-24T05:39:13Z
+    grailsVersion: 3.1.0 > *
+  - version: 3.0.0
+    date: 2021-02-24T05:39:14Z
+    grailsVersion: 3.1.0 > *
+  - version: 3.0.0.RC1
+    date: 2021-02-24T05:39:14Z
+    grailsVersion: 3.1.0 > *
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:39:15Z
+    grailsVersion: 3.1.0 > *

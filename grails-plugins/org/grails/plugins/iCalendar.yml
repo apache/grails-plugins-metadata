@@ -1,0 +1,37 @@
+name: iCalendar
+desc: Grails iCalendar plugin
+coords: org.grails.plugins:iCalendar
+owner: saw303
+vcs: https://github.com/saw303/grails-ic-alender
+docs: https://saw303.github.io/grails-ic-alender/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - calendar
+  - icalendar
+licenses:
+  - Apache-2.0
+versions:
+  - version: 0.6.4
+    date: 2021-02-24T05:36:40Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.6.3
+    date: 2021-02-24T05:36:41Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.6.2
+    date: 2021-02-24T05:36:41Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.6.1
+    date: 2021-02-24T05:36:41Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.6.0
+    date: 2021-02-24T05:36:42Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.5.2
+    date: 2021-02-24T05:36:42Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.5.1
+    date: 2021-02-24T05:36:42Z
+    grailsVersion: 3.0.0 > *
+  - version: 0.5.0
+    date: 2021-02-24T05:36:43Z
+    grailsVersion: 3.0.0 > *

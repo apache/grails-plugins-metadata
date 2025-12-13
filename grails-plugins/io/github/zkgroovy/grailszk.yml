@@ -1,0 +1,50 @@
+name: Grailszk
+desc: Provides integration with Java ZK framework.
+coords: io.github.zkgroovy:grailszk
+owner: groovyzk
+vcs: https://github.com/groovyzk/grailszk
+docs: https://github.com/groovyzk/grailszk#readme
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - zk
+  - zk-grails
+  - framework
+licenses:
+  - LGPL-3.0
+versions:
+  - version: 4.2.3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.2.2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.2.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0.0 > *
+  - version: 4.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0.0 > *
+  - version: 3.2.3
+    date: 2023-03-20T13:15:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.2
+    date: 2022-09-20T18:48:56Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.1
+    date: 2022-09-19T13:22:31Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.2.0
+    date: 2022-08-09T16:42:39Z
+    grailsVersion: 3.0.0 > *
+  - version: 3.1.0
+    date: 2022-04-04T20:16:10Z
+    grailsVersion: 4.0.11 > *
+  - version: '3.0'
+    date: 2021-11-11T21:09:47Z
+    grailsVersion: 4.0.11 > *

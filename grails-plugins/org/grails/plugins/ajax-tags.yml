@@ -1,0 +1,17 @@
+name: ajax-tags
+desc: Grails ajax-tags plugin
+coords: org.grails.plugins:ajax-tags
+owner: grails
+vcs: https://github.com/grails3-plugins/ajax-tags
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - ajax
+licenses:
+  - Apache-2.0
+versions:
+  - version: 1.0.0
+    date: 2021-02-24T05:23:37Z
+    grailsVersion: 3.0.0.M2 > *
+  - version: 1.0.0.RC1
+    date: 2021-02-24T05:23:37Z
+    grailsVersion: 3.0.0.M2 > *

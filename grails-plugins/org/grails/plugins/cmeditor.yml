@@ -1,0 +1,78 @@
+name: cmeditor
+desc: CMEditor is a simple way to use the popular CodeMirror web editor in grails applications.
+coords: org.grails.plugins:cmeditor
+owner: frnktrgr
+vcs: https://github.com/RRZE-PP/grails-cmeditor
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - cmeditor
+  - codemirror
+licenses:
+  - Apache-2.0
+versions:
+  - version: 2.7.8
+    date: 2021-02-24T05:27:09Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.5
+    date: 2021-04-18T13:52:02Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.4
+    date: 2021-04-18T13:52:02Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.3
+    date: 2021-04-18T13:52:03Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.2
+    date: 2021-02-24T05:27:11Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.1
+    date: 2021-02-24T05:27:12Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.7.0
+    date: 2021-02-24T05:27:12Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.6.4
+    date: 2021-02-24T05:27:12Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.6.3
+    date: 2021-02-24T05:27:12Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.6.2
+    date: 2021-02-24T05:27:13Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.6.1
+    date: 2021-02-24T05:27:13Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.6.0
+    date: 2021-02-24T05:27:15Z
+    grailsVersion: 3.1.4 > *
+  - version: 2.5.5
+    date: 2015-12-07T15:28:24Z
+    grailsVersion: 2.0 > *
+  - version: 2.5.4
+    date: 2015-12-07T13:56:53Z
+    grailsVersion: 2.0 > *
+  - version: 2.5.3
+    date: 2015-12-02T20:41:33Z
+    grailsVersion: 2.0 > *
+  - version: 2.5.2
+    date: 2015-10-06T14:54:07Z
+    grailsVersion: 2.0 > *
+  - version: 2.5.1
+    date: 2015-10-06T14:55:31Z
+    grailsVersion: 2.0 > *
+  - version: 2.5.0
+    date: 2015-09-01T11:45:16Z
+    grailsVersion: 2.0 > *
+  - version: 2.4.1
+    date: 2015-09-01T11:43:17Z
+    grailsVersion: 2.0 > *
+  - version: 2.4.0
+    date: 2015-09-01T11:41:51Z
+    grailsVersion: 2.0 > *
+  - version: 2.3.6
+    date: 2015-07-30T07:10:14Z
+    grailsVersion: 2.0 > *
+  - version: 2.3.5
+    date: 2015-07-30T07:14:53Z
+    grailsVersion: 2.0 > *

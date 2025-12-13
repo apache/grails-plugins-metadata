@@ -1,0 +1,228 @@
+name: hibernate
+desc: GORM - Grails Data Access Framework
+coords: org.grails.plugins:hibernate
+owner: grails
+vcs: https://github.com/grails/grails-data-mapping
+docs: https://grails.github.io/grails-data-mapping/
+maven-repo: https://repo.grails.org/plugins
+labels:
+  - database
+  - gorm
+  - hibernate
+  - rdms
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.3.10.7
+    date: 2021-04-27T22:58:48Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.10.6
+    date: 2021-04-27T23:27:35Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.10.5
+    date: 2021-04-27T23:27:02Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.10.4
+    date: 2021-04-27T23:26:26Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.10.3
+    date: 2021-04-27T23:25:50Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.8.1
+    date: 2021-04-27T23:25:09Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.8.0.RC1
+    date: 2021-04-27T23:24:19Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.8.0.M4
+    date: 2021-04-27T23:23:40Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.8.0.M3
+    date: 2021-04-27T23:23:02Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.8.0.M2
+    date: 2021-04-27T23:22:23Z
+    grailsVersion: 2.3.5 > *
+  - version: 4.3.8.0
+    date: 2021-04-27T23:21:15Z
+    grailsVersion: 3.0.0 > *
+  - version: 4.3.7.0.M1
+    date: 2021-04-27T23:20:38Z
+    grailsVersion: 2.3.5 > *
+  - version: 3.6.10.9
+    date: 2014-03-06T10:08:40Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.8
+    date: 2014-02-14T17:06:15Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.7
+    date: 2014-01-16T12:26:26Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.6
+    date: 2013-12-04T12:32:36Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.5
+    date: 2013-12-03T16:27:35Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.4
+    date: 2013-11-21T08:39:58Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.3
+    date: 2013-11-07T16:44:13Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.2
+    date: 2013-10-17T07:55:13Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.19
+    date: 2015-03-19T01:13:46Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.18
+    date: 2014-10-28T11:35:17Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.17
+    date: 2014-07-30T09:57:50Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.16
+    date: 2014-06-12T08:40:42Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.15
+    date: 2014-05-20T10:33:54Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.14
+    date: 2014-05-07T12:56:56Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.13
+    date: 2014-04-24T07:16:07Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.12
+    date: 2014-04-03T09:04:42Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.11
+    date: 2014-03-23T16:29:09Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.10
+    date: 2014-03-07T13:39:19Z
+    grailsVersion: 2.3.2 > *
+  - version: 3.6.10.1
+    date: 2013-09-06T09:29:46Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10
+    date: 2013-09-06T01:02:11Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M6
+    date: 2013-08-28T08:13:02Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M5
+    date: 2013-07-30T03:49:55Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M4
+    date: 2013-06-27T12:35:53Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M3
+    date: 2013-05-08T17:14:31Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M2
+    date: 2013-05-06T18:54:26Z
+    grailsVersion: 2.3 > *
+  - version: 3.6.10.M1
+    date: 2013-04-24T05:08:32Z
+    grailsVersion: 2.3 > *
+  - version: 2.2.5
+    date: 2014-03-03T03:17:53Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.4
+    date: 2013-07-29T15:22:09Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.3
+    date: 2013-06-19T08:25:56Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.2
+    date: 2013-04-24T14:35:01Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.1
+    date: 2013-02-21T09:49:12Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.0
+    date: 2012-12-18T01:32:18Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.0.RC4
+    date: 2012-12-13T14:07:20Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.0.RC3
+    date: 2012-12-05T13:11:37Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.0.RC2
+    date: 2012-10-29T16:07:27Z
+    grailsVersion: 2.2 > *
+  - version: 2.2.0.RC1
+    date: 2012-09-12T09:19:19Z
+    grailsVersion: 2.2 > *
+  - version: 2.1.6
+    date: 2013-06-21T13:56:28Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.5
+    date: 2013-04-24T14:08:08Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.4
+    date: 2013-02-21T09:04:29Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.3
+    date: 2012-12-19T13:31:55Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.2
+    date: 2012-12-05T12:29:32Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.1
+    date: 2012-09-11T07:34:49Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.0
+    date: 2012-07-05T08:27:44Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.0.RC3
+    date: 2012-06-19T09:47:40Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.0.RC2
+    date: 2012-05-22T13:29:12Z
+    grailsVersion: 2.0 > *
+  - version: 2.1.0.RC1
+    date: 2012-05-10T15:41:54Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.4
+    date: 2012-05-23T13:27:13Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.3
+    date: 2012-04-17T07:21:37Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.2
+    date: 2012-03-29T13:19:32Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.1
+    date: 2012-03-12T20:32:28Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0
+    date: 2012-03-12T20:32:26Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0.RC3
+    date: 2012-03-12T20:32:28Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0.RC2
+    date: 2012-03-12T20:32:27Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0.RC1
+    date: 2012-03-12T20:32:27Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0.M2
+    date: 2012-03-12T20:32:27Z
+    grailsVersion: 2.0 > *
+  - version: 2.0.0.M1
+    date: 2012-03-12T20:32:27Z
+    grailsVersion: 2.0 > *
+  - version: 1.4.0.M1
+    date: 2012-03-12T20:32:26Z
+    grailsVersion: 1.4 > *
+  - version: 1.3.9
+    date: 2012-05-24T13:48:12Z
+    grailsVersion: 1.3 > *
+  - version: 1.3.8
+    date: 2012-05-22T12:39:33Z
+    grailsVersion: 1.3 > *
