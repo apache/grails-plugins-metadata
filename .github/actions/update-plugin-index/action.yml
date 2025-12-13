@@ -1,0 +1,7 @@
+name: Update Plugin Index
+description: Fetch the latest versions from a given Maven Metadata URL and add
+  any new versions to the plugin yml files in the grails-plugins directory.
+  Generate grails-plugins-index.json file in the project root.
+runs:
+  using: docker
+  image: Dockerfile
