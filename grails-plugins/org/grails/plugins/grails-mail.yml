@@ -23,3 +23,126 @@ versions:
   - version: 5.0.0
     date: 2025-06-10T18:09:54Z
     grailsVersion: 7.0.0 > *
+  - version: 4.0.2
+    date: 2025-06-18T05:56:58Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:mail
+  - version: 4.0.1
+    date: 2025-04-11T06:13:16Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:mail
+  - version: 4.0.0
+    date: 2024-04-30T07:30:11Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:mail
+  - version: 3.0.0
+    date: 2021-02-24T05:35:23Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:35:23Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:35:24Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC6
+    date: 2021-02-24T05:35:24Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC4
+    date: 2021-02-24T05:35:24Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC2
+    date: 2021-02-24T05:35:25Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:35:24Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.7
+    date: 2014-07-30T16:16:44Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.6
+    date: 2014-06-11T01:23:27Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.5
+    date: 2014-05-08T09:19:47Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.4
+    date: 2014-03-07T20:48:37Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.3
+    date: 2014-03-06T16:15:47Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.2
+    date: 2014-03-06T15:37:22Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2012-11-09T14:15:10Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.0'
+    date: 2012-03-12T20:32:27Z
+    grailsVersion: 1.3 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.9'
+    date: 2012-03-12T20:32:26Z
+    grailsVersion: 1.0 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.7.1
+    date: 2012-03-12T20:32:26Z
+    grailsVersion: 1.1.1 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.7'
+    date: 2012-03-12T20:32:25Z
+    grailsVersion: 1.1.1 > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.6'
+    date: 2012-03-12T20:32:25Z
+    grailsVersion: 1.1.1-SNAPSHOT > *
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.5'
+    date: 2012-03-12T20:32:25Z
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.4'
+    date: 2012-03-12T20:32:25Z
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.3'
+    date: 2012-03-12T20:32:24Z
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.1'
+    date: 2012-03-12T20:32:24Z
+    coords: org.grails.plugins:mail
+    maven-repo: https://repo.grails.org/plugins
