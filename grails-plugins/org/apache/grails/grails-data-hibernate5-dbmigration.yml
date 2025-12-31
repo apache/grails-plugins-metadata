@@ -1,0 +1,236 @@
+name: database-migration
+desc: Grails database migration plugin
+coords: org.apache.grails:grails-data-hibernate5-dbmigration
+owner: apache
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/latest/grails-data/hibernate5/manual/index.html#databaseMigration
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - liquibase
+  - migration
+  - database
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.4
+    date: 2025-11-27T02:51:11Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:13:39Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:40:30Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:20:52Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:55:44Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:22:57Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:47:39Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:09:14Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:54:19Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 6.0.0-M1
+    date: 2024-12-22T01:17:47Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 5.0.0
+    date: 2024-12-18T22:19:34Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.2.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.2.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.1.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.1.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.0.0-RC3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.0.0-RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 4.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+  - version: 3.1.0
+    date: 2021-02-24T05:28:23Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.1.0.RC1
+    date: 2021-02-24T05:28:24Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.4
+    date: 2021-02-24T05:28:24Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.3
+    date: 2021-02-24T05:28:24Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.2
+    date: 2021-02-24T05:28:24Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.1
+    date: 2021-02-24T05:28:25Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.0
+    date: 2021-02-24T05:28:26Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:28:25Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:28:26Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC4
+    date: 2021-02-24T05:28:26Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:36:29Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M1
+    date: 2021-04-18T14:02:42Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.1
+    date: 2015-08-27T21:05:59Z
+    grailsVersion: 2.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0
+    date: 2014-04-22T06:52:56Z
+    grailsVersion: 2.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.8
+    date: 2013-10-28T16:42:52Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.7
+    date: 2013-10-28T01:14:50Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.6
+    date: 2013-09-02T21:26:01Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.5
+    date: 2013-07-01T13:52:59Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.4
+    date: 2013-07-01T13:50:50Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.3
+    date: 2013-04-17T04:11:39Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.2
+    date: 2013-01-05T04:02:31Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.1
+    date: 2013-01-04T18:14:53Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.3'
+    date: 2013-01-04T01:54:46Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.2
+    date: 2012-12-06T16:14:30Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.1
+    date: 2012-12-01T20:16:28Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.2'
+    date: 2012-10-29T03:36:51Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.1'
+    date: 2012-05-11T06:59:18Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.0'
+    date: 2012-03-12T20:30:18Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.2.1
+    date: 2012-03-12T20:30:18Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.2'
+    date: 2012-03-12T20:30:17Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.1'
+    date: 2012-03-12T20:30:17Z
+    grailsVersion: 1.3.0 > *
+    coords: org.grails.plugins:database-migration
+    maven-repo: https://repo.grails.org/plugins
