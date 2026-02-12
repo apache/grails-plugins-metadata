@@ -1,0 +1,227 @@
+name: Quartz
+desc: This plugin allows your Grails application to schedule jobs to be
+  executed using a specified interval or cron expression.
+coords: org.apache.grails:grails-quartz
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-quartz
+docs: https://apache.github.io/grails-quartz/latest/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - quartz
+  - scheduling
+licenses:
+  - Apache-2.0
+versions:
+  - version: 4.0.0
+    date: 2025-10-16T16:08:47Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.0-RC2
+    date: 2025-09-05T03:47:16Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.0-M3
+    date: 2025-07-25T15:03:32Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 4.0.0-M2
+    date: 2025-01-10T06:29:18Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0-M1
+    date: 2024-12-24T01:39:20Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0
+    date: 2024-04-04T01:03:19Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.13
+    date: 2021-02-24T05:36:53Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.12
+    date: 2021-02-24T05:36:54Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.11
+    date: 2021-02-24T05:36:54Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.10
+    date: 2021-02-24T05:36:54Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.9
+    date: 2021-02-24T05:36:55Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.8
+    date: 2021-02-24T05:36:55Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.7
+    date: 2021-02-24T05:36:59Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.6
+    date: 2021-02-24T05:36:57Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.5
+    date: 2021-02-24T05:36:56Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.4
+    date: 2021-02-24T05:36:57Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.3
+    date: 2021-02-24T05:36:55Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.2
+    date: 2021-02-24T05:36:56Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:36:58Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:36:58Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:36:58Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M5
+    date: 2021-02-24T05:36:57Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2013-11-06T05:39:56Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.0'
+    date: 2013-11-04T15:07:18Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC13
+    date: 2013-10-03T20:10:15Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC12
+    date: 2013-10-03T04:14:30Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC11
+    date: 2013-10-02T04:35:52Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC10
+    date: 2013-09-26T14:24:34Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC9
+    date: 2013-06-18T17:00:16Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC8
+    date: 2013-05-26T05:25:54Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC7
+    date: 2013-04-23T04:25:23Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC6
+    date: 2013-03-18T04:37:03Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC5
+    date: 2013-01-11T15:52:14Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC4
+    date: 2012-12-27T08:45:46Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC3
+    date: 2012-12-22T15:23:16Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC2
+    date: 2012-05-24T10:01:00Z
+    grailsVersion: 1.2 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0-RC1
+    date: 2012-03-12T20:32:12Z
+    grailsVersion: 1.2 > 1.3.7
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.4.2
+    date: 2012-03-12T20:32:52Z
+    grailsVersion: 1.1 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.4.1
+    date: 2012-03-12T20:32:52Z
+    grailsVersion: 1.1.1 > *
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.3.3
+    date: 2012-03-12T20:32:52Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.3.2
+    date: 2012-03-12T20:32:52Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.3.1
+    date: 2012-03-12T20:32:52Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.3'
+    date: 2012-03-12T20:32:52Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.2'
+    date: 2012-03-12T20:32:51Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.1'
+    date: 2012-03-12T20:32:51Z
+    coords: org.grails.plugins:quartz
+    maven-repo: https://repo.grails.org/plugins

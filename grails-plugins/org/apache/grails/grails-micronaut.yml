@@ -1,0 +1,38 @@
+name: Micronaut
+desc: Integration with the Micronaut framework.
+coords: org.apache.grails:grails-micronaut
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - micronaut
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:41:09Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T14:58:28Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:23:32Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:53:46Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:16:11Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:43:41Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:23:47Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:59:08Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:25:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *

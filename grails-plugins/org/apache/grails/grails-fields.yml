@@ -1,0 +1,333 @@
+name: Fields
+desc: Simplifies working with forms in Grails by offering convenient and customizable ways to manage field
+  rendering, validation, and interactions. It provides an easy-to-use API that reduces the boilerplate
+  code for generating form fields, allowing developers to focus on building their applications rather
+  than managing repetitive UI logic.
+coords: org.apache.grails:grails-fields
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/latest/guide/theWebLayer.html#fields
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - forms
+  - gsp
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:40:53Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T14:58:10Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:23:13Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:53:34Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:15:59Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:43:20Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:23:23Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:58:32Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:25:05Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:49:53Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:12:10Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:56:44Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 6.0.0-M3
+    date: 2025-03-04T17:37:05Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/core
+  - version: 6.0.0-M1
+    date: 2024-12-12T18:23:20Z
+    grailsVersion: 5.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/core
+  - version: 5.1.1
+    date: 2024-11-20T09:54:20Z
+    grailsVersion: 5.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/core
+  - version: 5.1.0
+    date: 2024-10-03T21:09:59Z
+    grailsVersion: 5.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.3
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 5.0.2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 5.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 5.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 5.0.0-RC4
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 5.0.0-RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.2
+    date: 2024-04-08T13:08:10Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0
+    date: 2024-01-02T08:07:34Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC15
+    date: 2024-01-01T13:05:36Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC14
+    date: 2024-01-01T12:29:10Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC13
+    date: 2024-01-01T12:21:11Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC12
+    date: 2023-12-30T21:58:56Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC11
+    date: 2023-12-30T21:55:12Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC10
+    date: 2023-12-30T21:43:21Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC9
+    date: 2023-12-30T21:31:42Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC8
+    date: 2023-12-30T21:23:11Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC7
+    date: 2023-12-30T20:49:10Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC6
+    date: 2023-12-30T20:16:32Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC5
+    date: 2023-12-30T20:09:40Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC4
+    date: 2023-12-30T20:00:02Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC3
+    date: 2023-12-30T19:18:02Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC2
+    date: 2023-12-30T17:37:48Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 4.0.0-RC1
+    date: 2023-12-30T17:09:56Z
+    grailsVersion: 3.0 > *
+    coords: io.github.gpc:fields
+  - version: 3.0.0.RC1
+    date: 2021-02-24T05:29:55Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.10
+    date: 2021-02-24T05:29:55Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.8
+    date: 2021-02-24T05:29:55Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.7
+    date: 2021-02-24T05:29:55Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.6
+    date: 2021-04-18T13:55:05Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.5
+    date: 2021-02-24T05:29:56Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.3
+    date: 2021-02-24T05:29:56Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.2
+    date: 2021-02-24T05:29:56Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.1
+    date: 2021-02-24T05:29:57Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.2.0
+    date: 2021-02-24T05:29:57Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.5
+    date: 2021-02-24T05:29:57Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.4
+    date: 2021-02-24T05:29:58Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.3
+    date: 2021-02-24T05:29:58Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.2
+    date: 2021-02-24T05:29:59Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.1
+    date: 2021-02-24T05:30:00Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.0
+    date: 2021-04-18T13:55:12Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.3
+    date: 2021-02-24T05:30:00Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.2
+    date: 2021-02-24T05:29:58Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:29:59Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:29:59Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M1
+    date: 2021-02-24T05:30:00Z
+    grailsVersion: 3.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.6'
+    date: 2018-05-25T10:00:24Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.1
+    date: 2015-04-28T19:17:18Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.5'
+    date: 2015-04-26T21:48:18Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.4'
+    date: 2014-09-10T13:23:21Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.3'
+    date: 2012-07-31T15:05:34Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.2'
+    date: 2012-03-16T06:43:37Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.1'
+    date: 2012-03-12T20:30:55Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.4
+    date: 2012-03-12T20:30:55Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.3
+    date: 2012-03-12T20:30:54Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.2
+    date: 2012-03-12T20:30:54Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2012-03-12T20:30:54Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.0'
+    date: 2012-03-12T20:30:53Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:fields
+    maven-repo: https://repo.grails.org/plugins

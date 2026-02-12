@@ -1,0 +1,151 @@
+name: Events
+desc: EventBus abstraction for Grails
+coords: org.apache.grails:grails-events
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/latest/guide/single.html#events
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - events
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:40:18Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T14:57:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:22:17Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:52:49Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:15:16Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:42:35Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:22:53Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:57:47Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:24:33Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:49:21Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:11:18Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:56:08Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T15:01:21Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 7.0.0-M2
+    date: 2025-03-03T13:36:41Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 6.0.0-M2
+    date: 2024-12-20T22:11:33Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 6.0.0-M1
+    date: 2024-12-12T20:46:45Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 5.0.2
+    date: 2023-12-22T10:48:39Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 5.0.1
+    date: 2023-12-21T17:36:14Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 5.0.0
+    date: 2023-11-21T13:21:05Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:events
+  - version: 4.0.0
+    date: 2019-07-11T11:29:48Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0.RC2
+    date: 2019-02-18T15:21:27Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0.RC1
+    date: 2019-02-18T14:47:16Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.2
+    date: 2021-02-24T05:29:29Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.1
+    date: 2021-02-24T05:29:29Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0
+    date: 2021-02-24T05:29:30Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC5
+    date: 2021-02-24T05:29:30Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC4
+    date: 2021-02-24T05:29:30Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC3
+    date: 2021-02-24T05:29:30Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC2
+    date: 2021-02-24T05:29:31Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC1
+    date: 2021-02-24T05:29:31Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M3
+    date: 2021-02-24T05:29:31Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M2
+    date: 2021-02-24T05:29:32Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M1
+    date: 2021-02-24T05:29:32Z
+    grailsVersion: 3.2.8 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core
+  - version: 1.0.0.M1
+    date: 2013-12-12T22:10:13Z
+    grailsVersion: 2.2 > *
+    coords: org.grails.plugins:events
+    maven-repo: https://repo.grails.org/core

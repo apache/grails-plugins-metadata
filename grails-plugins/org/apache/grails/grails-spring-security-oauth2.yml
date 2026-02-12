@@ -1,0 +1,71 @@
+name: Spring Security OAuth2
+desc: This plugin provides the capability to authenticate via OAuth 2. Depends on Grails spring-security-core.
+coords: org.apache.grails:grails-spring-security-oauth2
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-spring-security
+docs: https://apache.github.io/grails-spring-security/latest/oauth2-plugin/guide/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - oauth2
+  - spring-security
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-10-24T16:08:38Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-09-05T04:06:36Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-24T02:13:35Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-12T02:01:53Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:13:09Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.0-RC2
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 1.2.0
+    date: 2021-04-18T14:05:58Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 1.1.0
+    date: 2021-02-24T05:45:55Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core
+  - version: 1.0.0
+    date: 2021-04-18T14:05:59Z
+    grailsVersion: 3.1.8 > *
+    coords: org.grails.plugins:spring-security-oauth2
+    maven-repo: https://repo.grails.org/core

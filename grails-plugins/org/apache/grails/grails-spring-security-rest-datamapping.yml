@@ -1,0 +1,66 @@
+name: Spring Security REST Data Mapping
+desc: Spring Security REST plugin for Grails - Data Mapping module
+coords: org.apache.grails:grails-spring-security-rest-datamapping
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-spring-security
+docs: https://apache.github.io/grails-spring-security/latest/rest-plugin/guide/index.html#_gorm
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - spring-security
+  - spring-security-rest
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-10-24T16:08:40Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-09-05T04:06:40Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-24T02:13:45Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-12T02:02:04Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:13:10Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 6.0.0-M1
+    date: 2024-12-24T01:08:53Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.1
+    date: 2024-12-17T17:02:08Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.0
+    date: 2024-11-06T18:34:33Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.1
+    date: 2021-02-24T05:39:09Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0
+    date: 2021-02-24T05:39:09Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0.RC1
+    date: 2021-02-24T05:39:10Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:39:10Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest-gorm
+    maven-repo: https://repo.grails.org/core

@@ -1,0 +1,180 @@
+name: Scaffolding
+desc: Simplifies the process of generating CRUD interfaces for domain classes in Grails applications.
+coords: org.apache.grails:grails-scaffolding
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/latest/guide/scaffolding.html
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - scaffolding
+  - crud
+  - views
+  - gsp
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:41:43Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T14:59:14Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:24:23Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:54:21Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:16:45Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:44:27Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:24:33Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:59:55Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:26:01Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:50:44Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:13:16Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:57:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+  - version: 6.0.0-M3
+    date: 2025-03-04T18:37:04Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 6.0.0-M1
+    date: 2024-12-20T22:55:34Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.1.3
+    date: 2024-11-20T12:39:43Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.1.2
+    date: 2024-10-03T21:40:08Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.1.1
+    date: 2024-09-19T19:44:22Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.1.0
+    date: 2024-09-11T13:21:25Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.0.1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 5.0.0-M1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 4.1.0
+    date: 2022-02-24T19:24:06Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 4.0.0
+    date: 2021-12-19T23:51:02Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+  - version: 4.0.0.RC1
+    date: 2021-02-24T05:38:06Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.4.1
+    date: 2021-02-24T05:38:06Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.4.0
+    date: 2021-02-24T05:38:06Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.3.3
+    date: 2021-02-24T05:38:07Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.3.2
+    date: 2021-02-24T05:38:07Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.3.1
+    date: 2021-02-24T05:38:08Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.3.0
+    date: 2021-02-24T05:38:08Z
+    grailsVersion: 3.2.7 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.0-TEST
+    date: 2015-01-27T09:02:19Z
+    grailsVersion: 3.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0
+    date: 2014-04-22T07:27:43Z
+    grailsVersion: 2.4.0 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.3
+    date: 2014-03-07T18:01:58Z
+    grailsVersion: 2.3.6 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.2
+    date: 2014-02-14T17:00:21Z
+    grailsVersion: 2.3.6 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2013-10-16T07:39:45Z
+    grailsVersion: 2.3.1 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2013-09-06T00:04:50Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC2
+    date: 2013-08-28T07:40:21Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2013-07-30T07:40:59Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M1
+    date: 2013-06-27T07:22:18Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0
+    date: 2013-04-18T07:03:52Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:scaffolding
+    maven-repo: https://repo.grails.org/plugins
