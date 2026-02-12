@@ -1,0 +1,379 @@
+name: Markup Views
+desc: Grails Markup Views
+coords: org.apache.grails:grails-views-markup
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/snapshot/guide/theWebLayer.html#markup
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - views
+  - xml
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:42:24Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T15:00:10Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:25:27Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:55:04Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:17:28Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:45:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:25:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T22:00:50Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:26:44Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:51:25Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:14:10Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:58:48Z
+    grailsVersion: 7.0.0 > *
+  - version: 4.0.0-M3
+    date: 2025-03-04T19:18:17Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0-M1
+    date: 2024-12-21T19:53:19Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.2.3
+    date: 2024-04-04T10:51:40Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.2.2
+    date: 2024-03-28T16:49:45Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.2.1
+    date: 2024-03-22T06:32:35Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.1.2
+    date: 2024-01-17T11:07:48Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.1.1
+    date: 2023-12-08T10:22:40Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.1.0
+    date: 2023-10-17T17:20:04Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0
+    date: 2023-07-22T01:28:59Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0-RC1
+    date: 2023-05-23T17:13:06Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.0-M1
+    date: 2023-05-11T06:44:22Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.3.2
+    date: 2022-06-17T15:23:12Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.3.1
+    date: 2025-10-11T00:20:51Z
+  - version: 2.3.0
+    date: 2022-05-25T11:04:51Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.2.1
+    date: 2022-03-07T19:57:32Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.2.0
+    date: 2022-01-04T20:25:22Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.2
+    date: 2021-12-16T09:09:14Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.1
+    date: 2021-11-03T17:41:19Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0
+    date: 2021-10-11T08:21:15Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0-RC4
+    date: 2021-10-05T20:24:34Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0.RC3
+    date: 2021-09-03T11:00:22Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0.RC2
+    date: 2021-08-11T23:05:29Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0.RC1
+    date: 2021-07-21T21:03:32Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.0.M4
+    date: 2021-02-24T05:31:15Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.0.M2
+    date: 2021-02-24T05:31:17Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.0.M1
+    date: 2021-02-24T05:31:21Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.4
+    date: 2021-02-24T05:31:18Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.3
+    date: 2021-02-24T05:31:19Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.2
+    date: 2021-02-24T05:31:22Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:31:23Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:31:25Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC2
+    date: 2021-02-24T05:31:26Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:31:27Z
+    grailsVersion: 4.0.0.BUILD-SNAPSHOT > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.0
+    date: 2021-02-24T05:31:30Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.10
+    date: 2021-02-24T05:31:28Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.9
+    date: 2021-02-24T05:31:31Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.8
+    date: 2021-02-24T05:31:33Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.7
+    date: 2021-02-24T05:31:38Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.6
+    date: 2021-02-24T05:31:39Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.5
+    date: 2021-02-24T05:31:40Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.4
+    date: 2021-02-24T05:31:41Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.3
+    date: 2021-02-24T05:31:43Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.2
+    date: 2021-02-24T05:31:44Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.1
+    date: 2021-04-18T13:57:31Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0
+    date: 2021-02-24T05:31:46Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0.M2
+    date: 2021-02-24T05:31:52Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0.M1
+    date: 2021-02-24T05:31:54Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.5
+    date: 2021-02-24T05:31:48Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.4
+    date: 2021-02-24T05:31:49Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.3
+    date: 2021-02-24T05:31:51Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.2
+    date: 2021-02-24T05:31:53Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.1
+    date: 2021-02-24T05:31:55Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0
+    date: 2021-02-24T05:31:57Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0.RC3
+    date: 2021-02-24T05:31:58Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0.RC2
+    date: 2021-02-24T05:31:59Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0.RC1
+    date: 2021-02-24T05:32:00Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0.M2
+    date: 2021-02-24T05:32:02Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0.M1
+    date: 2021-02-24T05:32:04Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.12
+    date: 2021-02-24T05:32:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.11
+    date: 2021-02-24T05:32:05Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.10
+    date: 2021-02-24T05:32:06Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.9
+    date: 2021-02-24T05:32:07Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.8
+    date: 2021-02-24T05:32:08Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.7
+    date: 2021-02-24T05:32:10Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.6
+    date: 2021-02-24T05:32:11Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0.M2
+    date: 2021-04-22T00:08:41Z
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0.M1
+    date: 2021-04-22T00:08:41Z
+    coords: org.grails.plugins:views-markup
+    maven-repo: https://repo.grails.org/plugins

@@ -1,0 +1,107 @@
+name: Spring Security CAS
+desc: The CAS plugin adds CAS single sign-on support to a Grails application that uses Spring Security.
+  It depends on the Spring Security Core plugin.
+coords: org.apache.grails:grails-spring-security-cas
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-spring-security
+docs: https://apache.github.io/grails-spring-security/latest/cas-plugin/guide/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - spring-security
+  - cas
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-10-24T16:08:11Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-09-05T04:06:02Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-24T02:12:43Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-12T02:01:23Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:12:40Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0-RC1
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/core
+  - version: 3.1.0
+    date: 2021-02-24T05:38:50Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.1
+    date: 2021-02-24T05:38:50Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/core
+  - version: 2.0.2
+    date: 2017-10-09T07:27:27Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2017-10-03T06:05:06Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2015-12-08T03:51:50Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0-RC1
+    date: 2013-11-12T04:46:13Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.5
+    date: 2012-07-20T00:05:31Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.4
+    date: 2012-07-11T20:35:58Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.3
+    date: 2012-07-04T05:21:06Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.2
+    date: 2012-03-12T20:31:33Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2012-03-12T20:31:32Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: '1.0'
+    date: 2012-03-12T20:31:32Z
+    grailsVersion: 1.2.3 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.1'
+    date: 2012-03-12T20:31:31Z
+    grailsVersion: 1.2.2 > *
+    coords: org.grails.plugins:spring-security-cas
+    maven-repo: https://repo.grails.org/plugins

@@ -12,6 +12,7 @@ labels:
   - rdms
 licenses:
   - Apache-2.0
+deprecated: Superseded by org.apache.grails:grails-data-hibernate5 in Grails 7
 versions:
   - version: 9.0.0-M3
     date: 2025-03-04T15:16:30Z

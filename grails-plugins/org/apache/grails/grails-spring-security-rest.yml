@@ -1,0 +1,290 @@
+name: Spring Security REST
+desc: Grails plugin to implement token-based, RESTful authentication using Spring Security
+coords: org.apache.grails:grails-spring-security-rest
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-spring-security
+docs: https://apache.github.io/grails-spring-security/latest/rest-plugin/guide/
+maven-repo: https://repo.grails.org/core
+labels:
+  - security
+  - spring-security
+  - spring-security-rest
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-10-24T16:08:41Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-09-05T04:06:40Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-24T02:13:33Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-12T02:01:56Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T21:13:10Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/core
+  - version: 6.0.0-M1
+    date: 2024-12-24T01:08:45Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.1
+    date: 2024-12-17T17:01:58Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.0
+    date: 2024-11-06T18:34:24Z
+    grailsVersion: 6.1.1 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/core
+  - version: 3.0.1
+    date: 2021-02-24T05:39:08Z
+    grailsVersion: 4.0.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.0
+    date: 2021-02-24T05:39:08Z
+    grailsVersion: 4.0.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 3.0.0.RC1
+    date: 2021-02-24T05:39:09Z
+    grailsVersion: 4.0.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.RC1
+    date: 2021-02-24T05:39:09Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M2
+    date: 2021-06-17T11:50:33Z
+    grailsVersion: 3.1.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0.M1
+    date: 2021-06-17T12:26:10Z
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/core
+  - version: 1.5.4
+    date: 2016-08-29T15:20:35Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.3
+    date: 2015-11-20T14:19:49Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.2
+    date: 2015-08-19T14:51:43Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.1
+    date: 2015-05-06T16:38:04Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0
+    date: 2015-05-06T15:19:29Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.RC4
+    date: 2015-04-21T14:15:15Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.RC3
+    date: 2015-04-13T16:32:03Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.RC2
+    date: 2015-04-09T16:15:00Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.RC1
+    date: 2015-04-02T14:52:07Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.M3
+    date: 2015-04-01T17:00:51Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.M2
+    date: 2015-02-24T13:56:28Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.5.0.M1
+    date: 2015-02-03T19:56:29Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.1
+    date: 2015-01-28T13:58:23Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.1.RC2
+    date: 2014-11-12T10:31:23Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.1.RC1
+    date: 2014-10-20T19:05:14Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0
+    date: 2014-08-12T12:26:32Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.RC5
+    date: 2014-07-14T08:55:51Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.RC4
+    date: 2014-07-04T14:37:39Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.RC3
+    date: 2014-06-24T15:16:16Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.RC2
+    date: 2014-06-24T09:21:53Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.RC1
+    date: 2014-06-20T15:57:48Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.M3
+    date: 2014-06-11T16:22:03Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.M2
+    date: 2014-06-01T11:07:07Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.4.0.M1
+    date: 2014-05-29T18:39:00Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.4
+    date: 2014-04-23T15:05:09Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.3
+    date: 2014-04-16T12:52:03Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.2
+    date: 2014-04-03T15:43:14Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.1
+    date: 2014-03-18T16:39:54Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.0
+    date: 2014-03-04T15:49:20Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.0.RC3
+    date: 2014-02-19T14:03:14Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.0.RC2
+    date: 2014-02-19T09:15:48Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.0.RC1
+    date: 2014-02-18T12:49:40Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.5
+    date: 2014-02-17T09:57:45Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.4
+    date: 2014-02-10T16:11:50Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.3
+    date: 2014-02-04T20:26:30Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.2
+    date: 2014-01-31T09:44:16Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.1
+    date: 2014-01-29T14:53:45Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0
+    date: 2014-01-15T20:06:23Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0
+    date: 2014-01-14T13:33:58Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2014-01-13T17:31:08Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0
+    date: 2014-01-12T03:17:47Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0.RC2
+    date: 2014-01-10T13:50:14Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0.RC1
+    date: 2014-01-05T22:39:02Z
+    grailsVersion: 2.0 > *
+    coords: org.grails.plugins:spring-security-rest
+    maven-repo: https://repo.grails.org/plugins

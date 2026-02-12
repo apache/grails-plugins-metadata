@@ -1,0 +1,153 @@
+name: Async
+desc: Grails Async Libraries
+coords: org.apache.grails:grails-async
+owner: Apache Software Foundation
+vcs: https://github.com/apache/grails-core
+docs: https://grails.apache.org/docs/latest/guide/async.html
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - async
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.7
+    date: 2026-01-29T00:37:57Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.6
+    date: 2026-01-22T14:54:26Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.5
+    date: 2026-01-08T21:19:05Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.4
+    date: 2025-11-27T02:50:28Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.3
+    date: 2025-11-20T02:12:56Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.2
+    date: 2025-11-06T22:39:31Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.1
+    date: 2025-10-29T23:19:48Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-15T21:54:48Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC2
+    date: 2025-09-03T14:22:06Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0-RC1
+    date: 2025-08-04T15:46:54Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M5
+    date: 2025-07-09T15:08:10Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M4
+    date: 2025-06-04T07:53:20Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-M3
+    date: 2025-03-05T15:00:50Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 7.0.0-M2
+    date: 2025-03-03T13:35:56Z
+    grailsVersion: 7.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 6.0.0-M2
+    date: 2024-12-20T22:11:31Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 6.0.0-M1
+    date: 2024-12-12T20:46:43Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.2
+    date: 2023-12-22T10:48:29Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.1
+    date: 2023-12-21T17:36:08Z
+    grailsVersion: 6.0.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 5.0.0
+    date: 2023-11-21T13:20:53Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0
+    date: 2021-02-24T05:24:23Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0.RC2
+    date: 2021-02-24T05:24:24Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 4.0.0.RC1
+    date: 2021-02-24T05:24:24Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.2
+    date: 2021-02-24T05:24:24Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.1
+    date: 2021-02-24T05:24:25Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0
+    date: 2021-02-24T05:24:25Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC5
+    date: 2021-02-24T05:24:25Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC4
+    date: 2021-02-24T05:24:26Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC3
+    date: 2021-02-24T05:24:25Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC2
+    date: 2021-02-24T05:24:26Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.RC1
+    date: 2021-02-24T05:24:27Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M3
+    date: 2021-02-24T05:24:27Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M2
+    date: 2021-02-24T05:24:27Z
+    grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
+  - version: 3.3.0.M1
+    date: 2021-02-24T05:24:28Z
+    grailsVersion: 3.2.8 > *
+    coords: org.grails.plugins:async
+    maven-repo: https://repo.grails.org/core
