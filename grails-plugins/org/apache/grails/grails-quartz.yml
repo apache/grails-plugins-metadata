@@ -1,6 +1,6 @@
 name: Quartz
-desc: This plugin allows your Grails application to schedule jobs to be
-  executed using a specified interval or cron expression.
+desc: This plugin allows your Grails application to schedule jobs to be executed using a specified interval
+  or cron expression.
 coords: org.apache.grails:grails-quartz
 owner: Apache Software Foundation
 vcs: https://github.com/apache/grails-quartz

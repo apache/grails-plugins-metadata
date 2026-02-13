@@ -1,6 +1,5 @@
 name: Redis
-desc: This plugin provides access to Redis and various utilities
-  (service, annotations, etc) for caching.
+desc: This plugin provides access to Redis and various utilities (service, annotations, etc) for caching.
 coords: org.apache.grails:grails-redis
 owner: Apache Software Foundation
 vcs: https://github.com/grails/grails-redis
