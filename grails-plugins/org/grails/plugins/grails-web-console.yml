@@ -1,0 +1,96 @@
+name: Web Console
+desc: A web-based Groovy console for interactive runtime application management and debugging.
+coords: org.grails.plugins:grails-web-console
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-web-console
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - console
+  - management
+  - debugging
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.1
+    date: 2026-02-05T17:37:20Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 7.0.0
+    date: 2025-10-29T17:09:22Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    maven-repo: https://repo.grails.org/core
+  - version: 7.0.0-RC2
+    date: 2025-09-12T02:49:50Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    maven-repo: https://repo.grails.org/core
+  - version: 7.0.0-RC1
+    date: 2025-08-18T01:45:33Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    maven-repo: https://repo.grails.org/core
+  - version: 7.0.0-M3
+    date: 2025-07-21T18:13:09Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    maven-repo: https://repo.grails.org/core
+  - version: 7.0.0-M2
+    date: 2024-12-24T18:26:00Z
+    grailsVersion: 7.0.0-SNAPSHOT > *
+    maven-repo: https://repo.grails.org/core
+  - version: 2.1.1
+    date: 2021-02-24T05:28:02Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.0
+    date: 2021-02-24T05:28:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.9
+    date: 2021-02-24T05:28:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.8
+    date: 2021-02-24T05:28:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.7
+    date: 2021-02-24T05:28:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.6
+    date: 2021-02-24T05:28:04Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.5
+    date: 2021-02-24T05:28:03Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.4
+    date: 2021-02-24T05:28:04Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.3
+    date: 2021-02-24T05:28:05Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.2
+    date: 2021-02-24T05:28:05Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:28:05Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:28:05Z
+    grailsVersion: 3.0.0 > *
+    coords: org.grails.plugins:grails-console
+    maven-repo: https://repo.grails.org/plugins
