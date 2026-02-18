@@ -1,7 +1,7 @@
 name: p6spy-ui
 desc: Grails p6spy-ui plugin
 coords: org.grails.plugins:p6spy-ui
-owner: grails
+owner: burtbeckwith
 vcs: https://github.com/burtbeckwith/grails-p6spy-ui
 docs: https://burtbeckwith.github.io/grails-p6spy-ui/
 maven-repo: https://repo.grails.org/plugins

@@ -1,7 +1,7 @@
 name: excel-import
 desc: Grails Excel Import Plugin
 coords: org.grails.plugins:excel-import
-owner: gpc
+owner: Grails Plugin Collective
 vcs: https://github.com/gpc/grails-excel-import
 maven-repo: https://repo.grails.org/plugins
 labels:

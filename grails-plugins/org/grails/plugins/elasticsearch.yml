@@ -1,12 +1,12 @@
-name: elasticsearch
+name: Elasticsearch
 desc: Elasticsearch is a search server based on Lucene. It provides a distributed, multitenant-capable
   full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is
   developed in Java and is released as open source under the terms of the Apache License. This is the
   Grails 3 plugin to support Elasticsearch
 coords: org.grails.plugins:elasticsearch
-owner: grails
-vcs: https://github.com/grails/elasticsearch-grails-plugin
-docs: https://grails.github.io/elasticsearch-grails-plugin/
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-elasticsearch
+docs: https://grails-plugins.github.io/grails-elasticsearch/latest/
 maven-repo: https://repo1.maven.org/maven2
 labels:
   - search

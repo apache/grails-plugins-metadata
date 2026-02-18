@@ -1,7 +1,7 @@
 name: cache-ehcache
 desc: Provides an ehcache implementation of the cache plugin
 coords: org.grails.plugins:cache-ehcache
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-cache-ehcache
 docs: https://grails-plugins.github.io/grails-cache-ehcache/latest/
 maven-repo: https://repo.grails.org/plugins

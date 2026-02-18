@@ -1,7 +1,7 @@
 name: rxjava
 desc: A plugin that integrates Grails with RxJava
 coords: org.grails.plugins:rxjava
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-rxjava
 docs: https://grails-plugins.github.io/grails-rxjava/
 maven-repo: https://repo.grails.org/plugins

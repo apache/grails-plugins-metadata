@@ -1,7 +1,7 @@
-name: db-reverse-engineer
-desc: Grails db-reverse-engineer plugin
+name: DB Reverse Engineer
+desc: Reads database table information using JDBC and uses the schema data to create domain classes.
 coords: org.grails.plugins:db-reverse-engineer
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-db-reverse-engineer
 docs: https://grails-plugins.github.io/grails-db-reverse-engineer/
 maven-repo: https://repo.grails.org/plugins

@@ -1,7 +1,7 @@
-name: java8
+name: Java 8
 desc: Provides support for Java 8 specific features in Grails
 coords: org.grails.plugins:grails-java8
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-java8
 maven-repo: https://repo.grails.org/plugins
 labels:

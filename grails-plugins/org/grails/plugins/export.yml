@@ -1,7 +1,7 @@
 name: export
 desc: Grails export plugin
 coords: org.grails.plugins:export
-owner: gpc
+owner: Grails Plugin Collective
 vcs: https://github.com/gpc/export
 docs: https://gpc.github.io/export/
 maven-repo: https://repo.grails.org/plugins

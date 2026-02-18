@@ -2,7 +2,7 @@ name: PostgreSQL Extensions
 desc: This plugin provides Hibernate user types to support PostgreSQL native types like Array, HStore,
   JSON, JSONB as well as new criteria to query these native types.
 coords: io.github.gpc:grails-postgresql-extensions
-owner: gpc
+owner: Grails Plugin Collective
 vcs: https://github.com/gpc/grails-postgresql-extensions
 maven-repo: https://repo1.maven.org/maven2
 labels:

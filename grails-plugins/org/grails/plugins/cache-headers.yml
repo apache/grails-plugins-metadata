@@ -3,7 +3,7 @@ desc: |-
   Improve your application performance with browser caching, with easy ways to set caching headers
   in controller responses
 coords: org.grails.plugins:cache-headers
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/cache-headers
 docs: https://grails-plugins.github.io/cache-headers/
 maven-repo: https://repo.grails.org/plugins
