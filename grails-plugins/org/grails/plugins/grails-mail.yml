@@ -1,6 +1,6 @@
 name: Mail
-desc: Provides a convenient DSL for sending email. It supports plain text, html, attachments,
-  inline resources and i18n among other features.
+desc: Provides a convenient DSL for sending email. It supports plain text, html, attachments, inline resources
+  and i18n among other features.
 coords: org.grails.plugins:grails-mail
 owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-mail
