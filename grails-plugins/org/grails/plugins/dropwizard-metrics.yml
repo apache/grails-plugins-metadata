@@ -1,7 +1,7 @@
-name: dropwizard-metrics
-desc: Monitoring And Metrics Plugin For Grails 3
+name: Dropwizard Metrics
+desc: Monitoring And Metrics Plugin for Grails
 coords: org.grails.plugins:dropwizard-metrics
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-dropwizard-metrics
 docs: https://grails-plugins.github.io/grails-dropwizard-metrics/
 maven-repo: https://repo.grails.org/plugins

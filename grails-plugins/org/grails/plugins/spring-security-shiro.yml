@@ -1,7 +1,7 @@
 name: spring-security-shiro
-desc: Grails spring-security-shiro plugin
+desc: Adds some support for using a hybrid approach combining Spring Security and Shiro.
 coords: org.grails.plugins:spring-security-shiro
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-spring-security-shiro
 docs: https://grails-plugins.github.io/grails-spring-security-shiro/
 maven-repo: https://repo.grails.org/plugins

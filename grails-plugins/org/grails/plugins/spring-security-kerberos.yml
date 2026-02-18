@@ -1,7 +1,7 @@
-name: spring-security-kerberos
-desc: Grails spring-security-kerberos plugin
+name: Spring Security Kerberos
+desc: Adds Kerberos single sign-on support to a Grails application that uses Spring Security.
 coords: org.grails.plugins:spring-security-kerberos
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-spring-security-kerberos
 docs: https://grails-plugins.github.io/grails-spring-security-kerberos/
 maven-repo: https://repo.grails.org/plugins

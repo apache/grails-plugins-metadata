@@ -1,7 +1,7 @@
 name: jms
 desc: Grails jms plugin
 coords: io.github.gpc:jms
-owner: gpc
+owner: Grails Plugin Collective
 vcs: https://github.com/gpc/jms
 docs: https://gpc.github.io/jms/latest/
 maven-repo: https://repo1.maven.org/maven2

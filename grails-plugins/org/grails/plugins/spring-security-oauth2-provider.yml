@@ -1,7 +1,7 @@
 name: spring-security-oauth2-provider
 desc: Grails OAuth 2 Provider Plugin
 coords: org.grails.plugins:spring-security-oauth2-provider
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-spring-security-oauth2-provider
 docs: https://grails-plugins.github.io/grails-spring-security-oauth2-provider/
 maven-repo: https://repo.grails.org/plugins

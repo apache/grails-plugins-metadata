@@ -1,9 +1,9 @@
-name: Hibernate 5
-desc: Grails Data Mapping (GORM) - Hibernate 5 module
-coords: org.apache.grails:grails-data-hibernate5
+name: MongoDB
+desc: Grails Data Mapping (GORM) - MongoDB module
+coords: org.apache.grails:grails-data-mongodb
 owner: Apache Software Foundation
 vcs: https://github.com/apache/grails-core
-docs: grails.apache.org/docs/latest/grails-data/hibernate5/manual/index.html
+docs: https://grails.apache.org/docs/latest/grails-data/mongodb/manual/index.html
 maven-repo: https://repo1.maven.org/maven2
 labels:
   - data
@@ -16,38 +16,38 @@ licenses:
   - Apache-2.0
 versions:
   - version: 7.0.7
-    date: 2026-01-29T00:38:39Z
+    date: 2026-01-29T00:38:56Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.6
-    date: 2026-01-22T14:55:16Z
+    date: 2026-01-22T14:55:40Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.5
-    date: 2026-01-08T21:19:56Z
+    date: 2026-01-08T21:20:22Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.4
-    date: 2025-11-27T02:51:04Z
+    date: 2025-11-27T02:51:21Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.3
-    date: 2025-11-20T02:13:31Z
+    date: 2025-11-20T02:13:49Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.2
-    date: 2025-11-06T22:40:19Z
+    date: 2025-11-06T22:40:44Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.1
-    date: 2025-10-29T23:20:45Z
+    date: 2025-10-29T23:21:05Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.0
-    date: 2025-10-15T21:55:34Z
+    date: 2025-10-15T21:55:56Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.0-RC2
-    date: 2025-09-03T14:22:51Z
+    date: 2025-09-03T14:23:07Z
     grailsVersion: 7.0.0-SNAPSHOT > *
   - version: 7.0.0-RC1
-    date: 2025-08-04T15:47:30Z
+    date: 2025-08-04T15:47:48Z
     grailsVersion: 7.0.0 > *
   - version: 7.0.0-M5
-    date: 2025-07-09T15:09:06Z
+    date: 2025-07-09T15:09:27Z
     grailsVersion: 7.0.0 > *
   - version: 7.0.0-M4
-    date: 2025-06-04T07:54:06Z
+    date: 2025-06-04T07:54:30Z
     grailsVersion: 7.0.0 > *

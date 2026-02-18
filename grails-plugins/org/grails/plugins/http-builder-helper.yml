@@ -1,9 +1,10 @@
 name: http-builder-helper
-desc: Grails HTTP Builder Helper Plugin
+desc: Enables the usage of HTTPBuilder in a Grails application
 coords: org.grails.plugins:http-builder-helper
-owner: grails
+owner: bobbywarner
 vcs: https://github.com/bobbywarner/grails-http-builder-helper
 maven-repo: https://repo.grails.org/plugins
+deprecated: This repository was archived by the owner on Jun 18, 2024. It is now read-only.
 labels:
   - http-client
 licenses:

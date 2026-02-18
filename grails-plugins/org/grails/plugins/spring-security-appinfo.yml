@@ -1,7 +1,7 @@
-name: spring-security-appinfo
-desc: Grails spring-security-appinfo plugin
+name: Spring Security AppInfo
+desc: The Spring Security AppInfo plugin provides a UI to inspect your security configuration.
 coords: org.grails.plugins:spring-security-appinfo
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-spring-security-appinfo
 docs: https://grails-plugins.github.io/grails-spring-security-appinfo/
 maven-repo: https://repo.grails.org/plugins

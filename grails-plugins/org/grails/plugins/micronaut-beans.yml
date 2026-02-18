@@ -1,7 +1,7 @@
-name: micronaut-beans
-desc: Grails Plugin For Adding Micronaut Beans To The Spring Application Context
+name: Micronaut Beans
+desc: Grails plugin for adding Micronaut beans to the Spring application context
 coords: org.grails.plugins:micronaut-beans
-owner: grails
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/micronaut-beans
 docs: https://grails-plugins.github.io/micronaut-beans/
 maven-repo: https://repo.grails.org/plugins

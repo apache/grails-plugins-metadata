@@ -1,4 +1,4 @@
-name: mongodb
+name: MongoDB
 desc: GORM for MongoDB
 coords: org.grails.plugins:mongodb
 owner: grails
@@ -9,6 +9,7 @@ labels:
   - mongodb
 licenses:
   - Apache-2.0
+deprecated: Superseded by org.apache.grails:grails-data-mongodb in Grails 7
 versions:
   - version: 9.0.0-M3
     date: 2025-03-04T15:34:07Z

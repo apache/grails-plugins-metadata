@@ -1,9 +1,10 @@
-name: ldap-server
+name: LDAP Server
 desc: Grails LDAP Server Plugin
 coords: org.grails.plugins:ldap-server
-owner: grails
+owner: bobbywarner
 vcs: https://github.com/bobbywarner/grails-ldap-server
 maven-repo: https://repo.grails.org/plugins
+deprecated: Repository is not found
 labels:
   - ldap
 licenses:

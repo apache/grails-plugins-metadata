@@ -5,6 +5,7 @@ owner: grails
 vcs: https://github.com/grails/gorm-redis
 docs: https://gorm.grails.org/latest/redis/manual/
 maven-repo: https://repo.grails.org/plugins
+deprecated: This repository was archived by the owner on Dec 5, 2024. It is now read-only.
 labels:
   - gorm
   - nosql
