@@ -1,7 +1,7 @@
-name: database-migration
+name: Database Migration
 desc: Grails database migration plugin
 coords: org.apache.grails:grails-data-hibernate5-dbmigration
-owner: apache
+owner: Apache Software Foundation
 vcs: https://github.com/apache/grails-core
 docs: https://grails.apache.org/docs/latest/grails-data/hibernate5/manual/index.html#databaseMigration
 maven-repo: https://repo1.maven.org/maven2
