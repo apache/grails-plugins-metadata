@@ -5343,8 +5343,8 @@
     {
         "bintrayPackage": {
             "name": "security-bridge",
-            "repo": "grails3-plugins",
-            "owner": "bertramlabs",
+            "repo": "wondrify",
+            "owner": "wondrify",
             "desc": "Defines a standard corss-plugin security bridge implementation for better decoupling of authentication in plugin heavy applications.",
             "labels": [
                 "cors",
@@ -5353,17 +5353,16 @@
             "licenses": [
                 "Apache-2.0"
             ],
-            "issueTrackerUrl": "https://github.com/bertramdev/grails-security-bridge/issues",
+            "issueTrackerUrl": "https://github.com/wondrify/grails-security-bridge/issues",
             "latestVersion": "7.0.0",
-            "updated": "2024-12-30T16:59:22.000Z",
+            "updated": "2026-02-25T15:25:22.000Z",
             "systemIds": [
-                "com.bertramlabs.plugins:grails-security-bridge",
-                "com.bertramlabs.plugins:security-bridge"
+                "cloud.wondrify:grails-security-bridge"
             ],
-            "vcsUrl": "https://github.com/bertramdev/grails-security-bridge"
+            "vcsUrl": "https://github.com/wondrify/grails-security-bridge"
         },
-        "documentationUrl": "https://bertramdev.github.io/grails-security-bridge/",
-        "mavenMetadataUrl": "https://repo1.maven.org/maven2/com/bertramlabs/plugins/grails-security-bridge/maven-metadata.xml",
+        "documentationUrl": "https://wondrify.github.io/grails-security-bridge/",
+        "mavenMetadataUrl": "https://repo1.maven.org/maven2/cloud/wondrify/grails-security-bridge/maven-metadata.xml",
         "readme": "<h1>Grails Security Bridge</h1>\n<p>The Grails Security Bridge plugin is used for providing a decoupled, cross-plugin security interface. This allows you to keep the majority of authentication logic in one plugin, while other plugins can reference a public API interface to retrieve the information needed.</p>\n<h2>Documentation</h2>\n<p>http://bertramdev.github.io/grails-security-bridge</p>\n"
     },
     {
