@@ -3770,8 +3770,8 @@
                 "Apache-2.0"
             ],
             "issueTrackerUrl": "https://github.com/wondrify/karman-core/issues",
-            "latestVersion": "2.5.2",
-            "updated": "2026-01-23T20:41:30.000Z",
+            "latestVersion": "3.0.3",
+            "updated": "2026-02-25T17:01:39.000Z",
             "systemIds": [
                 "cloud.wondrify:karman-grails"
             ],
@@ -5416,8 +5416,8 @@
     {
         "bintrayPackage": {
             "name": "selfie",
-            "repo": "grails3-plugins",
-            "owner": "bertramlabs",
+            "repo": "wondrify",
+            "owner": "wondrify",
             "desc": "Selfie is a Grails Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to a CDN, validate content, produce thumbnails.",
             "labels": [
                 "image",
@@ -5426,16 +5426,16 @@
             "licenses": [
                 "Apache-2.0"
             ],
-            "issueTrackerUrl": "https://github.com/bertramdev/selfie/issues",
+            "issueTrackerUrl": "https://github.com/wondrify/selfie/issues",
             "latestVersion": "7.0.0",
-            "updated": "2024-12-30T16:56:40.000Z",
+            "updated": "2026-02-25T18:53:21.000Z",
             "systemIds": [
-                "com.bertramlabs.plugins:selfie"
+                "cloud.wondrify:selfie"
             ],
-            "vcsUrl": "https://github.com/bertramdev/selfie"
+            "vcsUrl": "https://github.com/wondrify/selfie"
         },
-        "documentationUrl": null,
-        "mavenMetadataUrl": "https://repo1.maven.org/maven2/com/bertramlabs/plugins/selfie/maven-metadata.xml",
+        "documentationUrl": "https://wondrify.github.io/selfie/",
+        "mavenMetadataUrl": "https://repo1.maven.org/maven2/cloud/wondrify/selfie/maven-metadata.xml",
         "readme": null
     },
     {
