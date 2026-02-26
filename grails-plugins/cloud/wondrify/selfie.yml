@@ -1,6 +1,6 @@
 name: Selfie
-desc: Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to
-  a CDN, validate content, produce thumbnails.
+desc: Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to a CDN, validate
+  content, produce thumbnails.
 coords: cloud.wondrify:selfie
 owner: wondrify
 vcs: https://github.com/wondrify/selfie
