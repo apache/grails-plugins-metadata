@@ -1,6 +1,6 @@
 name: Karman
-desc: A standardized / extensible interface plugin for dealing with various cloud services including
-  Local, S3, and Openstack.
+desc: A standardized / extensible interface plugin for dealing with various cloud services including Local,
+  S3, and Openstack.
 coords: cloud.wondrify:karman-grails
 owner: wondrify
 vcs: https://github.com/wondrify/karman-core
