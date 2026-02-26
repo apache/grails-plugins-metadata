@@ -1,0 +1,145 @@
+name: Selfie
+desc: Image / File Upload Plugin. Use Selfie to attach files to your domain models, upload to
+  a CDN, validate content, produce thumbnails.
+coords: cloud.wondrify:selfie
+owner: wondrify
+vcs: https://github.com/wondrify/selfie
+docs: https://wondrify.github.io/selfie
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - image
+  - upload
+licenses:
+  - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2026-02-25T18:47:33Z
+    grailsVersion: 3.1.5 > *
+  - version: 2.1.5
+    date: 2023-05-04T15:14:52Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+  - version: 2.1.4
+    date: 2021-03-31T01:19:05Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+  - version: 2.1.3
+    date: 2021-02-24T05:38:26Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.2
+    date: 2021-02-24T05:38:26Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.1
+    date: 2021-02-24T05:38:27Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.1.0
+    date: 2021-02-24T05:38:27Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:38:27Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.0
+    date: 2021-02-24T05:38:28Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.11
+    date: 2021-02-24T05:38:27Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.10
+    date: 2021-02-24T05:38:28Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.9
+    date: 2021-02-24T05:38:28Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.8
+    date: 2021-02-24T05:38:29Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.7
+    date: 2021-02-24T05:38:29Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.6
+    date: 2021-02-24T05:38:29Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.5
+    date: 2021-02-24T05:38:30Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.4
+    date: 2021-02-24T05:38:30Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.3
+    date: 2021-02-24T05:38:30Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.2
+    date: 2021-02-24T05:38:30Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.1
+    date: 2021-02-24T05:38:31Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0
+    date: 2021-02-24T05:38:31Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.1
+    date: 2021-02-24T05:38:31Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0
+    date: 2021-02-24T05:38:32Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.3
+    date: 2021-02-24T05:38:32Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.2
+    date: 2021-02-24T05:38:32Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2021-02-24T05:38:32Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0
+    date: 2021-02-24T05:38:33Z
+    grailsVersion: 3.1.5 > *
+    coords: com.bertramlabs.plugins:selfie
+    maven-repo: https://repo.grails.org/plugins
