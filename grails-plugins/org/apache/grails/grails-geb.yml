@@ -3,7 +3,7 @@ desc: Geb Functional Testing for Grails framework
 coords: org.apache.grails:grails-geb
 owner: Apache Software Foundation
 docs: https://github.com/apache/grails-core/tree/HEAD/grails-geb#readme
-vcs: https://github.com/apache/grails-gore
+vcs: https://github.com/apache/grails-core
 maven-repo: https://repo1.maven.org/maven2
 labels:
   - testing
