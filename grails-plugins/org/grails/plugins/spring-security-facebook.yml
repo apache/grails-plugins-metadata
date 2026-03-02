@@ -3,7 +3,7 @@ desc: Grails spring-security-facebook plugin
 coords: org.grails.plugins:spring-security-facebook
 owner: splix
 vcs: https://github.com/splix/grails-spring-security-facebook
-docs: http://splix.github.io/grails-spring-security-facebook/
+docs: https://splix.github.io/grails-spring-security-facebook/
 maven-repo: https://repo.grails.org/plugins
 labels:
   - security
