@@ -3,12 +3,13 @@ desc: The HTTP Requests Plugin provides the http-requests library and artefacts 
 coords: com.budjb:http-requests-grails
 owner: budjb
 vcs: https://github.com/budjb/http-requests
-docs: https://budjb.github.io/http-requests/
+docs: https://budjb.github.io/http-requests/latest/
 maven-repo: https://repo.grails.org/plugins
 labels:
   - http-client
 licenses:
   - Apache-2.0
+deprecated: This repository was archived by the owner on Jul 3, 2023. It is now read-only.
 versions:
   - version: 1.0.2
     date: 2021-02-24T05:33:44Z
