@@ -8,6 +8,7 @@ labels:
   - sentry
 licenses:
   - Apache-2.0
+deprecated: This repository was archived by the owner on Nov 11, 2025. It is now read-only.
 versions:
   - version: 11.7.25
     date: 2021-02-24T05:38:33Z
