@@ -5,7 +5,7 @@ desc: The Distributed Mutex plugin provides a way to create mutexes backed by a 
 coords: org.grails.plugins:distributed-mutex
 owner: budjb
 vcs: https://github.com/budjb/grails-distributed-mutex
-docs: https://budjb.github.io/grails-distributed-mutex/
+docs: https://budjb.github.io/grails-distributed-mutex/3.x/latest/
 maven-repo: https://repo.grails.org/plugins
 labels:
   - lock

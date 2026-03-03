@@ -11,6 +11,7 @@ labels:
   - rabbitmq
 licenses:
   - Apache-2.0
+deprecated: This repository was archived by the owner on Jul 3, 2023. It is now read-only.
 versions:
   - version: 4.0.0
     date: 2021-02-24T05:37:06Z

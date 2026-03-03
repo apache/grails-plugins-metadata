@@ -3,7 +3,7 @@ desc: A plugin that allows the use of Spring Security features with JAX-RS resou
 coords: org.grails.plugins:spring-security-jaxrs
 owner: budjb
 vcs: https://github.com/budjb/grails-spring-security-jaxrs
-docs: http://budjb.github.io/grails-spring-security-jaxrs/3.x/latest/
+docs: https://budjb.github.io/grails-spring-security-jaxrs/3.x/latest/
 maven-repo: https://repo.grails.org/plugins
 labels:
   - security
