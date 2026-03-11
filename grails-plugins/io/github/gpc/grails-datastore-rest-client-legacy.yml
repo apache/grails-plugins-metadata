@@ -1,0 +1,14 @@
+name: grails-datastore-rest-client-legacy
+desc: The Grails Datastore Rest Client plugin adapted to Grails 7.
+  You should really consider migrating to either the Spring Rest Client or the Micronaut Http Rest Client
+coords: io.github.gpc:grails-datastore-rest-client-legacy
+owner: gpc
+vcs: https://github.com/gpc/grails-datastore-rest-client-legacy
+docs: https://github.com/gpc/grails-datastore-rest-client-legacy/blob/master/README.md
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - gorm
+  - json
+  - rest
+licenses:
+  - Apache-2.0
