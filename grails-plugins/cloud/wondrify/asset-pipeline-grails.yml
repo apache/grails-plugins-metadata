@@ -21,6 +21,9 @@ versions:
   - version: 5.1.0-M1
     date: 2025-11-19T23:50:32Z
     grailsVersion: 7.0.0-SNAPSHOT > *
+  - version: 5.0.34
+    date: 2026-04-01T01:35:20Z
+    grailsVersion: 7.0.0 > *
   - version: 5.0.33
     date: 2026-03-04T16:45:12Z
     grailsVersion: 7.0.0-SNAPSHOT > *
