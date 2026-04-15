@@ -1,0 +1,17 @@
+name: export
+desc: Grails export plugin
+coords: io.github.gpc:grails-export
+owner: Grails Plugin Collective
+vcs: https://github.com/gpc/grails-export
+docs: https://gpc.github.io/grails-export/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - export
+  - csv
+  - excel
+  - ods
+  - pdf
+  - xml
+licenses:
+  - Apache-2.0
+versions:
