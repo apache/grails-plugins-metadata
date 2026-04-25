@@ -1,0 +1,10 @@
+name: taggable
+desc: The Taggable plugin that adds a generic mechanism for tagging data
+coords: io.github.gpc:grails-taggable-plugin
+owner: Grails Plugin Collective
+vcs: https://github.com/gpc/taggable
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - tags
+licenses:
+  - Apache-2.0
