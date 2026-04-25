@@ -1,0 +1,13 @@
+name: Grails RabbitMQ AMQP Plugin
+desc: A RabbitMQ plugin for Grails that supports multiple connection factories, annotation-based consumer
+  configuration, and exchange/topic subscriptions.
+coords: cloud.wondrify:grails-rabbit-amqp-plugin
+owner: wondrify
+vcs: https://github.com/wondrify/grails-rabbit-amqp-plugin
+docs: https://wondrify.github.io/grails-rabbit-amqp-plugin/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - messaging
+  - rabbitmq
+licenses:
+  - Apache-2.0
