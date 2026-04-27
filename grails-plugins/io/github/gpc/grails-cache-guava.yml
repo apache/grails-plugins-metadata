@@ -8,3 +8,16 @@ labels:
   - cache
 licenses:
   - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2025-11-11T14:34:12Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC1
+    date: 2025-10-05T14:19:47Z
+    grailsVersion: 7.0.0 > *
+  - version: 2.0.1
+    date: 2025-11-11T14:24:32Z
+    grailsVersion: 7.0.0 > *
+  - version: 2.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 3.3.5 > *

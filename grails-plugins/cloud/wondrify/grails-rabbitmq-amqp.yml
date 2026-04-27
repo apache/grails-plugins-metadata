@@ -11,3 +11,7 @@ labels:
   - rabbitmq
 licenses:
   - Apache-2.0
+versions:
+  - version: 7.0.0
+    date: 2026-02-25T13:53:26Z
+    grailsVersion: 3.1.5 > *
