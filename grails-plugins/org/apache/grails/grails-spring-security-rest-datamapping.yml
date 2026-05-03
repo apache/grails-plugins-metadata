@@ -12,6 +12,9 @@ labels:
 licenses:
   - Apache-2.0
 versions:
+  - version: 7.0.2
+    date: 2026-04-30T21:51:38Z
+    grailsVersion: 7.0.0 > *
   - version: 7.0.1
     date: 2026-02-12T12:17:02Z
     grailsVersion: 7.0.0 > *
