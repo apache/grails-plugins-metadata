@@ -2,7 +2,7 @@ name: Elasticsearch
 desc: An Elasticsearch plugin for Grails. It allows indexing of domain class properties using a concise DSL and searching
   based on the domain classes using the Elasticsearch query api.
 coords: org.grails.plugins:grails-elasticsearch
-owner: Grails Plugins
+owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-elasticsearch
 docs: https://grails-plugins.github.io/grails-elasticsearch/
 maven-repo: https://repo1.maven.org/maven2
@@ -22,11 +22,14 @@ versions:
     date: 2023-06-21T10:06:20Z
     grailsVersion: 3.3.1 > *
     coords: org.grails.plugins:elasticsearch
+    maven-repo: https://repo.grails.org/core
   - version: 3.0.0
     date: 2022-07-06T10:47:32Z
     grailsVersion: 3.3.1 > *
     coords: org.grails.plugins:elasticsearch
+    maven-repo: https://repo.grails.org/core
   - version: 3.0.0-RC1
     date: 2022-01-10T12:48:09Z
     grailsVersion: 3.3.1 > *
     coords: org.grails.plugins:elasticsearch
+    maven-repo: https://repo.grails.org/core
