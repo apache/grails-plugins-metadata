@@ -1,10 +1,10 @@
-name: joda-time
-desc: Joda-Time Plugin
-coords: org.grails.plugins:joda-time
-owner: Grails Plugin Collecctive
-vcs: https://github.com/gpc/joda-time
-docs: https://gpc.github.io/joda-time/
-maven-repo: https://repo.grails.org/plugins
+name: Joda Time
+desc: Provides Joda Time databinding integration for Grails.
+coords: org.grails.plugins:grails-joda-time
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-joda-time
+docs: https://grails-plugins.github.io/grails-joda-time
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - date
 licenses:
@@ -13,51 +13,85 @@ versions:
   - version: 2.1.0
     date: 2021-04-18T14:00:23Z
     grailsVersion: 3.3.0 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/core
   - version: 2.0.0
     date: 2021-02-24T05:34:22Z
     grailsVersion: 3.0.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/core
   - version: '1.4'
     date: 2012-03-12T20:30:32Z
     grailsVersion: 1.3 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: 1.3.1
     date: 2012-03-12T20:30:31Z
     grailsVersion: 1.3 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '1.3'
     date: 2012-03-12T20:30:30Z
     grailsVersion: 1.3 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '1.2'
     date: 2012-03-12T20:30:29Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '1.1'
     date: 2012-03-12T20:30:28Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '1.0'
     date: 2012-03-12T20:30:28Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: 0.5.1
     date: 2012-03-12T20:30:28Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '0.5'
     date: 2012-03-12T20:30:28Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: 0.4.3
     date: 2012-03-12T20:30:27Z
     grailsVersion: 1.2-M1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: 0.4.2
     date: 2012-03-12T20:30:27Z
     grailsVersion: 1.1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: 0.4.1
     date: 2012-03-12T20:30:27Z
     grailsVersion: 1.1-RC2 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '0.4'
     date: 2012-03-12T20:30:26Z
     grailsVersion: 1.1-RC2 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '0.3'
     date: 2012-03-12T20:30:26Z
     grailsVersion: 1.1-RC2 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '0.2'
     date: 2012-03-12T20:30:25Z
     grailsVersion: 1.1-RC2 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
   - version: '0.1'
     date: 2012-03-12T20:30:25Z
     grailsVersion: 1.1-RC1 > *
+    coords: org.grails.plugins:joda-time
+    maven-repo: https://repo.grails.org/plugins
