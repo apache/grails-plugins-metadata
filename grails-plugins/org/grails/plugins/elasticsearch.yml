@@ -1,6 +1,6 @@
 name: Elasticsearch
-desc: An Elasticsearch plugin for Grails. It allows indexing of domain class properties using a concise DSL and searching
-  based on the domain classes using the Elasticsearch query api.
+desc: An Elasticsearch plugin for Grails. It allows indexing of domain class properties using a concise
+  DSL and searching based on the domain classes using the Elasticsearch query api.
 coords: org.grails.plugins:grails-elasticsearch
 owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-elasticsearch
