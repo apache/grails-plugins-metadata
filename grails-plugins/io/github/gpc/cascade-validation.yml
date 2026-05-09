@@ -1,6 +1,6 @@
 name: cascade-validation
-desc: This plugin establishes a cascade constraint property for validatable objects, that being domain objects,
-  and objects implementing grails.validation.Validateable
+desc: This plugin establishes a cascade constraint property for validatable objects, that being domain
+  objects, and objects implementing grails.validation.Validateable
 coords: io.github.gpc:cascade-validation
 owner: gpc
 vcs: https://github.com/gpc/grails-cascade-validation
@@ -9,3 +9,19 @@ labels:
   - validation
 licenses:
   - Apache-2.0
+versions:
+  - version: 7.0.1
+    date: 2025-10-31T20:41:07Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0
+    date: 2025-10-30T13:34:14Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC2
+    date: 2025-10-20T09:50:53Z
+    grailsVersion: 7.0.0 > *
+  - version: 7.0.0-RC1
+    date: 2025-10-16T15:22:05Z
+    grailsVersion: 7.0.0 > *
+  - version: 4.0.0
+    date: 2021-12-05T17:21:28Z
+    grailsVersion: 4.0.10 > *
