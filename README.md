@@ -39,8 +39,8 @@ To have your plugin listed on the Grails Plugin Page, follow these steps:
 3. **Create a YAML file** for your plugin named `<artifactId>.yml` with the following structure:
 ```yaml
 name: Your Plugin Name # Try to not use the word "Grails" here, it is implied and not helpful
-desc: A concise description of your plugin # Maven coordinates in format groupId:artifactId
-coords: com.example:my-plugin # groupId:artifactId
+desc: A concise description of your plugin # Write a meaningful description, do not just repeat the name
+coords: com.example:my-plugin # Maven coordinates in format groupId:artifactId
 owner: Your name or organization # for example, your GitHub username
 vcs: https://github.com/your-github-username/your-plugin-repo-name # URL to your plugin's GitHub repository
 docs: https://github.com/your-github-username/your-plugin-repo-name#readme # URL to your plugin's documentation
