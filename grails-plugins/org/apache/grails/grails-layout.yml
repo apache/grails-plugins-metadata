@@ -15,7 +15,7 @@ licenses:
 versions:
   - version: 8.0.0-M1
     date: 2026-05-03T22:50:05Z
-    grailsVersion: 7.0.0-SNAPSHOT > *
+    grailsVersion: 8.0.0-M1 > *
   - version: 7.1.1
     date: 2026-04-30T20:10:20Z
     grailsVersion: 7.0.0-SNAPSHOT > *
