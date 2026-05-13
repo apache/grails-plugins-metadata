@@ -52,6 +52,8 @@ versions:
     date: 2025-12-10T07:58:11Z
   - version: 2.1.19
     date: 2025-12-10T07:58:09Z
+  - version: 2.1.5
+    date: 2026-05-13T18:12:51Z
   - version: 2.1.0
     date: 2025-12-10T07:58:07Z
   - version: 1.10.74
