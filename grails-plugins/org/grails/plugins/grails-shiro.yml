@@ -1,0 +1,18 @@
+name: shiro
+desc: Secure your Grails application quickly and easily using the Apache Shiro security framework.
+coords: org.grails.plugins:grails-shiro
+owner: grails-plugins
+vcs: https://github.com/grails-plugins/grails-shiro
+docs: https://grails-plugins.github.io/grails-shiro/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - security
+  - shiro
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.0
+    date: 2025-10-11T00:20:51Z
+    grailsVersion: 5.0.0 > 6.x
+    coords: org.nerderg.plugins:grails-shiro
+    maven-repo: https://repo1.maven.org/maven2
