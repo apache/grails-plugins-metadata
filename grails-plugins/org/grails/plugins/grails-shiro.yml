@@ -54,4 +54,3 @@ versions:
     date: 2021-02-24T00:00:00Z
     grailsVersion: 3.0.0 > *
     maven-repo: https://repo.grails.org/artifactory/core
-
