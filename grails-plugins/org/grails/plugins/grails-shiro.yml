@@ -11,8 +11,47 @@ labels:
 licenses:
   - Apache-2.0
 versions:
+  - version: 6.0.0-RC1
+    date: 2026-05-18T09:07:44Z
+    grailsVersion: 6.0.0 > *
   - version: 5.0.0
     date: 2025-10-11T00:20:51Z
-    grailsVersion: 5.0.0 > 6.x
+    grailsVersion: 5.0.0 > *
     coords: org.nerderg.plugins:grails-shiro
-    maven-repo: https://repo1.maven.org/maven2
+  - version: '4.4'
+    date: 2021-04-18T00:00:00Z
+    grailsVersion: 4.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '4.3'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 4.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '4.2'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 4.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '4.1'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 4.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '3.4'
+    date: 2021-04-18T00:00:00Z
+    grailsVersion: 3.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '3.3'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 3.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '3.2'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 3.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '3.1'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 3.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+  - version: '3.0'
+    date: 2021-02-24T00:00:00Z
+    grailsVersion: 3.0.0 > *
+    maven-repo: https://repo.grails.org/artifactory/core
+
