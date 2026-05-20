@@ -4,7 +4,7 @@ coords: org.grails.plugins:audit-logging
 owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-audit-logging-plugin
 docs: https://grails-plugins.github.io/grails-audit-logging-plugin/latest/
-maven-repo: https://repo.grails.org/plugins
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - auditing
 licenses:
