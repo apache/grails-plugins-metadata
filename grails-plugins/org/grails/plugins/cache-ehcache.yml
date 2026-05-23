@@ -4,7 +4,7 @@ coords: org.grails.plugins:cache-ehcache
 owner: grails-plugins
 vcs: https://github.com/grails-plugins/grails-cache-ehcache
 docs: https://grails-plugins.github.io/grails-cache-ehcache/latest/
-maven-repo: https://repo.grails.org/plugins
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - cache
   - ehcache
