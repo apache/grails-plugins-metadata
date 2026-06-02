@@ -506,8 +506,16 @@ class Utils {
             System.err.println("INFO: No 'maven-repo' for $coords in $f.path, not syncing versions")
         } else {
             // Fetch and update latest version info
-            def availableVersions = fetchPluginVersions(pluginInfo)
             def existingVersions = pluginInfo.get('versions', []) as List<Map>
+            def availableVersions = [] as List<Version>
+            try {
+                availableVersions = fetchPluginVersions(pluginInfo)
+            }
+            catch(Exception e) {
+                System.err.println(
+                        "WARNING: Could not fetch versions for $coords: ${e.message}. Keeping existing versions."
+                )
+            }
             availableVersions.each { version ->
                 def alreadyPresent = existingVersions.any { v -> v.version == version.versionText }
                 if (alreadyPresent) {
