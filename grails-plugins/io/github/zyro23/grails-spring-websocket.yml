@@ -1,9 +1,9 @@
 name: spring-websocket
 desc: This plugin aims at making the websocket support introduced in Spring 4.0 available to Grails applications.
-coords: org.grails.plugins:grails-spring-websocket
+coords: io.github.zyro23:grails-spring-websocket
 owner: zyro
 vcs: https://github.com/zyro23/grails-spring-websocket
-maven-repo: https://repo.grails.org/plugins
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - websocket
 licenses:
