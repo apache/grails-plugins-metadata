@@ -11,6 +11,10 @@ licenses:
   - Apache-2.0
 comment: Now lives in https://github.com/grails-plugins/
 versions:
+  - version: 7.0.0-SNAPSHOT
+    date: 2026-08-08T00:41:07Z
+    grailsVersion: 8.0.0 > *
+    maven-repo: https://central.sonatype.com/repository/maven-snapshots
   - version: 6.0.0
     date: 2025-10-20T12:55:23Z
     grailsVersion: 7.0.0 > *
