@@ -1,0 +1,75 @@
+name: jasypt-encryption
+desc: Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration
+coords: io.github.gpc:grails-jasypt
+owner: Grails Plugin Collective
+vcs: https://github.com/gpc/grails-jasypt
+docs: https://gpc.github.io/grails-jasypt/
+maven-repo: https://repo1.maven.org/maven2
+labels:
+  - encryption
+  - jasypt
+licenses:
+  - Apache-2.0
+versions:
+  - version: 5.0.0-RC2
+    date: 2026-07-08T15:52:34Z
+    grailsVersion: 4.0.0 > *
+  - version: 4.0.4
+    date: 2021-06-03T14:03:20Z
+    grailsVersion: 4.0.0 > *
+    coords: org.tros:jasypt-encryption
+  - version: 2.0.2
+    date: 2021-02-24T05:36:43Z
+    grailsVersion: 3.0.3 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 2.0.1
+    date: 2021-02-24T05:36:53Z
+    grailsVersion: 3.0.3 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.3.1
+    date: 2014-11-02T18:39:43Z
+    grailsVersion: 2.4 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.1
+    date: 2014-10-20T04:00:35Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.2.0
+    date: 2014-10-14T17:39:41Z
+    grailsVersion: 2.3 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.1.0
+    date: 2012-03-12T20:32:18Z
+    grailsVersion: 2.0.0 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.1
+    date: 2012-03-12T20:32:18Z
+    grailsVersion: 2.0.0 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 1.0.0
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 2.0.0 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.1.2
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 1.3.6 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: 0.1.1
+    date: 2012-03-12T20:32:17Z
+    grailsVersion: 1.3.2 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
+  - version: '0.1'
+    date: 2012-03-12T20:32:16Z
+    grailsVersion: 1.3.2 > *
+    coords: org.grails.plugins:jasypt-encryption
+    maven-repo: https://repo.grails.org/plugins
