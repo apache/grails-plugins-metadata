@@ -13,7 +13,7 @@ licenses:
 versions:
   - version: 5.0.0-RC2
     date: 2026-07-08T15:52:34Z
-    grailsVersion: 4.0.0 > *
+    grailsVersion: 7.0.0 > *
   - version: 4.0.4
     date: 2021-06-03T14:03:20Z
     grailsVersion: 4.0.0 > *
