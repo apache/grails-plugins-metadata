@@ -1,5 +1,7 @@
 name: DavKit
-desc: Office-aware WebDAV for application documents (GORM blobs, files, object storage) so desktop Word, Excel and PowerPoint open, lock, edit and save them from one click. Apache-2.0 plugin over a commercial core (licence key required at runtime).
+desc: Office-aware WebDAV for application documents (GORM blobs, files, object storage) so desktop Word,
+  Excel and PowerPoint open, lock, edit and save them from one click. Apache-2.0 plugin over a commercial
+  core (licence key required at runtime).
 coords: com.tucanoo.davkit:davkit-grails-plugin
 owner: Tucanoo Solutions Ltd
 vcs: https://github.com/tucanoo/davkit-grails-plugin
@@ -12,3 +14,10 @@ labels:
   - gorm
 licenses:
   - Apache-2.0
+versions:
+  - version: 1.0.10-beta.1
+    date: 2026-09-01T13:47:13Z
+    grailsVersion: 7.0.0 > *
+  - version: 1.0.10
+    date: 2026-09-12T16:29:48Z
+    grailsVersion: 7.0.0 > *
