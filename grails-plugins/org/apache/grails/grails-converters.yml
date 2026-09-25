@@ -29,6 +29,9 @@ versions:
   - version: 8.0.0-M1
     date: 2026-05-03T22:47:06Z
     grailsVersion: 8.0.0-M1 > *
+  - version: 7.2.4
+    date: 2026-09-22T05:45:37Z
+    grailsVersion: 7.2.4 > *
   - version: 7.2.3
     date: 2026-08-23T15:49:44Z
     grailsVersion: 7.2.3 > *
@@ -41,6 +44,9 @@ versions:
   - version: 7.2.0
     date: 2026-06-29T14:38:05Z
     grailsVersion: 7.2.0 > *
+  - version: 7.1.7
+    date: 2026-09-21T20:45:10Z
+    grailsVersion: 7.1.7 > *
   - version: 7.1.6
     date: 2026-08-23T14:48:07Z
     grailsVersion: 7.1.6 > *
