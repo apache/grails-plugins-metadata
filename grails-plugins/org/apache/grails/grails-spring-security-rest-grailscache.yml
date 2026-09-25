@@ -45,6 +45,9 @@ versions:
   - version: 7.1.4
     date: 2026-07-10T16:21:26Z
     grailsVersion: 7.0.0 > *
+  - version: 7.0.17
+    date: 2026-09-21T18:40:07Z
+    grailsVersion: 7.0.0 > *
   - version: 7.0.16
     date: 2026-08-23T13:46:24Z
     grailsVersion: 7.0.0 > *
