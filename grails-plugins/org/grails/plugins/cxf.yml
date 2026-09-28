@@ -2,8 +2,8 @@ name: cxf
 desc: Grails CXF Plugin
 coords: org.grails.plugins:cxf
 owner: ctoestreich
-vcs: https://github.com/Grails-Plugin-Consortium/grails-cxf
-maven-repo: https://repo.grails.org/plugins
+vcs: https://github.com/grails-plugins/grails-cxf
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - cxf
   - soap

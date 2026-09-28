@@ -2,8 +2,8 @@ name: cxf-client
 desc: Grails CXF Client Plugin
 coords: org.grails.plugins:cxf-client
 owner: ctoestreich
-vcs: https://github.com/Grails-Plugin-Consortium/grails-cxf-client
-maven-repo: https://repo.grails.org/plugins
+vcs: https://github.com/grails-plugins/grails-cxf-client
+maven-repo: https://repo1.maven.org/maven2
 labels:
   - cxf
   - soap
