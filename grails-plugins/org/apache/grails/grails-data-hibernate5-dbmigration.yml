@@ -12,6 +12,9 @@ labels:
 licenses:
   - Apache-2.0
 versions:
+  - version: 8.0.0
+    date: 2026-10-04T18:48:31Z
+    grailsVersion: 8.0.0-SNAPSHOT > *
   - version: 8.0.0-RC2
     date: 2026-09-29T22:11:50Z
     grailsVersion: 8.0.0-SNAPSHOT > *
