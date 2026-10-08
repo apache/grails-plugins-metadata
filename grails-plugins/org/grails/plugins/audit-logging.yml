@@ -11,6 +11,9 @@ licenses:
   - Apache-2.0
 comment: Now lives in https://github.com/grails-plugins/
 versions:
+  - version: 7.0.0-RC2
+    date: 2026-10-08T13:56:55Z
+    grailsVersion: 8.0.0 > *
   - version: 7.0.0-SNAPSHOT
     date: 2026-08-08T00:41:07Z
     grailsVersion: 8.0.0 > *
