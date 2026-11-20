@@ -77,6 +77,32 @@ versions:
     grailsVersion: 7.0.0 > *
 ```
 
+### Forge feature packs
+
+If the main jar of a plugin release contains a Forge feature pack (`META-INF/grails-forge/feature.yml`, which the `grails-plugin` Gradle plugin packages from `src/main/forge`), the indexer adds a `pack` property to that version. It lets the Grails CLI select the feature of your plugin by its name (`grails create-app --features <name>`) without downloading every release to find it.
+
+```yaml
+versions:
+  - version: 4.1.0
+    date: 2026-11-20T10:00:00Z
+    grailsVersion: 9.0.0 > *
+    pack:
+      format: 1
+      kind: feature
+      name: my-feature
+      templateApi: 1
+      applicationTypes:   # only if the pack declares them
+        - web
+      compatibility:
+        grails: '[9.0.0,10.0.0)'
+        forge: '[9.0.0,10.0.0)'
+      sha256: 5f2c...     # of the jar; the CLI refuses a jar with another one
+```
+
+The `pack` property is copied from the descriptor inside the jar, which is read as data only; nothing of the jar is executed. Only the properties shown are copied, and the `sha256` is that of the jar as it was downloaded. **Do not write or edit `pack` by hand**: the `sha256` is what ties the entry to one jar. A jar whose descriptor cannot be read gets no `pack` (the indexer logs a warning and goes on).
+
+Versions that were indexed before they had a pack recorded are only looked at again when the indexer is run with `--rescan-packs`, for example `groovy index-plugins.groovy --rescan-packs grails-plugins/com/example/my-plugin.yml`.
+
 ## Updating Your Plugin
 
 Once your plugin's YAML file is accepted and merged into this repository, the system will periodically scan for new plugin versions and update the `versions` list accordingly. You do not need to manually update the YAML file when you release a new version of your plugin.
