@@ -372,7 +372,9 @@ class Utils {
     private static final Pattern FORGE_PACK_NAME = ~/[a-z][a-z0-9]*(-[a-z0-9]+)*/
     private static final Pattern FORGE_PACK_RANGE = ~/[A-Za-z0-9_.+\-\[\](), ]{1,200}/
     private static final List<String> FORGE_PACK_KINDS = ['feature', 'preset']
-    private static final List<String> FORGE_PACK_APPLICATION_TYPES = ['web', 'rest-api', 'web-plugin', 'plugin']
+    /** The types of application Grails 9 creates; a type that is not among them is recorded with a warning (see forgePackApplicationTypes). */
+    private static final List<String> FORGE_PACK_APPLICATION_TYPES = ['web', 'rest-api', 'web-plugin', 'plugin', 'rest-api-plugin']
+    private static final int FORGE_PACK_MAX_APPLICATION_TYPES = 20
 
     /**
      * Reads the Forge feature pack of a plugin jar, if it has one, as the `pack` member of a version.
@@ -380,8 +382,9 @@ class Utils {
      * The descriptor is read as data only (SnakeYAML's SafeConstructor, no aliases, anchors or tags,
      * bounded in size and depth) and nothing of the jar is executed. Only the members the Forge CLI
      * needs to choose a version without downloading the jar are copied: `format`, `kind`, `name`,
-     * `templateApi`, `applicationTypes` (when declared) and `compatibility.grails`/`compatibility.forge`,
-     * plus the SHA-256 of the jar itself, which the CLI holds the jar to when it downloads it.
+     * `templateApi`, `applicationTypes` (when declared; for a preset, the one `applicationType` it is
+     * for) and `compatibility.grails`/`compatibility.forge`, plus the SHA-256 of the jar itself, which
+     * the CLI holds the jar to when it downloads it.
      *
      * @return the `pack` member, or null if the jar has no pack or its descriptor cannot be used
      */
@@ -437,12 +440,9 @@ class Utils {
             pack.kind = descriptor.kind
             pack.name = descriptor.name
             pack.templateApi = descriptor.templateApi
-            if (descriptor.containsKey('applicationTypes')) {
-                def types = descriptor.applicationTypes
-                if (!(types instanceof List) || !types || !types.every { it in FORGE_PACK_APPLICATION_TYPES }) {
-                    throw new IllegalArgumentException("has 'applicationTypes' that are not a list of $FORGE_PACK_APPLICATION_TYPES")
-                }
-                pack.applicationTypes = types.unique(false)
+            def types = forgePackApplicationTypes(descriptor, artifactUrl)
+            if (types != null) {
+                pack.applicationTypes = types
             }
             def compatibility = descriptor.compatibility
             if (!(compatibility instanceof Map)) {
@@ -471,6 +471,55 @@ class Utils {
             System.err.println("WARNING: Ignoring the Forge feature pack of $artifactUrl: $FORGE_PACK_DESCRIPTOR ${ex.message ?: ex.class.simpleName}")
             return null
         }
+    }
+
+    /**
+     * The `applicationTypes` of the `pack` member for a descriptor: the types of application the pack
+     * is for, each once and in the order of the descriptor.
+     *
+     * A feature names them in `applicationTypes`, a list, and is for every type when it has no such
+     * key, which is recorded by leaving `applicationTypes` out. A preset is for one type, which it
+     * names in `applicationType`, and that one is recorded as the only entry of `applicationTypes`,
+     * so that a reader of the index finds the types of every kind of pack under one key.
+     *
+     * A name that has the form of a type but is not one this indexer knows does not cost the pack its
+     * entry, and with it the types it is validly for: the name is recorded as it is, which a reader
+     * passes over when it does not know the type either, and a warning says so. Only a value that
+     * cannot be a list of names of types is refused.
+     *
+     * @return the types, or null for a feature that is for every type
+     * @throws IllegalArgumentException if the descriptor does not say which types it is for in the form its kind has
+     */
+    @CompileDynamic
+    static List<String> forgePackApplicationTypes(Map descriptor, String artifactUrl) {
+        def key = 'applicationTypes'
+        def names
+        if (descriptor.kind == 'preset') {
+            key = 'applicationType'
+            def type = descriptor[key]
+            if (!(type instanceof String)) {
+                throw new IllegalArgumentException("is a preset that has no '$key', the name of the one type of application it is for")
+            }
+            names = [type]
+        }
+        else if (!descriptor.containsKey(key)) {
+            return null
+        }
+        else {
+            names = descriptor[key]
+            if (!(names instanceof List) || !names || names.size() > FORGE_PACK_MAX_APPLICATION_TYPES) {
+                throw new IllegalArgumentException("has '$key' that are not a list of names of types of application, such as $FORGE_PACK_APPLICATION_TYPES")
+            }
+        }
+        if (!names.every { it instanceof String && it.length() <= 100 && FORGE_PACK_NAME.matcher(it).matches() }) {
+            throw new IllegalArgumentException("names in '$key' what cannot be the name of a type of application, such as $FORGE_PACK_APPLICATION_TYPES")
+        }
+        def unknown = names.findAll { !(it in FORGE_PACK_APPLICATION_TYPES) }.unique(false)
+        if (unknown) {
+            System.err.println("WARNING: The Forge feature pack of $artifactUrl names in '$key' $unknown, which is not among the types of " +
+                    "application this indexer knows, $FORGE_PACK_APPLICATION_TYPES. The pack is recorded with every type it names.")
+        }
+        return names.unique(false)
     }
 
     /**

@@ -91,7 +91,7 @@ versions:
       kind: feature
       name: my-feature
       templateApi: 1
-      applicationTypes:   # only if the pack declares them
+      applicationTypes:   # left out for a feature pack that is for every type
         - web
       compatibility:
         grails: '[9.0.0,10.0.0)'
@@ -101,7 +101,11 @@ versions:
 
 The `pack` property is copied from the descriptor inside the jar, which is read as data only; nothing of the jar is executed. Only the properties shown are copied, and the `sha256` is that of the jar as it was downloaded. **Do not write or edit `pack` by hand**: the `sha256` is what ties the entry to one jar. A jar whose descriptor cannot be read gets no `pack` (the indexer logs a warning and goes on).
 
+`applicationTypes` holds the types of application the pack is for: `web`, `rest-api`, `web-plugin`, `plugin` and `rest-api-plugin`. A feature pack that declares none is for all of them and has no `applicationTypes`. A preset (`kind: preset`) is for one type, the `applicationType` of its descriptor, which is recorded as the one entry of `applicationTypes`. A type the indexer does not know is recorded as the descriptor names it, beside the others, and the indexer logs a warning: the pack keeps its entry for the types it is validly for, and the Grails CLI passes over a type it does not know.
+
 Versions that were indexed before they had a pack recorded are only looked at again when the indexer is run with `--rescan-packs`, for example `groovy index-plugins.groovy --rescan-packs grails-plugins/com/example/my-plugin.yml`.
+
+What the indexer records of a pack is tested by `groovy index-plugins-test.groovy`, which reads no plugin file and downloads no plugin.
 
 ## Updating Your Plugin
 
