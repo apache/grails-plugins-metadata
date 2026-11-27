@@ -1,7 +1,10 @@
 #!/usr/bin/env groovy
 @Grab('org.yaml:snakeyaml:2.4')
 
+import java.nio.charset.StandardCharsets
+import java.security.MessageDigest
 import java.util.regex.Pattern
+import java.util.zip.ZipEntry
 import java.util.zip.ZipException
 import java.util.zip.ZipFile
 
@@ -12,7 +15,13 @@ import groovy.transform.CompileStatic
 import groovy.xml.XmlSlurper
 
 import org.yaml.snakeyaml.DumperOptions
+import org.yaml.snakeyaml.LoaderOptions
 import org.yaml.snakeyaml.Yaml
+import org.yaml.snakeyaml.constructor.SafeConstructor
+import org.yaml.snakeyaml.events.AliasEvent
+import org.yaml.snakeyaml.events.CollectionStartEvent
+import org.yaml.snakeyaml.events.NodeEvent
+import org.yaml.snakeyaml.events.ScalarEvent
 
 /**
  * Represents a software version with major, minor and optional patch and modifier.
@@ -300,6 +309,7 @@ class Utils {
 
         Date lastModified = null
         String grailsCompatibility = null
+        Map<String, Object> forgePack = null
         def candidateUrls = [
                 artifactUrl,
                 artifactUrl.replaceFirst(/\.jar$/, '-plain.jar'),
@@ -320,8 +330,13 @@ class Utils {
         // Try the candidate urls in order
         for (url in candidateUrls) {
             try {
-                grailsCompatibility = extractGrailsVersionFromPluginJar(url)
-                if (grailsCompatibility) {
+                def artifactInfo = readPluginArtifact(url)
+                grailsCompatibility = artifactInfo.grailsVersion as String
+                // A Forge feature pack is only ever read from the main jar of the plugin
+                if (url == artifactUrl) {
+                    forgePack = artifactInfo.pack as Map<String, Object>
+                }
+                if (grailsCompatibility || forgePack) {
                     break
                 }
             } catch(FileNotFoundException ignore) {
@@ -329,7 +344,7 @@ class Utils {
             }
         }
 
-        if (!grailsCompatibility) {
+        if (!grailsCompatibility && !forgePack) {
             System.err.println("WARNING: Could not find plugin artifact for $coords:$version")
         }
 
@@ -340,8 +355,171 @@ class Utils {
         if (grailsCompatibility) {
             versionInfo.put('grailsVersion', grailsCompatibility)
         }
+        if (forgePack) {
+            versionInfo.put('pack', forgePack)
+        }
 
         return versionInfo
+    }
+
+    /** The descriptor of a Forge feature pack inside the main jar of a plugin. */
+    static final String FORGE_PACK_DESCRIPTOR = 'META-INF/grails-forge/feature.yml'
+
+    /** The same limits Forge applies when it reads the descriptor. */
+    static final int FORGE_PACK_MAX_LENGTH = 256 * 1024
+    static final int FORGE_PACK_MAX_DEPTH = 20
+
+    private static final Pattern FORGE_PACK_NAME = ~/[a-z][a-z0-9]*(-[a-z0-9]+)*/
+    private static final Pattern FORGE_PACK_RANGE = ~/[A-Za-z0-9_.+\-\[\](), ]{1,200}/
+    private static final List<String> FORGE_PACK_KINDS = ['feature', 'preset']
+    /** The types of application Grails 9 creates; a type that is not among them is recorded with a warning (see forgePackApplicationTypes). */
+    private static final List<String> FORGE_PACK_APPLICATION_TYPES = ['web', 'rest-api', 'web-plugin', 'plugin', 'rest-api-plugin']
+    private static final int FORGE_PACK_MAX_APPLICATION_TYPES = 20
+
+    /**
+     * Reads the Forge feature pack of a plugin jar, if it has one, as the `pack` member of a version.
+     *
+     * The descriptor is read as data only (SnakeYAML's SafeConstructor, no aliases, anchors or tags,
+     * bounded in size and depth) and nothing of the jar is executed. Only the members the Forge CLI
+     * needs to choose a version without downloading the jar are copied: `format`, `kind`, `name`,
+     * `templateApi`, `applicationTypes` (when declared; for a preset, the one `applicationType` it is
+     * for) and `compatibility.grails`/`compatibility.forge`, plus the SHA-256 of the jar itself, which
+     * the CLI holds the jar to when it downloads it.
+     *
+     * @return the `pack` member, or null if the jar has no pack or its descriptor cannot be used
+     */
+    @CompileDynamic
+    static Map<String, Object> readForgePack(ZipFile zip, File jar, String artifactUrl) {
+        ZipEntry entry = zip.getEntry(FORGE_PACK_DESCRIPTOR)
+        if (!entry) {
+            return null
+        }
+        try {
+            byte[] bytes = null
+            zip.getInputStream(entry).withCloseable { is ->
+                bytes = is.readNBytes(FORGE_PACK_MAX_LENGTH + 1)
+            }
+            if (bytes.length > FORGE_PACK_MAX_LENGTH) {
+                throw new IllegalArgumentException("is larger than $FORGE_PACK_MAX_LENGTH bytes")
+            }
+            def text = new String(bytes, StandardCharsets.UTF_8)
+            def options = new LoaderOptions().tap {
+                it.allowDuplicateKeys = false
+                it.maxAliasesForCollections = 0
+                it.allowRecursiveKeys = false
+                it.nestingDepthLimit = FORGE_PACK_MAX_DEPTH + 1
+                it.codePointLimit = FORGE_PACK_MAX_LENGTH
+            }
+            def yaml = new Yaml(new SafeConstructor(options))
+            for (event in yaml.parse(new StringReader(text))) {
+                if (event instanceof AliasEvent || (event instanceof NodeEvent && event.anchor != null)) {
+                    throw new IllegalArgumentException('uses an anchor or an alias')
+                }
+                if ((event instanceof ScalarEvent || event instanceof CollectionStartEvent) && event.tag != null) {
+                    throw new IllegalArgumentException('uses a tag')
+                }
+            }
+            def descriptor = new Yaml(new SafeConstructor(options)).load(text)
+            if (!(descriptor instanceof Map)) {
+                throw new IllegalArgumentException('is not a mapping')
+            }
+            def pack = [:] as Map<String, Object>
+            ['format', 'templateApi'].each { key ->
+                def value = descriptor[key]
+                if (!(value instanceof Integer) || value < 1) {
+                    throw new IllegalArgumentException("has no whole number for '$key'")
+                }
+            }
+            if (!(descriptor.kind in FORGE_PACK_KINDS)) {
+                throw new IllegalArgumentException("has a 'kind' that is not one of $FORGE_PACK_KINDS")
+            }
+            if (!(descriptor.name instanceof String) || descriptor.name.length() > 100 || !FORGE_PACK_NAME.matcher(descriptor.name).matches()) {
+                throw new IllegalArgumentException("has a 'name' that is not the name of a feature")
+            }
+            pack.format = descriptor.format
+            pack.kind = descriptor.kind
+            pack.name = descriptor.name
+            pack.templateApi = descriptor.templateApi
+            def types = forgePackApplicationTypes(descriptor, artifactUrl)
+            if (types != null) {
+                pack.applicationTypes = types
+            }
+            def compatibility = descriptor.compatibility
+            if (!(compatibility instanceof Map)) {
+                throw new IllegalArgumentException("has no 'compatibility'")
+            }
+            pack.compatibility = ['grails', 'forge'].collectEntries { key ->
+                def range = compatibility[key]
+                if (!(range instanceof String) || !FORGE_PACK_RANGE.matcher(range).matches()) {
+                    throw new IllegalArgumentException("has no version range for 'compatibility.$key'")
+                }
+                [(key): range]
+            }
+            def digest = MessageDigest.getInstance('SHA-256')
+            jar.withInputStream { is ->
+                byte[] buffer = new byte[64 * 1024]
+                int read
+                while ((read = is.read(buffer)) != -1) {
+                    digest.update(buffer, 0, read)
+                }
+            }
+            pack.sha256 = digest.digest().encodeHex().toString()
+            return pack
+        }
+        catch(Exception ex) {
+            // One jar with a pack that cannot be used must never fail the index
+            System.err.println("WARNING: Ignoring the Forge feature pack of $artifactUrl: $FORGE_PACK_DESCRIPTOR ${ex.message ?: ex.class.simpleName}")
+            return null
+        }
+    }
+
+    /**
+     * The `applicationTypes` of the `pack` member for a descriptor: the types of application the pack
+     * is for, each once and in the order of the descriptor.
+     *
+     * A feature names them in `applicationTypes`, a list, and is for every type when it has no such
+     * key, which is recorded by leaving `applicationTypes` out. A preset is for one type, which it
+     * names in `applicationType`, and that one is recorded as the only entry of `applicationTypes`,
+     * so that a reader of the index finds the types of every kind of pack under one key.
+     *
+     * A name that has the form of a type but is not one this indexer knows does not cost the pack its
+     * entry, and with it the types it is validly for: the name is recorded as it is, which a reader
+     * passes over when it does not know the type either, and a warning says so. Only a value that
+     * cannot be a list of names of types is refused.
+     *
+     * @return the types, or null for a feature that is for every type
+     * @throws IllegalArgumentException if the descriptor does not say which types it is for in the form its kind has
+     */
+    @CompileDynamic
+    static List<String> forgePackApplicationTypes(Map descriptor, String artifactUrl) {
+        def key = 'applicationTypes'
+        def names
+        if (descriptor.kind == 'preset') {
+            key = 'applicationType'
+            def type = descriptor[key]
+            if (!(type instanceof String)) {
+                throw new IllegalArgumentException("is a preset that has no '$key', the name of the one type of application it is for")
+            }
+            names = [type]
+        }
+        else if (!descriptor.containsKey(key)) {
+            return null
+        }
+        else {
+            names = descriptor[key]
+            if (!(names instanceof List) || !names || names.size() > FORGE_PACK_MAX_APPLICATION_TYPES) {
+                throw new IllegalArgumentException("has '$key' that are not a list of names of types of application, such as $FORGE_PACK_APPLICATION_TYPES")
+            }
+        }
+        if (!names.every { it instanceof String && it.length() <= 100 && FORGE_PACK_NAME.matcher(it).matches() }) {
+            throw new IllegalArgumentException("names in '$key' what cannot be the name of a type of application, such as $FORGE_PACK_APPLICATION_TYPES")
+        }
+        def unknown = names.findAll { !(it in FORGE_PACK_APPLICATION_TYPES) }.unique(false)
+        if (unknown) {
+            System.err.println("WARNING: The Forge feature pack of $artifactUrl names in '$key' $unknown, which is not among the types of " +
+                    "application this indexer knows, $FORGE_PACK_APPLICATION_TYPES. The pack is recorded with every type it names.")
+        }
+        return names.unique(false)
     }
 
     /**
@@ -354,13 +532,23 @@ class Utils {
      * @param jarFile the plugin JAR file
      * @return the grailsVersion string (e.g. "6.0.0 > *"), or null if not found
      */
-    @CompileDynamic
     static String extractGrailsVersionFromPluginJar(String artifactUrl) throws FileNotFoundException {
+        readPluginArtifact(artifactUrl).grailsVersion as String
+    }
+
+    /**
+     * Downloads a plugin artifact once and reads what the index records of it: the grailsVersion of
+     * its plugin descriptor and, if it has one, its Forge feature pack (see readForgePack).
+     *
+     * @return a map with the keys 'grailsVersion' and 'pack', each null if not found
+     */
+    @CompileDynamic
+    static Map<String, Object> readPluginArtifact(String artifactUrl) throws FileNotFoundException {
         def file = File.createTempFile('plugin-', '.jar').tap {
             it.deleteOnExit()
         }
 
-        println("Downloading plugin artifact from $artifactUrl to extract grailsVersion...")
+        println("Downloading plugin artifact from $artifactUrl to extract grailsVersion and Forge feature pack...")
         doWithConnection(artifactUrl, 'GET') {
             inputStream.withCloseable { is ->
                 file.withOutputStream { os ->
@@ -370,12 +558,29 @@ class Utils {
         }
 
         if (!file || !file.exists()) {
-            return null
+            return [:]
         }
 
         ZipFile zip = null
         try {
             zip = new ZipFile(file)
+            def pack = readForgePack(zip, file, artifactUrl)
+            return [grailsVersion: readGrailsVersion(zip), pack: pack]
+        }
+        catch(ZipException ex) {
+            System.err.println("Invalid Zip file at $artifactUrl : ${ex.message}")
+            return [:]
+        }
+        finally {
+            if (zip != null) {
+                zip.close()
+            }
+            file.delete()
+        }
+    }
+
+    @CompileDynamic
+    private static String readGrailsVersion(ZipFile zip) {
             def candidates = [
                     'META-INF/grails-plugin.xml',
                     'plugin.xml' // Grails 2
@@ -410,15 +615,35 @@ class Utils {
             }
 
             return null
+    }
 
-        }
-        catch(ZipException ex) {
-            System.err.println("Invalid Zip file at $artifactUrl : ${ex.message}")
-            return null
-        }
-        finally {
-            if (zip != null) {
-                zip.close()
+    /**
+     * Adds the `pack` member to versions that are already in the YAML file and have none.
+     *
+     * A version already present is never updated by the normal run, so a plugin that gained a Forge
+     * feature pack before this indexer recorded packs would never get one. This downloads the main jar
+     * of each such version once (honouring the version's own `coords` and `maven-repo`) and changes
+     * nothing but `pack`. It is only done when the script is run with --rescan-packs.
+     */
+    static void rescanForgePacks(Map<String, Object> pluginInfo) {
+        (pluginInfo.get('versions') ?: [] as List<Map>).each { Map v ->
+            if (v.containsKey('pack') || v.artifactAvailable == false) {
+                return
+            }
+            def mavenRepo = (v['maven-repo'] ?: pluginInfo['maven-repo']) as String
+            def coords = (v.coords ?: pluginInfo.coords) as String
+            if (!mavenRepo || !coords) {
+                return
+            }
+            try {
+                def version = Version.build(v.version as String)
+                def pack = readPluginArtifact(createArtifactUrl(mavenRepo, coords, version)).pack
+                if (pack) {
+                    v.pack = pack
+                }
+            }
+            catch(Exception ex) {
+                System.err.println("INFO: No Forge feature pack read for $coords:${v.version}: ${ex.message ?: ex.class.simpleName}")
             }
         }
     }
@@ -470,7 +695,7 @@ class Utils {
         new Yaml(options)
     }
 
-    static Map processPluginFile(File f) {
+    static Map processPluginFile(File f, boolean rescanPacks = false) {
         if (!(f.name.endsWith('.yml') || f.name.endsWith('.yaml'))) {
             System.err.println("INFO: Skipping non-YAML file: $f.path")
             return null
@@ -531,7 +756,8 @@ class Utils {
                 def entry = [
                         version: version.versionText,
                         date: versionInfo.date,
-                        grailsVersion: versionInfo.grailsVersion
+                        grailsVersion: versionInfo.grailsVersion,
+                        pack: versionInfo.pack
                 ].findAll { k, v -> v != null }
 
                 existingVersions << entry
@@ -542,6 +768,10 @@ class Utils {
                 def verB = Version.build(b.version as String)
                 return verB <=> verA
             }
+        }
+
+        if (rescanPacks) {
+            rescanForgePacks(pluginInfo)
         }
 
         // Restore the date types (YAML parser converts to String)
@@ -557,10 +787,13 @@ class Utils {
     }
 }
 
-def fileArg = (args && args.length > 0) ? new File(args[0]) : 'grails-plugins' as File
+// --rescan-packs: also look for a Forge feature pack in the versions already present (see rescanForgePacks)
+def rescanPacks = args?.contains('--rescan-packs')
+def fileArgs = (args ?: []).findAll { it != '--rescan-packs' }
+def fileArg = fileArgs ? new File(fileArgs[0]) : 'grails-plugins' as File
 
 if (fileArg.file) {
-    Utils.processPluginFile(fileArg)
+    Utils.processPluginFile(fileArg, rescanPacks)
     println("Processed single file: $fileArg.path")
 }
 else {
@@ -570,7 +803,7 @@ else {
     }
     List<Map> indexEntries = []
     fileArg.eachFileRecurse(FileType.FILES) { f ->
-        def pluginInfo = Utils.processPluginFile(f)
+        def pluginInfo = Utils.processPluginFile(f, rescanPacks)
         // Add to index (include everything from YAML)
         if (pluginInfo) {
             indexEntries << pluginInfo
